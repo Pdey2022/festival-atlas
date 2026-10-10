@@ -30,7 +30,9 @@ Official guide: https://docs.github.com/en/pages/getting-started-with-github-pag
 
 Source repository: https://github.com/Pdey2022/festival-atlas
 
-Enable GitHub Pages using the steps above to publish the website.
+GitHub Pages is configured to publish from `main` at the repository root.
+
+Website address after deployment: https://pdey2022.github.io/festival-atlas/
 
 ## Edit the content
 
