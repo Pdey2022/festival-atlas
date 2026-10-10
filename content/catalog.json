@@ -1,0 +1,2664 @@
+{
+  "states": [
+    {
+      "code": "AP",
+      "name": "Andhra Pradesh",
+      "region": "South",
+      "type": "State"
+    },
+    {
+      "code": "AR",
+      "name": "Arunachal Pradesh",
+      "region": "Northeast",
+      "type": "State"
+    },
+    {
+      "code": "AS",
+      "name": "Assam",
+      "region": "Northeast",
+      "type": "State"
+    },
+    {
+      "code": "BR",
+      "name": "Bihar",
+      "region": "East",
+      "type": "State"
+    },
+    {
+      "code": "CT",
+      "name": "Chhattisgarh",
+      "region": "Central",
+      "type": "State"
+    },
+    {
+      "code": "GA",
+      "name": "Goa",
+      "region": "West",
+      "type": "State"
+    },
+    {
+      "code": "GJ",
+      "name": "Gujarat",
+      "region": "West",
+      "type": "State"
+    },
+    {
+      "code": "HR",
+      "name": "Haryana",
+      "region": "North",
+      "type": "State"
+    },
+    {
+      "code": "HP",
+      "name": "Himachal Pradesh",
+      "region": "North",
+      "type": "State"
+    },
+    {
+      "code": "JH",
+      "name": "Jharkhand",
+      "region": "East",
+      "type": "State"
+    },
+    {
+      "code": "KA",
+      "name": "Karnataka",
+      "region": "South",
+      "type": "State"
+    },
+    {
+      "code": "KL",
+      "name": "Kerala",
+      "region": "South",
+      "type": "State"
+    },
+    {
+      "code": "MP",
+      "name": "Madhya Pradesh",
+      "region": "Central",
+      "type": "State"
+    },
+    {
+      "code": "MH",
+      "name": "Maharashtra",
+      "region": "West",
+      "type": "State"
+    },
+    {
+      "code": "MN",
+      "name": "Manipur",
+      "region": "Northeast",
+      "type": "State"
+    },
+    {
+      "code": "ML",
+      "name": "Meghalaya",
+      "region": "Northeast",
+      "type": "State"
+    },
+    {
+      "code": "MZ",
+      "name": "Mizoram",
+      "region": "Northeast",
+      "type": "State"
+    },
+    {
+      "code": "NL",
+      "name": "Nagaland",
+      "region": "Northeast",
+      "type": "State"
+    },
+    {
+      "code": "OR",
+      "name": "Odisha",
+      "region": "East",
+      "type": "State"
+    },
+    {
+      "code": "PB",
+      "name": "Punjab",
+      "region": "North",
+      "type": "State"
+    },
+    {
+      "code": "RJ",
+      "name": "Rajasthan",
+      "region": "West",
+      "type": "State"
+    },
+    {
+      "code": "SK",
+      "name": "Sikkim",
+      "region": "Northeast",
+      "type": "State"
+    },
+    {
+      "code": "TN",
+      "name": "Tamil Nadu",
+      "region": "South",
+      "type": "State"
+    },
+    {
+      "code": "TG",
+      "name": "Telangana",
+      "region": "South",
+      "type": "State"
+    },
+    {
+      "code": "TR",
+      "name": "Tripura",
+      "region": "Northeast",
+      "type": "State"
+    },
+    {
+      "code": "UP",
+      "name": "Uttar Pradesh",
+      "region": "North",
+      "type": "State"
+    },
+    {
+      "code": "UT",
+      "name": "Uttarakhand",
+      "region": "North",
+      "type": "State"
+    },
+    {
+      "code": "WB",
+      "name": "West Bengal",
+      "region": "East",
+      "type": "State"
+    },
+    {
+      "code": "AN",
+      "name": "Andaman and Nicobar Islands",
+      "region": "Islands",
+      "type": "Union territory"
+    },
+    {
+      "code": "CH",
+      "name": "Chandigarh",
+      "region": "North",
+      "type": "Union territory"
+    },
+    {
+      "code": "DH",
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "region": "West",
+      "type": "Union territory"
+    },
+    {
+      "code": "DL",
+      "name": "Delhi",
+      "region": "North",
+      "type": "Union territory"
+    },
+    {
+      "code": "JK",
+      "name": "Jammu and Kashmir",
+      "region": "North",
+      "type": "Union territory"
+    },
+    {
+      "code": "LA",
+      "name": "Ladakh",
+      "region": "North",
+      "type": "Union territory"
+    },
+    {
+      "code": "LD",
+      "name": "Lakshadweep",
+      "region": "Islands",
+      "type": "Union territory"
+    },
+    {
+      "code": "PY",
+      "name": "Puducherry",
+      "region": "South",
+      "type": "Union territory"
+    }
+  ],
+  "festivals": [
+    {
+      "name": "Ugadi",
+      "season": "March–April",
+      "months": [
+        3,
+        4
+      ],
+      "theme": "Telugu New Year",
+      "place": "Vijayawada & Tirupati",
+      "description": "Homes are decorated with mango leaves and families share ugadi pachadi, whose contrasting flavours symbolise the experiences of life.",
+      "id": "ugadi",
+      "states": [
+        "AP",
+        "KA",
+        "TG"
+      ],
+      "regions": [
+        "South"
+      ],
+      "locations": [
+        {
+          "state": "AP",
+          "text": "Vijayawada & Tirupati"
+        },
+        {
+          "state": "KA",
+          "text": "Across Karnataka"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Sankranti",
+      "season": "January",
+      "months": [
+        1
+      ],
+      "theme": "Harvest",
+      "place": "Across the state",
+      "description": "Rangoli, decorated cattle and family gatherings mark the harvest season.",
+      "id": "sankranti",
+      "states": [
+        "AP"
+      ],
+      "regions": [
+        "South"
+      ],
+      "locations": [
+        {
+          "state": "AP",
+          "text": "Across the state"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Harvest"
+      ]
+    },
+    {
+      "name": "Dree",
+      "season": "July",
+      "months": [
+        7
+      ],
+      "theme": "Harvest",
+      "place": "Ziro Valley",
+      "description": "The Apatani community gathers for agricultural rituals, songs and dances, offering prayers for a healthy crop.",
+      "id": "dree",
+      "states": [
+        "AR"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "AR",
+          "text": "Ziro Valley"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Harvest"
+      ]
+    },
+    {
+      "name": "Losar",
+      "season": "February–March",
+      "months": [
+        2,
+        3
+      ],
+      "theme": "New Year",
+      "place": "Tawang & West Kameng",
+      "description": "Monpa communities welcome the new year with monastery prayers, family visits and traditional food.",
+      "id": "losar",
+      "states": [
+        "AR",
+        "SK"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "AR",
+          "text": "Tawang & West Kameng"
+        },
+        {
+          "state": "SK",
+          "text": "Gangtok & monasteries"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Bohag Bihu",
+      "season": "April",
+      "months": [
+        4
+      ],
+      "theme": "New Year & spring",
+      "place": "Guwahati & across Assam",
+      "description": "Also called Rongali Bihu, this spring celebration welcomes the Assamese New Year with Bihu dance, music and festive meals.",
+      "id": "bohag-bihu",
+      "states": [
+        "AS"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "AS",
+          "text": "Guwahati & across Assam"
+        }
+      ],
+      "native": "বহাগ বিহু",
+      "categories": [
+        "Harvest",
+        "Music & dance",
+        "Community"
+      ],
+      "story": "Bohag, or Rongali, Bihu marks the Assamese New Year and the arrival of the agricultural spring. It is distinct from Magh Bihu after the harvest and Kati Bihu later in the farming cycle.",
+      "rituals": [
+        "Bihu songs and dancing",
+        "Husori group performances",
+        "Family visits and exchanges of gamosa cloths"
+      ],
+      "food": "Pitha and laru are familiar festive foods; recipes differ between communities.",
+      "dress": "Mekhela chador and gamosa are associated with Assamese celebrations.",
+      "tips": [
+        "Seek a publicly advertised performance if you are visiting independently.",
+        "Ask before entering a household celebration."
+      ],
+      "places": [
+        [
+          "Guwahati",
+          "AS",
+          91.74,
+          26.14,
+          "Public Bihu stages and cultural programmes."
+        ],
+        [
+          "Dibrugarh",
+          "AS",
+          94.91,
+          27.47,
+          "Regional community celebrations."
+        ]
+      ],
+      "sources": [
+        [
+          "Ministry of Tourism: Bohag Bihu",
+          "https://www.utsav.gov.in/view-event/bohag-bihu-or-rangali-bihu"
+        ]
+      ],
+      "photo": null,
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Magh Bihu",
+      "season": "January",
+      "months": [
+        1
+      ],
+      "theme": "Harvest",
+      "place": "Across Assam",
+      "description": "Community feasts and ceremonial meji bonfires celebrate the end of the harvest season.",
+      "id": "magh-bihu",
+      "states": [
+        "AS"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "AS",
+          "text": "Across Assam"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Harvest"
+      ]
+    },
+    {
+      "name": "Chhath Puja",
+      "season": "October–November",
+      "months": [
+        10,
+        11
+      ],
+      "theme": "Sun worship",
+      "place": "Patna river ghats",
+      "description": "Devotees offer prayers to the setting and rising sun at rivers and ponds, with fasting and carefully prepared offerings.",
+      "id": "chhath-puja",
+      "states": [
+        "BR",
+        "JH",
+        "UP",
+        "DL"
+      ],
+      "regions": [
+        "East",
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "BR",
+          "text": "Patna river ghats"
+        }
+      ],
+      "native": "छठ पूजा",
+      "categories": [
+        "Devotion",
+        "Community"
+      ],
+      "story": "Chhath is an observance of gratitude to the sun and Chhathi Maiya. It is especially associated with Bihar and neighbouring regions, and is also observed by communities far from their home states.",
+      "rituals": [
+        "Fasting and carefully prepared offerings",
+        "Prayers to the setting sun",
+        "Prayers at sunrise near water"
+      ],
+      "food": "Thekua and fruit are among the offerings; preparation follows household religious practices.",
+      "dress": "Dress respectfully and keep worship areas clear.",
+      "tips": [
+        "Do not interrupt fasting devotees or step across offerings.",
+        "Stay behind waterside barriers; ask before close-up photographs."
+      ],
+      "places": [
+        [
+          "Patna",
+          "BR",
+          85.14,
+          25.61,
+          "Designated river ghats; access arrangements change by year."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Chhath Puja",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/chhath-puja"
+        ]
+      ],
+      "photo": null,
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Sonepur Mela",
+      "season": "November–December",
+      "months": [
+        11,
+        12
+      ],
+      "theme": "Traditional fair",
+      "place": "Sonepur",
+      "description": "Around Kartik Purnima, pilgrims, performers and traders gather at this historic riverside fair.",
+      "id": "sonepur-mela",
+      "states": [
+        "BR"
+      ],
+      "regions": [
+        "East"
+      ],
+      "locations": [
+        {
+          "state": "BR",
+          "text": "Sonepur"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Bastar Dussehra",
+      "season": "August–October",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "theme": "Community & devotion",
+      "place": "Jagdalpur, Bastar",
+      "description": "A long cycle of rituals honours Goddess Danteshwari, bringing together local communities, ceremonial chariots and regional deities.",
+      "id": "bastar-dussehra",
+      "states": [
+        "CT"
+      ],
+      "regions": [
+        "Central"
+      ],
+      "locations": [
+        {
+          "state": "CT",
+          "text": "Jagdalpur, Bastar"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Devotion"
+      ]
+    },
+    {
+      "name": "Hareli",
+      "season": "July–August",
+      "months": [
+        7,
+        8
+      ],
+      "theme": "Agriculture",
+      "place": "Across Chhattisgarh",
+      "description": "Farming communities honour agricultural tools and celebrate the green season with local games and traditions.",
+      "id": "hareli",
+      "states": [
+        "CT"
+      ],
+      "regions": [
+        "Central"
+      ],
+      "locations": [
+        {
+          "state": "CT",
+          "text": "Across Chhattisgarh"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Harvest"
+      ]
+    },
+    {
+      "name": "Carnival",
+      "season": "February–March",
+      "months": [
+        2,
+        3
+      ],
+      "theme": "Street celebration",
+      "place": "Panaji, Margao & Vasco",
+      "description": "Colourful floats, music and dancing fill the streets in the days leading up to Lent.",
+      "id": "carnival",
+      "states": [
+        "GA"
+      ],
+      "regions": [
+        "West"
+      ],
+      "locations": [
+        {
+          "state": "GA",
+          "text": "Panaji, Margao & Vasco"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Shigmo",
+      "season": "March",
+      "months": [
+        3
+      ],
+      "theme": "Spring",
+      "place": "Across Goa",
+      "description": "Folk dances, processions and elaborate floats bring Goan spring traditions into public celebrations.",
+      "id": "shigmo",
+      "states": [
+        "GA"
+      ],
+      "regions": [
+        "West"
+      ],
+      "locations": [
+        {
+          "state": "GA",
+          "text": "Across Goa"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Navratri",
+      "season": "September–October",
+      "months": [
+        9,
+        10
+      ],
+      "theme": "Dance & devotion",
+      "place": "Vadodara & Ahmedabad",
+      "description": "Nine nights of devotion to the goddess are celebrated with circular garba dancing and dandiya raas.",
+      "id": "navratri",
+      "states": [
+        "GJ",
+        "MH",
+        "RJ"
+      ],
+      "regions": [
+        "West"
+      ],
+      "locations": [
+        {
+          "state": "GJ",
+          "text": "Vadodara & Ahmedabad"
+        }
+      ],
+      "native": "નવરાત્રી",
+      "categories": [
+        "Devotion",
+        "Music & dance",
+        "Community"
+      ],
+      "story": "Navratri honours the goddess over nine nights. Gujarat's garba circles and dandiya gatherings are especially well known, while other regions have distinct devotional and artistic traditions. This guide focuses on the autumn celebration.",
+      "rituals": [
+        "Garba and dandiya raas",
+        "Prayers and household observances",
+        "Community gatherings over successive evenings"
+      ],
+      "food": "Fasting and festive menus differ. Ask hosts about the customs of the event you attend.",
+      "dress": "Chaniya cholis and kediyu outfits are associated with Gujarati celebrations; comfortable footwear and freedom of movement matter.",
+      "tips": [
+        "Join dancing only where visitors are welcome; follow the direction of the circle.",
+        "Check passes and entry rules for each venue."
+      ],
+      "places": [
+        [
+          "Ahmedabad",
+          "GJ",
+          72.58,
+          23.02,
+          "Public and ticketed garba venues."
+        ],
+        [
+          "Vadodara",
+          "GJ",
+          73.18,
+          22.31,
+          "Large organised dance gatherings; passes vary."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Navratri",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/navratri"
+        ]
+      ],
+      "photo": null,
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Uttarayan",
+      "season": "January",
+      "months": [
+        1
+      ],
+      "theme": "Kite festival",
+      "place": "Ahmedabad",
+      "description": "Rooftops fill with kite flyers during Makar Sankranti, with festive food and colourful skies.",
+      "id": "uttarayan",
+      "states": [
+        "GJ"
+      ],
+      "regions": [
+        "West"
+      ],
+      "locations": [
+        {
+          "state": "GJ",
+          "text": "Ahmedabad"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Teej",
+      "season": "July–August",
+      "months": [
+        7,
+        8
+      ],
+      "theme": "Monsoon",
+      "place": "Across Haryana",
+      "description": "Songs, swings and gatherings celebrate the arrival of the monsoon and the traditions of Teej.",
+      "id": "teej",
+      "states": [
+        "HR"
+      ],
+      "regions": [
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "HR",
+          "text": "Across Haryana"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Surajkund International Crafts Mela",
+      "season": "February",
+      "months": [
+        2
+      ],
+      "theme": "Crafts & culture",
+      "place": "Surajkund, Faridabad",
+      "description": "Artisans and performers gather for a major cultural fair showcasing handicrafts, folk traditions and regional food.",
+      "id": "surajkund-international-crafts-mela",
+      "states": [
+        "HR"
+      ],
+      "regions": [
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "HR",
+          "text": "Surajkund, Faridabad"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Arts"
+      ]
+    },
+    {
+      "name": "Kullu Dussehra",
+      "season": "September–October",
+      "months": [
+        9,
+        10
+      ],
+      "theme": "Devotion & procession",
+      "place": "Dhalpur, Kullu",
+      "description": "Valley deities are brought to Kullu in a gathering centred on Lord Raghunath, with processions and cultural programmes.",
+      "id": "kullu-dussehra",
+      "states": [
+        "HP"
+      ],
+      "regions": [
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "HP",
+          "text": "Dhalpur, Kullu"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Devotion"
+      ]
+    },
+    {
+      "name": "Mandi Shivratri",
+      "season": "February–March",
+      "months": [
+        2,
+        3
+      ],
+      "theme": "Devotion",
+      "place": "Mandi",
+      "description": "Local deities, devotees and performers gather for a celebration associated with Maha Shivratri.",
+      "id": "mandi-shivratri",
+      "states": [
+        "HP"
+      ],
+      "regions": [
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "HP",
+          "text": "Mandi"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Devotion"
+      ]
+    },
+    {
+      "name": "Sarhul",
+      "season": "March–April",
+      "months": [
+        3,
+        4
+      ],
+      "theme": "Nature & spring",
+      "place": "Ranchi & nearby villages",
+      "description": "Several Adivasi communities honour sacred groves and the flowering sal tree with rituals, music and dancing.",
+      "id": "sarhul",
+      "states": [
+        "JH"
+      ],
+      "regions": [
+        "East"
+      ],
+      "locations": [
+        {
+          "state": "JH",
+          "text": "Ranchi & nearby villages"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Karam",
+      "season": "August–September",
+      "months": [
+        8,
+        9
+      ],
+      "theme": "Nature & community",
+      "place": "Across Jharkhand",
+      "description": "Community celebrations centre on the Karam tree, with songs and dances expressing hopes for wellbeing and prosperity.",
+      "id": "karam",
+      "states": [
+        "JH"
+      ],
+      "regions": [
+        "East"
+      ],
+      "locations": [
+        {
+          "state": "JH",
+          "text": "Across Jharkhand"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Mysuru Dasara",
+      "season": "September–October",
+      "months": [
+        9,
+        10
+      ],
+      "theme": "Royal heritage & devotion",
+      "place": "Mysuru",
+      "description": "An illuminated palace, performances and the celebrated procession make Dasara a signature Mysuru experience.",
+      "id": "mysuru-dasara",
+      "states": [
+        "KA"
+      ],
+      "regions": [
+        "South"
+      ],
+      "locations": [
+        {
+          "state": "KA",
+          "text": "Mysuru"
+        }
+      ],
+      "native": "ಮೈಸೂರು ದಸರಾ",
+      "categories": [
+        "Devotion",
+        "Arts",
+        "Music & dance"
+      ],
+      "story": "Mysuru Dasara combines worship of Chamundeshwari with the city's royal and public cultural heritage. Palace illumination and performances build towards the festival's celebrated procession. Specific programmes can have separate tickets.",
+      "rituals": [
+        "Palace illumination",
+        "Classical and folk performances",
+        "The ceremonial Dasara procession"
+      ],
+      "food": "Mysore pak is a local sweet to try; it is not exclusive to Dasara.",
+      "dress": "Comfortable clothing works for public viewing; follow dress requirements in religious venues.",
+      "tips": [
+        "Verify procession dates and viewing arrangements separately.",
+        "Book accommodation early and allow for traffic restrictions."
+      ],
+      "places": [
+        [
+          "Mysuru",
+          "KA",
+          76.64,
+          12.3,
+          "Palace area and announced city programme locations."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Mysuru Dasara",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/mysuru-dasara"
+        ]
+      ],
+      "photo": null,
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Onam",
+      "season": "August–September",
+      "months": [
+        8,
+        9
+      ],
+      "theme": "Harvest & homecoming",
+      "place": "Across Kerala",
+      "description": "Floral pookalam designs, the onasadya feast and cultural performances celebrate the homecoming of King Mahabali.",
+      "id": "onam",
+      "states": [
+        "KL",
+        "TN"
+      ],
+      "regions": [
+        "South"
+      ],
+      "locations": [
+        {
+          "state": "KL",
+          "text": "Across Kerala"
+        }
+      ],
+      "native": "ഓണം",
+      "categories": [
+        "Harvest",
+        "Community",
+        "Arts"
+      ],
+      "story": "Onam celebrates seasonal abundance and the legendary return of King Mahabali. It brings Malayali families and communities together through floral designs, hospitality and performances. Public programmes and household traditions have different schedules.",
+      "rituals": [
+        "Pookalam floral designs",
+        "An Onasadya meal served on a banana leaf",
+        "Cultural performances and community gatherings"
+      ],
+      "food": "Sadya is a vegetarian feast with rice, vegetable dishes and payasam; menus vary by household and venue.",
+      "dress": "Kerala kasavu textiles are often worn for celebrations. Comfortable, respectful clothing is suitable for visitors.",
+      "tips": [
+        "Book a public sadya rather than assuming access to a private family meal.",
+        "Boat races are separate events: verify their dates independently."
+      ],
+      "places": [
+        [
+          "Thiruvananthapuram",
+          "KL",
+          76.94,
+          8.52,
+          "Look for announced city cultural programmes."
+        ],
+        [
+          "Kochi",
+          "KL",
+          76.27,
+          9.97,
+          "Community celebrations and public sadya meals."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Onam",
+          "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/kochi/listicles/festivals-of-kochi/onam.html"
+        ]
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Onam_celebration.jpg",
+        "alt": "Children performing a boat-song scene during an Onam celebration",
+        "caption": "Children singing vallappaattu during Onam, 2010. Historical photograph.",
+        "author": "Ramjchandran",
+        "source": "https://commons.wikimedia.org/wiki/File:Onam_celebration.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Vishu",
+      "season": "April",
+      "months": [
+        4
+      ],
+      "theme": "Seasonal celebration",
+      "place": "Across Kerala",
+      "description": "The day begins with viewing the auspicious Vishukkani arrangement, followed by gifts and family meals.",
+      "id": "vishu",
+      "states": [
+        "KL"
+      ],
+      "regions": [
+        "South"
+      ],
+      "locations": [
+        {
+          "state": "KL",
+          "text": "Across Kerala"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Bhagoria",
+      "season": "February–March",
+      "months": [
+        2,
+        3
+      ],
+      "theme": "Community fair",
+      "place": "Jhabua & Alirajpur",
+      "description": "Bhil and Bhilala communities gather at lively fairs before Holi, with music, dancing and market stalls.",
+      "id": "bhagoria",
+      "states": [
+        "MP"
+      ],
+      "regions": [
+        "Central"
+      ],
+      "locations": [
+        {
+          "state": "MP",
+          "text": "Jhabua & Alirajpur"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Khajuraho Dance Festival",
+      "season": "February",
+      "months": [
+        2
+      ],
+      "theme": "Classical arts",
+      "place": "Khajuraho",
+      "description": "Indian classical dance traditions are showcased against the backdrop of Khajuraho’s temple heritage.",
+      "id": "khajuraho-dance-festival",
+      "states": [
+        "MP"
+      ],
+      "regions": [
+        "Central"
+      ],
+      "locations": [
+        {
+          "state": "MP",
+          "text": "Khajuraho"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Arts"
+      ]
+    },
+    {
+      "name": "Ganesh Chaturthi",
+      "season": "August–September",
+      "months": [
+        8,
+        9
+      ],
+      "theme": "Devotion & community",
+      "place": "Mumbai & Pune",
+      "description": "Ganesha idols are welcomed into homes and public pandals, with prayers, modak sweets and immersion processions.",
+      "id": "ganesh-chaturthi",
+      "states": [
+        "MH",
+        "GA",
+        "KA",
+        "TG"
+      ],
+      "regions": [
+        "West",
+        "South"
+      ],
+      "locations": [
+        {
+          "state": "MH",
+          "text": "Mumbai & Pune"
+        }
+      ],
+      "native": "गणेश चतुर्थी",
+      "categories": [
+        "Devotion",
+        "Arts",
+        "Community"
+      ],
+      "story": "Ganesh Chaturthi welcomes Ganesha into homes and public pandals. Maharashtra's community celebrations combine worship, craftsmanship and collective organisation. Household observances vary in duration, so immersion days are not identical everywhere.",
+      "rituals": [
+        "Installation of Ganesha idols",
+        "Aarti and offerings",
+        "Visarjan immersion processions"
+      ],
+      "food": "Modak sweets are strongly associated with Ganesha; recipes and offerings vary.",
+      "dress": "Respectful, comfortable clothing is suitable; follow temple or pandal instructions.",
+      "tips": [
+        "Use designated viewing areas for processions and immersion.",
+        "Allow extra time for queues and temporary road closures."
+      ],
+      "places": [
+        [
+          "Mumbai",
+          "MH",
+          72.88,
+          19.08,
+          "Major public pandals and immersion routes."
+        ],
+        [
+          "Pune",
+          "MH",
+          73.86,
+          18.52,
+          "Neighbourhood mandals and processions."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Ganesh Chaturthi",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/maharashtra/ganesh-chaturthi"
+        ]
+      ],
+      "photo": null,
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Gudi Padwa",
+      "season": "March–April",
+      "months": [
+        3,
+        4
+      ],
+      "theme": "Marathi New Year",
+      "place": "Across Maharashtra",
+      "description": "Families raise decorated gudis outside their homes to welcome the new year.",
+      "id": "gudi-padwa",
+      "states": [
+        "MH"
+      ],
+      "regions": [
+        "West"
+      ],
+      "locations": [
+        {
+          "state": "MH",
+          "text": "Across Maharashtra"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Yaoshang",
+      "season": "February–March",
+      "months": [
+        2,
+        3
+      ],
+      "theme": "Spring",
+      "place": "Imphal & surrounding areas",
+      "description": "A multiday spring celebration combines devotional traditions, local sports and thabal chongba dancing.",
+      "id": "yaoshang",
+      "states": [
+        "MN"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "MN",
+          "text": "Imphal & surrounding areas"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Sangai Festival",
+      "season": "November",
+      "months": [
+        11
+      ],
+      "theme": "Cultural showcase",
+      "place": "Manipur; venues vary",
+      "description": "A tourism festival presents the state’s dance, crafts, food and cultural traditions.",
+      "id": "sangai-festival",
+      "states": [
+        "MN"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "MN",
+          "text": "Manipur; venues vary"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Arts"
+      ]
+    },
+    {
+      "name": "Wangala",
+      "season": "October–November",
+      "months": [
+        10,
+        11
+      ],
+      "theme": "Harvest",
+      "place": "Garo Hills",
+      "description": "Garo communities celebrate the harvest with drumming and dancing, giving thanks to the sun deity.",
+      "id": "wangala",
+      "states": [
+        "ML"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "ML",
+          "text": "Garo Hills"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Harvest"
+      ]
+    },
+    {
+      "name": "Nongkrem Dance Festival",
+      "season": "Autumn; dates vary",
+      "months": [
+        10,
+        11
+      ],
+      "theme": "Community & thanksgiving",
+      "place": "Smit, near Shillong",
+      "description": "Khasi ceremonial traditions and dances express thanksgiving and prayers for prosperity.",
+      "id": "nongkrem-dance-festival",
+      "states": [
+        "ML"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "ML",
+          "text": "Smit, near Shillong"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Chapchar Kut",
+      "season": "March",
+      "months": [
+        3
+      ],
+      "theme": "Spring",
+      "place": "Aizawl & across Mizoram",
+      "description": "A Mizo spring festival with music, traditional dress and dances including the bamboo dance, Cheraw.",
+      "id": "chapchar-kut",
+      "states": [
+        "MZ"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "MZ",
+          "text": "Aizawl & across Mizoram"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Mim Kut",
+      "season": "August–September",
+      "months": [
+        8,
+        9
+      ],
+      "theme": "Harvest & remembrance",
+      "place": "Mizo communities",
+      "description": "A traditional maize-season observance combines remembrance of departed relatives with community customs.",
+      "id": "mim-kut",
+      "states": [
+        "MZ"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "MZ",
+          "text": "Mizo communities"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Harvest"
+      ]
+    },
+    {
+      "name": "Hornbill Festival",
+      "season": "December",
+      "months": [
+        12
+      ],
+      "theme": "Cultural showcase",
+      "place": "Kisama, near Kohima",
+      "description": "Naga communities share performances, crafts, food and traditions at a major annual cultural gathering.",
+      "id": "hornbill-festival",
+      "states": [
+        "NL"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "NL",
+          "text": "Kisama, near Kohima"
+        }
+      ],
+      "native": "Hornbill Festival",
+      "categories": [
+        "Arts",
+        "Community",
+        "Music & dance"
+      ],
+      "story": "Organised as a cultural showcase since 2000, Hornbill brings together different Naga communities. It offers performances, crafts and food alongside contemporary events. The shared programme does not replace each community's own festivals or distinct traditions.",
+      "rituals": [
+        "Cultural presentations at Kisama",
+        "Craft and textile demonstrations",
+        "Music and community food stalls"
+      ],
+      "food": "Stalls offer different Naga cuisines. Ask vendors about ingredients, spice levels and vegetarian options.",
+      "dress": "Community textiles and ornaments have specific meanings; ask before borrowing, handling or photographing them closely.",
+      "tips": [
+        "Check the current official programme and visitor requirements before booking.",
+        "Ask performers before portraits, and keep performance areas clear."
+      ],
+      "places": [
+        [
+          "Kisama Heritage Village",
+          "NL",
+          94.12,
+          25.62,
+          "Main cultural showcase near Kohima; programme and access are organiser-dependent."
+        ]
+      ],
+      "sources": [
+        [
+          "Ministry of Tourism: Hornbill Festival",
+          "https://www.utsav.gov.in/view-event/hornbill-festival"
+        ]
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Hornbill_festival.jpg",
+        "alt": "Participant wearing traditional dress at the Hornbill Festival in Kisama",
+        "caption": "Hornbill Festival at Kisama, 2024. Historical photograph.",
+        "author": "JyotiPN",
+        "source": "https://commons.wikimedia.org/wiki/File:Hornbill_festival.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Moatsu",
+      "season": "May",
+      "months": [
+        5
+      ],
+      "theme": "Agriculture & community",
+      "place": "Ao communities, Mokokchung",
+      "description": "After sowing, Ao communities celebrate with songs, dances and communal gatherings.",
+      "id": "moatsu",
+      "states": [
+        "NL"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "NL",
+          "text": "Ao communities, Mokokchung"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Harvest"
+      ]
+    },
+    {
+      "name": "Rath Yatra",
+      "season": "June–July",
+      "months": [
+        6,
+        7
+      ],
+      "theme": "Chariot festival",
+      "place": "Puri",
+      "description": "The deities Jagannath, Balabhadra and Subhadra travel in monumental wooden chariots through Puri.",
+      "id": "rath-yatra",
+      "states": [
+        "OR"
+      ],
+      "regions": [
+        "East"
+      ],
+      "locations": [
+        {
+          "state": "OR",
+          "text": "Puri"
+        }
+      ],
+      "native": "ରଥଯାତ୍ରା",
+      "categories": [
+        "Devotion",
+        "Arts",
+        "Community"
+      ],
+      "story": "Puri's Rath Yatra brings Jagannath, Balabhadra and Subhadra into a public chariot procession. The journey forms part of a larger cycle of observances, including the return journey, which must be checked separately.",
+      "rituals": [
+        "Wooden chariot construction",
+        "The outward chariot procession",
+        "Later return observances"
+      ],
+      "food": "Mahaprasad is associated with Jagannath traditions; seek guidance on authorised distribution.",
+      "dress": "Wear respectful clothing and practical footwear for long periods outdoors.",
+      "tips": [
+        "Use authorised viewing arrangements rather than entering dense chariot crowds.",
+        "Temple entry restrictions differ from access to the public procession."
+      ],
+      "places": [
+        [
+          "Puri",
+          "OR",
+          85.83,
+          19.81,
+          "Grand Road procession corridor; access follows local arrangements."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Rath Yatra",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/odisha/rath-yatra"
+        ]
+      ],
+      "photo": null,
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Raja Parba",
+      "season": "June",
+      "months": [
+        6
+      ],
+      "theme": "Monsoon & earth",
+      "place": "Across Odisha",
+      "description": "A celebration associated with the earth’s fertility, featuring swings, pitha and a pause in agricultural work.",
+      "id": "raja-parba",
+      "states": [
+        "OR"
+      ],
+      "regions": [
+        "East"
+      ],
+      "locations": [
+        {
+          "state": "OR",
+          "text": "Across Odisha"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Vaisakhi",
+      "season": "April",
+      "months": [
+        4
+      ],
+      "theme": "Harvest & Sikh heritage",
+      "place": "Amritsar & across Punjab",
+      "description": "Harvest celebrations coincide with the commemoration of the formation of the Khalsa, with gurdwara visits and community meals.",
+      "id": "vaisakhi",
+      "states": [
+        "PB",
+        "HR"
+      ],
+      "regions": [
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "PB",
+          "text": "Amritsar & across Punjab"
+        }
+      ],
+      "native": "ਵਿਸਾਖੀ",
+      "categories": [
+        "Harvest",
+        "Devotion",
+        "Community"
+      ],
+      "story": "Vaisakhi brings together Punjab's harvest season and the Sikh commemoration of the formation of the Khalsa. Gurdwara visits, service and community meals are important, alongside local fairs and cultural programmes.",
+      "rituals": [
+        "Gurdwara worship and kirtan",
+        "Community langar",
+        "Local fairs and processions"
+      ],
+      "food": "Langar is a communal meal grounded in service and equality; follow the volunteers' guidance.",
+      "dress": "Cover your head and remove shoes where required in a gurdwara.",
+      "tips": [
+        "Ask about visitor procedures at each religious venue.",
+        "Keep paths clear and ask before photographing worshippers."
+      ],
+      "places": [
+        [
+          "Amritsar",
+          "PB",
+          74.87,
+          31.63,
+          "Gurdwara observances and community gatherings."
+        ],
+        [
+          "Bathinda",
+          "PB",
+          74.95,
+          30.21,
+          "Local Vaisakhi fair and religious celebrations."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Vaisakhi Mela",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/punjab/vaisakhi-mela-bathinda-april"
+        ]
+      ],
+      "photo": null,
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Lohri",
+      "season": "January",
+      "months": [
+        1
+      ],
+      "theme": "Winter celebration",
+      "place": "Across Punjab",
+      "description": "Families and communities gather around bonfires with folk songs and seasonal foods.",
+      "id": "lohri",
+      "states": [
+        "PB"
+      ],
+      "regions": [
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "PB",
+          "text": "Across Punjab"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Gangaur",
+      "season": "March–April",
+      "months": [
+        3,
+        4
+      ],
+      "theme": "Devotion & spring",
+      "place": "Jaipur & Udaipur",
+      "description": "Women honour Gauri with rituals, decorated images and colourful processions.",
+      "id": "gangaur",
+      "states": [
+        "RJ"
+      ],
+      "regions": [
+        "West"
+      ],
+      "locations": [
+        {
+          "state": "RJ",
+          "text": "Jaipur & Udaipur"
+        }
+      ],
+      "native": "गणगौर",
+      "categories": [
+        "Devotion",
+        "Arts",
+        "Community"
+      ],
+      "story": "Gangaur honours Gauri and is especially associated with women's devotional traditions in Rajasthan. Udaipur's Mewar Festival overlaps with these celebrations, giving the occasion a distinctive lakeside expression.",
+      "rituals": [
+        "Worship of decorated images",
+        "Songs and processions",
+        "Local cultural programmes"
+      ],
+      "food": "Seek regional sweets and seasonal dishes; customs vary between families and towns.",
+      "dress": "Colourful saris and regional dress are common in processions.",
+      "tips": [
+        "Photograph respectfully without blocking processions.",
+        "Check the local route rather than assuming all cities share one programme."
+      ],
+      "places": [
+        [
+          "Udaipur",
+          "RJ",
+          73.68,
+          24.58,
+          "Gangaur traditions around the old city and lakeside."
+        ],
+        [
+          "Jaipur",
+          "RJ",
+          75.79,
+          26.91,
+          "City processions subject to annual announcements."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Mewar Festival",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/mewar-festival-2026"
+        ]
+      ],
+      "photo": null,
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Pushkar Fair",
+      "season": "October–November",
+      "months": [
+        10,
+        11
+      ],
+      "theme": "Pilgrimage & fair",
+      "place": "Pushkar",
+      "description": "Around Kartik Purnima, pilgrims and visitors gather for a traditional fair, cultural events and lakeside rituals.",
+      "id": "pushkar-fair",
+      "states": [
+        "RJ"
+      ],
+      "regions": [
+        "West"
+      ],
+      "locations": [
+        {
+          "state": "RJ",
+          "text": "Pushkar"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Losoong / Namsoong",
+      "season": "December–January",
+      "months": [
+        12,
+        1
+      ],
+      "theme": "Harvest & New Year",
+      "place": "Across Sikkim",
+      "description": "Bhutia and Lepcha communities mark seasonal renewal through their distinct traditions and celebrations.",
+      "id": "losoong-namsoong",
+      "states": [
+        "SK"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "SK",
+          "text": "Across Sikkim"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Harvest"
+      ]
+    },
+    {
+      "name": "Pongal",
+      "season": "January",
+      "months": [
+        1
+      ],
+      "theme": "Harvest",
+      "place": "Across Tamil Nadu",
+      "description": "Families prepare freshly harvested rice in a ceremonial pot and honour the sun and cattle over several days.",
+      "id": "pongal",
+      "states": [
+        "TN",
+        "PY"
+      ],
+      "regions": [
+        "South"
+      ],
+      "locations": [
+        {
+          "state": "TN",
+          "text": "Across Tamil Nadu"
+        },
+        {
+          "state": "PY",
+          "text": "Puducherry & Karaikal"
+        }
+      ],
+      "native": "பொங்கல்",
+      "categories": [
+        "Harvest",
+        "Community"
+      ],
+      "story": "Pongal expresses gratitude for the harvest, the sun and the animals that support farming. The festival unfolds through several days with different meanings, connecting Tamil households to the agricultural season.",
+      "rituals": [
+        "Cooking freshly harvested rice until the pot overflows",
+        "Kolam designs at entrances",
+        "Mattu Pongal celebrations honouring cattle"
+      ],
+      "food": "Sweet sakkarai pongal is made with rice and jaggery; other dishes vary by household.",
+      "dress": "Saris and veshtis are common festive clothing, though there is no universal visitor dress requirement.",
+      "tips": [
+        "Ask permission before joining household or village ceremonies.",
+        "Treat animal-related events as separate programmes with their own access rules."
+      ],
+      "places": [
+        [
+          "Madurai",
+          "TN",
+          78.12,
+          9.93,
+          "Tamil harvest traditions in and around the city."
+        ],
+        [
+          "Puducherry",
+          "PY",
+          79.81,
+          11.94,
+          "Community and household Pongal celebrations."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Pongal Festival",
+          "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/coimbatore/pongal-festival.html"
+        ]
+      ],
+      "photo": null,
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Tamil Puthandu",
+      "season": "April",
+      "months": [
+        4
+      ],
+      "theme": "Tamil New Year",
+      "place": "Across Tamil Nadu",
+      "description": "Temple visits, festive meals and decorated entrances welcome the Tamil New Year.",
+      "id": "tamil-puthandu",
+      "states": [
+        "TN"
+      ],
+      "regions": [
+        "South"
+      ],
+      "locations": [
+        {
+          "state": "TN",
+          "text": "Across Tamil Nadu"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Bathukamma",
+      "season": "September–October",
+      "months": [
+        9,
+        10
+      ],
+      "theme": "Floral celebration",
+      "place": "Hyderabad & across Telangana",
+      "description": "Women arrange seasonal flowers in tiered stacks and gather around them to sing and celebrate.",
+      "id": "bathukamma",
+      "states": [
+        "TG"
+      ],
+      "regions": [
+        "South"
+      ],
+      "locations": [
+        {
+          "state": "TG",
+          "text": "Hyderabad & across Telangana"
+        }
+      ],
+      "native": "బతుకమ్మ",
+      "categories": [
+        "Community",
+        "Devotion",
+        "Arts"
+      ],
+      "story": "Bathukamma celebrates seasonal flowers and the goddess through a distinctly Telangana tradition. Women arrange tiered floral stacks and gather around them to sing, before concluding celebrations at local water bodies.",
+      "rituals": [
+        "Building layered flower arrangements",
+        "Singing in circles around the flowers",
+        "Local processions and immersion traditions"
+      ],
+      "food": "Shared offerings vary by day; maleeda is associated with celebrations.",
+      "dress": "Festive saris and regional textiles are common; observe local guidance when joining a gathering.",
+      "tips": [
+        "Ask a host before joining a community circle.",
+        "Use designated viewing areas and protect the flowers and waterside space."
+      ],
+      "places": [
+        [
+          "Hyderabad",
+          "TG",
+          78.49,
+          17.39,
+          "Public gatherings and neighbourhood celebrations; venues vary each year."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Bathukamma",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/bathukamma"
+        ]
+      ],
+      "photo": null,
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Bonalu",
+      "season": "July–August",
+      "months": [
+        7,
+        8
+      ],
+      "theme": "Devotion",
+      "place": "Hyderabad & Secunderabad",
+      "description": "Devotees offer decorated pots of food to the goddess Mahakali, accompanied by local processions.",
+      "id": "bonalu",
+      "states": [
+        "TG"
+      ],
+      "regions": [
+        "South"
+      ],
+      "locations": [
+        {
+          "state": "TG",
+          "text": "Hyderabad & Secunderabad"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Devotion"
+      ]
+    },
+    {
+      "name": "Kharchi Puja",
+      "season": "June–July",
+      "months": [
+        6,
+        7
+      ],
+      "theme": "Devotion & fair",
+      "place": "Old Agartala",
+      "description": "The Fourteen Gods are honoured through rituals and a public fair at the Chaturdasha Devata temple.",
+      "id": "kharchi-puja",
+      "states": [
+        "TR"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "TR",
+          "text": "Old Agartala"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Devotion"
+      ]
+    },
+    {
+      "name": "Garia Puja",
+      "season": "April",
+      "months": [
+        4
+      ],
+      "theme": "Agriculture & wellbeing",
+      "place": "Tripuri communities",
+      "description": "Traditional prayers and community celebrations seek wellbeing and a prosperous agricultural season.",
+      "id": "garia-puja",
+      "states": [
+        "TR"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "TR",
+          "text": "Tripuri communities"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Harvest"
+      ]
+    },
+    {
+      "name": "Holi",
+      "season": "February–March",
+      "months": [
+        2,
+        3
+      ],
+      "theme": "Spring & colour",
+      "place": "Mathura & Vrindavan",
+      "description": "The Braj region’s distinctive celebrations combine devotional singing and colourful traditions over several days.",
+      "id": "holi",
+      "states": [
+        "UP",
+        "RJ",
+        "BR",
+        "MP",
+        "DL"
+      ],
+      "regions": [
+        "North",
+        "West",
+        "East",
+        "Central"
+      ],
+      "locations": [
+        {
+          "state": "UP",
+          "text": "Mathura & Vrindavan"
+        }
+      ],
+      "native": "होली",
+      "categories": [
+        "Community",
+        "Devotion",
+        "Arts"
+      ],
+      "story": "Holi celebrates spring through colour, gathering and stories of renewal. In the Braj region, celebrations are connected with Krishna traditions. Different towns hold distinct events on different days around the main festival.",
+      "rituals": [
+        "Holika Dahan bonfires in many communities",
+        "Colour celebrations",
+        "Devotional singing and regional performances"
+      ],
+      "food": "Gujiya is a familiar festive sweet in northern India; local menus vary.",
+      "dress": "Choose comfortable clothes that can be stained. Clothing is not consent to participate.",
+      "tips": [
+        "Ask before applying colour or photographing participants.",
+        "Select an organised event if you prefer clear boundaries and facilities."
+      ],
+      "places": [
+        [
+          "Mathura",
+          "UP",
+          77.67,
+          27.49,
+          "Braj devotional and colour traditions."
+        ],
+        [
+          "Vrindavan",
+          "UP",
+          77.7,
+          27.58,
+          "Temple programmes require their own date and access checks."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Holi",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/holi"
+        ]
+      ],
+      "photo": null,
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Dev Deepawali",
+      "season": "November; sometimes October",
+      "months": [
+        10,
+        11
+      ],
+      "theme": "Festival of lamps",
+      "place": "Varanasi",
+      "description": "On Kartik Purnima, thousands of lamps illuminate the Ganges ghats in a spectacular riverside celebration.",
+      "id": "dev-deepawali",
+      "states": [
+        "UP"
+      ],
+      "regions": [
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "UP",
+          "text": "Varanasi"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Harela",
+      "season": "July",
+      "months": [
+        7
+      ],
+      "theme": "Monsoon & nature",
+      "place": "Kumaon",
+      "description": "Seedlings grown in the days before the festival symbolise greenery, prosperity and the agricultural season.",
+      "id": "harela",
+      "states": [
+        "UT"
+      ],
+      "regions": [
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "UT",
+          "text": "Kumaon"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Phool Dei",
+      "season": "March",
+      "months": [
+        3
+      ],
+      "theme": "Spring",
+      "place": "Garhwal & Kumaon",
+      "description": "Children place flowers at doorsteps to welcome spring and offer blessings for the household.",
+      "id": "phool-dei",
+      "states": [
+        "UT"
+      ],
+      "regions": [
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "UT",
+          "text": "Garhwal & Kumaon"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Durga Puja",
+      "season": "September–October",
+      "months": [
+        9,
+        10
+      ],
+      "theme": "Art, devotion & community",
+      "place": "Kolkata & across West Bengal",
+      "description": "Neighbourhoods become open-air galleries of elaborate pandals and Durga idols. Dhak drums, dhunuchi dance and shared bhog bring people together in a celebration of creativity and devotion.",
+      "id": "durga-puja",
+      "states": [
+        "WB",
+        "OR",
+        "TR",
+        "AS"
+      ],
+      "regions": [
+        "East",
+        "Northeast"
+      ],
+      "locations": [
+        {
+          "state": "WB",
+          "text": "Kolkata & across West Bengal"
+        }
+      ],
+      "native": "দুর্গাপূজা",
+      "categories": [
+        "Devotion",
+        "Arts",
+        "Community"
+      ],
+      "story": "Durga Puja honours the goddess Durga and her victory over Mahishasura. In Bengal, it is also imagined as a daughter's homecoming. Kolkata's neighbourhood pandals make the celebration a meeting of public art, craftsmanship and worship.",
+      "rituals": [
+        "Pandal visits and viewing crafted idols",
+        "Dhak drumming, prayers and dhunuchi dance",
+        "Immersion processions at the close of the observance"
+      ],
+      "food": "Shared bhog often includes khichuri; sweets and family meals are part of the wider celebrations.",
+      "dress": "Saris, kurtas and everyday festive clothing; red-and-white combinations are a familiar sight, not a visitor requirement.",
+      "tips": [
+        "Ask before photographing worship or individuals.",
+        "Visit earlier in the day for a gentler introduction; evening queues can be long."
+      ],
+      "places": [
+        [
+          "Kolkata",
+          "WB",
+          88.36,
+          22.57,
+          "Neighbourhood pandals and public art; individual opening times vary."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Durga Puja",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/durga-puja"
+        ]
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Durga_Puja_in_West_Bengal.jpg",
+        "alt": "Durga idol and accompanying figures inside an illuminated pandal in West Bengal",
+        "caption": "Durga Puja in West Bengal, 2022. Historical photograph; not a preview of the current year's event.",
+        "author": "Prantik006",
+        "source": "https://commons.wikimedia.org/wiki/File:Durga_Puja_in_West_Bengal.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "reviewed": "2026-10-10"
+    },
+    {
+      "name": "Kali Puja",
+      "season": "October–November",
+      "months": [
+        10,
+        11
+      ],
+      "theme": "Devotion & light",
+      "place": "Kolkata & across West Bengal",
+      "description": "Homes and temples honour Goddess Kali with lamps, offerings and evening worship around the new moon.",
+      "id": "kali-puja",
+      "states": [
+        "WB"
+      ],
+      "regions": [
+        "East"
+      ],
+      "locations": [
+        {
+          "state": "WB",
+          "text": "Kolkata & across West Bengal"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Devotion"
+      ]
+    },
+    {
+      "name": "Poila Boishakh",
+      "season": "April",
+      "months": [
+        4
+      ],
+      "theme": "Bengali New Year",
+      "place": "Across West Bengal",
+      "description": "New account books, cultural programmes and generous Bengali meals mark the start of the Bengali year.",
+      "id": "poila-boishakh",
+      "states": [
+        "WB"
+      ],
+      "regions": [
+        "East"
+      ],
+      "locations": [
+        {
+          "state": "WB",
+          "text": "Across West Bengal"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Island Tourism Festival",
+      "season": "Schedule varies",
+      "months": [],
+      "theme": "Cultural showcase",
+      "place": "Sri Vijaya Puram (Port Blair)",
+      "description": "A public cultural programme showcases island communities through performances, exhibitions and local food; confirm the organiser’s current schedule.",
+      "id": "island-tourism-festival",
+      "states": [
+        "AN"
+      ],
+      "regions": [
+        "Islands"
+      ],
+      "locations": [
+        {
+          "state": "AN",
+          "text": "Sri Vijaya Puram (Port Blair)"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Arts"
+      ]
+    },
+    {
+      "name": "Rose Festival",
+      "season": "February–March",
+      "months": [
+        2,
+        3
+      ],
+      "theme": "Flowers & culture",
+      "place": "Zakir Hussain Rose Garden",
+      "description": "Flower displays and cultural activities celebrate the city’s garden heritage.",
+      "id": "rose-festival",
+      "states": [
+        "CH"
+      ],
+      "regions": [
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "CH",
+          "text": "Zakir Hussain Rose Garden"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Nariyal Purnima",
+      "season": "August",
+      "months": [
+        8
+      ],
+      "theme": "Coastal tradition",
+      "place": "Coastal communities of Daman & Diu",
+      "description": "Fishing communities offer coconuts to the sea, accompanied by prayers and local celebrations.",
+      "id": "nariyal-purnima",
+      "states": [
+        "DH"
+      ],
+      "regions": [
+        "West"
+      ],
+      "locations": [
+        {
+          "state": "DH",
+          "text": "Coastal communities of Daman & Diu"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Diwali",
+      "season": "October–November",
+      "months": [
+        10,
+        11
+      ],
+      "theme": "Festival of lights",
+      "place": "Across Delhi",
+      "description": "Diyas, family gatherings, sweets and worship mark the festival of lights in the capital.",
+      "id": "diwali",
+      "states": [
+        "DL",
+        "UP",
+        "RJ",
+        "MH",
+        "GJ",
+        "KA",
+        "TN"
+      ],
+      "regions": [
+        "North",
+        "West",
+        "South"
+      ],
+      "locations": [
+        {
+          "state": "DL",
+          "text": "Across Delhi"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Eid al-Fitr",
+      "season": "Moves through the solar year",
+      "months": [],
+      "theme": "Community & faith",
+      "place": "Old Delhi & across the city",
+      "description": "Prayers, charitable giving and festive meals mark the end of Ramadan; dates depend on the lunar calendar.",
+      "id": "eid-al-fitr",
+      "states": [
+        "DL",
+        "JK",
+        "LD"
+      ],
+      "regions": [
+        "North",
+        "Islands"
+      ],
+      "locations": [
+        {
+          "state": "DL",
+          "text": "Old Delhi & across the city"
+        },
+        {
+          "state": "JK",
+          "text": "Srinagar & across the territory"
+        },
+        {
+          "state": "LD",
+          "text": "Across the islands"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Devotion"
+      ]
+    },
+    {
+      "name": "Herath",
+      "season": "February–March",
+      "months": [
+        2,
+        3
+      ],
+      "theme": "Kashmiri Pandit tradition",
+      "place": "Kashmiri Pandit communities",
+      "description": "The Kashmiri observance of Shivratri centres on family worship, ritual offerings and festive food.",
+      "id": "herath",
+      "states": [
+        "JK"
+      ],
+      "regions": [
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "JK",
+          "text": "Kashmiri Pandit communities"
+        }
+      ],
+      "photo": null,
+      "reviewed": null,
+      "categories": [
+        "Community"
+      ]
+    },
+    {
+      "name": "Hemis Festival",
+      "season": "June–July",
+      "months": [
+        6,
+        7
+      ],
+      "theme": "Monastic tradition",
+      "place": "Hemis Monastery",
+      "description": "Masked cham dances and monastery rituals commemorate Guru Padmasambhava.",
+      "id": "hemis-festival",
+      "states": [
+        "LA"
+      ],
+      "regions": [
+        "North"
+      ],
+      "locations": [
+        {
+          "state": "LA",
+          "text": "Hemis Monastery"
+        }
+      ],
+      "native": "Hemis Tsechu",
+      "categories": [
+        "Devotion",
+        "Music & dance",
+        "Arts"
+      ],
+      "story": "Hemis Festival honours Guru Padmasambhava at Hemis Monastery in Ladakh. Its cham dances are religious performances, not simply entertainment. The annual dates follow the Tibetan lunar calendar.",
+      "rituals": [
+        "Masked cham dances",
+        "Monastery prayers",
+        "Ceremonial music"
+      ],
+      "food": "Explore local Ladakhi food outside the ritual spaces; follow monastery rules on eating.",
+      "dress": "Modest layers suit monastery visits and changeable mountain conditions.",
+      "tips": [
+        "Ask before photographing religious performances or interiors.",
+        "Confirm seating and step-free access with the monastery or organiser."
+      ],
+      "places": [
+        [
+          "Hemis Monastery",
+          "LA",
+          77.7,
+          33.91,
+          "Monastery courtyard; visitor arrangements depend on the programme."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Hemis",
+          "https://www.incredibleindia.gov.in/en/rural-tourism/hemis"
+        ]
+      ],
+      "photo": null,
+      "reviewed": "2026-10-10"
+    }
+  ],
+  "events": [
+    {
+      "id": "holi-2026",
+      "festival": "holi",
+      "year": 2026,
+      "start": "2026-03-04",
+      "end": "2026-03-04",
+      "status": "Published listing",
+      "place": "India-wide observance; local Braj events vary",
+      "source": "https://www.incredibleindia.gov.in/en/plan-your-trip/public-holidays",
+      "note": "Main holiday date, not the full Braj programme.",
+      "checked": "2026-10-10"
+    },
+    {
+      "id": "ganesh-2026",
+      "festival": "ganesh-chaturthi",
+      "year": 2026,
+      "start": "2026-09-14",
+      "end": "2026-09-14",
+      "status": "Published listing",
+      "place": "Maharashtra and other regions",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/maharashtra/ganesh-chaturthi",
+      "note": "Opening observance only. Household durations and immersion dates vary.",
+      "checked": "2026-10-10"
+    },
+    {
+      "id": "navratri-2026",
+      "festival": "navratri",
+      "year": 2026,
+      "start": "2026-10-11",
+      "end": "2026-10-19",
+      "status": "Published listing",
+      "place": "Gujarat and other regions",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/navratri",
+      "note": "Autumn Navratri listing. Individual garba venues set their own schedules and tickets.",
+      "checked": "2026-10-10"
+    },
+    {
+      "id": "mysuru-2026",
+      "festival": "mysuru-dasara",
+      "year": 2026,
+      "start": "2026-10-11",
+      "end": "2026-10-21",
+      "status": "Provisional",
+      "place": "Mysuru, Karnataka",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/mysuru-dasara",
+      "note": "Tourism listing extends to 21 October; it is not a confirmed procession date. Verify the local programme before booking.",
+      "checked": "2026-10-10"
+    },
+    {
+      "id": "durga-2026",
+      "festival": "durga-puja",
+      "year": 2026,
+      "start": "2026-10-17",
+      "end": "2026-10-21",
+      "status": "Provisional",
+      "place": "Kolkata, West Bengal",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/durga-puja",
+      "note": "Tourism listing shows 17–21 October; local ritual calendars may differ. Verify with the pandal organiser.",
+      "checked": "2026-10-10"
+    },
+    {
+      "id": "diwali-2026",
+      "festival": "diwali",
+      "year": 2026,
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "status": "Published listing",
+      "place": "Across India; regional observances vary",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/diwali",
+      "note": "Main listed observance, not every regional or multiday celebration.",
+      "checked": "2026-10-10"
+    },
+    {
+      "id": "chhath-2026",
+      "festival": "chhath-puja",
+      "year": 2026,
+      "start": "2026-11-13",
+      "end": "2026-11-16",
+      "status": "Published listing",
+      "place": "Bihar and participating communities",
+      "source": "https://www.incredibleindia.gov.in/en/bihar",
+      "note": "Four-day tourism listing; local ghat access and ritual timings require separate confirmation.",
+      "checked": "2026-10-10"
+    }
+  ]
+}
