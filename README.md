@@ -1,52 +1,28 @@
 # Festival Atlas
 
-A dependency-free interactive India festival explorer, ready for GitHub Pages.
+Explore India's festivals: https://pdey2022.github.io/festival-atlas/
 
-## Included
+## Three-stage upgrade
 
-- Geographic SVG map of all 28 states and 8 union territories.
-- 67 introductory festival entries with typical months, traditions and places.
-- State/festival/region search and month filtering.
-- Keyboard-accessible selection and a full state directory.
-- State deep links such as `#WB`, `#KL`, and `#TN`.
-- Responsive layout, no API keys, analytics, CDN requests or build step.
+1. **Festival guides:** 62 shareable overview pages, including 15 expanded guides with traditions, food, places, visitor advice and sources. Three licensed historical photographs include attribution.
+2. **Discovery and calendar:** all 28 states and 8 union territories, map zoom/pan, approximate city markers, search and state/region/category/month filters. Seven sourced 2026 calendar listings distinguish published and provisional dates and support ICS downloads. Seasonal inspiration remains separate; 2027 dates are not invented.
+3. **Personal planning:** browser-local favourites, shareable collections, JSON backup/restore, correction links, accessible controls and mobile layouts.
 
-## Try it
+## Run and edit
 
-Open `index.html` in a browser. Keep `styles.css`, `data.js` and `app.js` alongside it.
-The downloadable ZIP also provides a standalone `Festival-Atlas.html` snapshot.
+Serve this directory with any static server, for example `python -m http.server 8000`, then open http://localhost:8000. GitHub Pages publishes `main` from the repository root. There is no production build dependency, account system or backend.
 
-## Publish on GitHub Pages
+Edit `content/states.json` for starter associations, `content/guides.json` for expanded guides, `content/photos.json` for attributed images and `content/events.json` for sourced annual dates. Run `node scripts/build.mjs` to regenerate the catalog, guide pages, calendar, saved page, about page and sitemap. Commit generated files too. Edit the home page directly in `index.html`; appearance lives in `styles.css` and `enhancements.css`, behaviour in `app.js`, `common.js` and `core.js`. Legacy `data.js` is retained for provenance and is no longer loaded.
 
-1. Create a GitHub repository named `festival-atlas` (public works with GitHub Free).
-2. Extract this ZIP and upload its contents to the repository root. `index.html` must be at the root, not inside another folder. Do not upload the ZIP itself as the website.
-3. Commit the files to `main`.
-4. Open **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select **main** and **/(root)**, then save.
-7. Wait for the Pages deployment to complete. GitHub displays your website URL, normally `https://YOUR-USERNAME.github.io/festival-atlas/`.
+Favourites stay in the current browser; shared links expose only selected festival IDs. Photos load from Wikimedia. Map/place, source and correction links open external services. See `about.html` for details.
 
-Official guide: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+## Verification
 
-Source repository: https://github.com/Pdey2022/festival-atlas
-
-GitHub Pages is configured to publish from `main` at the repository root.
-
-Website address after deployment: https://pdey2022.github.io/festival-atlas/
-
-## Edit the content
-
-`data.js` contains the festival dataset. Each initial state array has a code, a name, a region, then festival strings in this order:
-
-`Name|Typical season|Comma-separated month numbers|Theme|Place|Description`
-
-An empty month field means the festival moves through the solar calendar or has a variable schedule. These entries remain visible under All months.
-
-Edit `styles.css` for colours and layout, `app.js` for interactions and `index.html` for page content. The standalone file is a snapshot; editing source files does not automatically update it.
+Run `node scripts/test.cjs` for data integrity, filtering and calendar export tests. All generated local links and JavaScript syntax were checked. DOM smoke checks passed for home, calendar, saved collections and a guide, including saving a favourite and switching to the empty 2027 calendar. Real-browser visual QA has not been performed in this environment.
 
 ## Content and map provenance
 
-This is a curated introductory collection, not an exhaustive cultural calendar. Festivals are not exclusive to the state in which they are listed. Dates are approximate seasonal guidance and are not a confirmed 2026/2027 event calendar. Check organisers before travel; some community events require permission or have restricted participation. The app links to official festival listings:
+This is a curated introductory collection, not an exhaustive cultural calendar. Festivals are not exclusive to the state in which they are listed. Typical seasons are separate from the seven sourced 2026 annual listings; provisional dates are explicitly marked. No 2027 dates have been verified. Check organisers before travel; some community events require permission or have restricted participation. The app links to official festival listings:
 
 - https://www.incredibleindia.gov.in/en/festivals-and-events
 - https://www.incredibleindia.gov.in/en/festivals-and-events/west-bengal/durga-puja
@@ -63,6 +39,3 @@ The map is derived from DataMeet via geoBoundaries and the GeoDataViewer simplif
 
 The 36 map feature codes were checked against the 36 content records. Geometry has been projected and rounded into SVG. The downloaded source is preserved in `assets/india.geojson`. Small territory dots are enlarged interaction targets; they do not represent land area. Boundaries reflect this third-party source and are not an authoritative depiction of territorial claims. Retain map attribution when publishing.
 
-## Verification
-
-JavaScript syntax, unique state codes, state/territory counts, month values and complete map-to-content joins were checked. Browser interaction and visual QA have not been performed in this environment.
