@@ -4,21 +4,29 @@ Explore India's festivals: https://pdey2022.github.io/festival-atlas/
 
 ## Three-stage upgrade
 
-1. **Festival guides:** 62 shareable overview pages, including 15 expanded guides with traditions, food, places, visitor advice and sources. Three licensed historical photographs include attribution.
+1. **Festival guides:** 62 expanded shareable guides with traditions, food, places, visitor advice and sources. Three licensed historical photographs include attribution.
 2. **Discovery and calendar:** all 28 states and 8 union territories, map zoom/pan, approximate city markers, search and state/region/category/month filters. Seven sourced 2026 calendar listings distinguish published and provisional dates and support ICS downloads. Seasonal inspiration remains separate; 2027 dates are not invented.
 3. **Personal planning:** browser-local favourites, shareable collections, JSON backup/restore, correction links, accessible controls and mobile layouts.
+
+## Travel planning release
+
+- `visit.html`: month and region discovery, separate sourced annual dates, shareable filter URLs, and clear empty states for unconfirmed years.
+- `trip.html`: add festivals from any page or saved collection; set trip dates, destinations and personal notes; reorder or remove stops; print/save as PDF; download/restore JSON backups. Visit dates are personal plans, not confirmed event dates.
+- All 62 guides include cultural background, experiences, food/dress context, places, visitor advice and source links. Review dates are recorded per guide.
+
+Trip data uses `festival-atlas:trip:v1` in localStorage; favourites retain their existing storage key. No accounts or server database are required. Trip backup files include personal notes. Restoring a trip replaces matching stops and trip metadata while retaining other stops.
 
 ## Run and edit
 
 Serve this directory with any static server, for example `python -m http.server 8000`, then open http://localhost:8000. GitHub Pages publishes `main` from the repository root. There is no production build dependency, account system or backend.
 
-Edit `content/states.json` for starter associations, `content/guides.json` for expanded guides, `content/photos.json` for attributed images and `content/events.json` for sourced annual dates. Run `node scripts/build.mjs` to regenerate the catalog, guide pages, calendar, saved page, about page and sitemap. Commit generated files too. Edit the home page directly in `index.html`; appearance lives in `styles.css` and `enhancements.css`, behaviour in `app.js`, `common.js` and `core.js`. Legacy `data.js` is retained for provenance and is no longer loaded.
+Edit `content/states.json` for starter associations, `content/guides.json` for expanded guides, `content/photos.json` for attributed images and `content/events.json` for sourced annual dates. Run `node scripts/build.mjs` to regenerate the catalog, guide pages, calendar, saved page, visit discovery, itinerary page, about page and sitemap. Commit generated files too. Edit the home page directly in `index.html`; appearance lives in `styles.css` and `enhancements.css`, behaviour in `app.js`, `common.js`, `core.js`, `planner.js` and `trip-core.js`. Legacy `data.js` is retained for provenance and is no longer loaded.
 
 Favourites stay in the current browser; shared links expose only selected festival IDs. Photos load from Wikimedia. Map/place, source and correction links open external services. See `about.html` for details.
 
 ## Verification
 
-Run `node scripts/test.cjs` for data integrity, filtering and calendar export tests. All generated local links and JavaScript syntax were checked. DOM smoke checks passed for home, calendar, saved collections and a guide, including saving a favourite and switching to the empty 2027 calendar. Real-browser visual QA has not been performed in this environment.
+Run `node scripts/test.cjs` and `node scripts/test-trip.cjs` for data integrity, filtering and calendar export tests. All generated local links and JavaScript syntax were checked. DOM interaction checks passed for home, calendar, guides, saved lists, visit discovery and itinerary: filters, adding stops, duplicate prevention, local persistence, notes escaping, reordering/removal, backup restore and invoking print. Real-browser visual QA has not been performed in this environment.
 
 ## Content and map provenance
 
