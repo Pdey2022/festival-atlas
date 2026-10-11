@@ -247,11 +247,40 @@
           "text": "Across Karnataka"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "ఉగాది / ಯುಗಾದಿ",
       "categories": [
-        "Community"
-      ]
+        "Community",
+        "Devotion"
+      ],
+      "story": "Ugadi welcomes the New Year in Telugu and Kannada traditions at the beginning of Chaitra. It is a time for fresh beginnings, spring produce and family visits. Practices differ between Andhra Pradesh, Telangana and Karnataka: a shared calendar occasion does not mean an identical meal or ceremony everywhere. Household observances are central, while temples and community associations may organise programmes that visitors can attend.",
+      "rituals": [
+        "Decorating entrances and making floor designs",
+        "Prayers and listening to the new year’s almanac where locally observed",
+        "Sharing foods that combine contrasting tastes"
+      ],
+      "food": "Ugadi pachadi in Telugu households and neem with jaggery in Karnataka express life’s contrasting experiences. Festive sweets vary by region and family.",
+      "dress": "Saris, kurtas and other festive clothes are common. Follow the dress guidance of any temple you visit.",
+      "tips": [
+        "Ask your host which local customs they follow; avoid treating one regional tradition as universal.",
+        "Arrange a community visit in advance, since a public holiday does not imply open access to homes."
+      ],
+      "places": [
+        [
+          "Bengaluru",
+          "KA",
+          77.59,
+          12.97,
+          "A base for Kannada Ugadi observances; confirm individual temple and community programmes."
+        ]
+      ],
+      "sources": [
+        [
+          "Karnataka Tourism: Ugadi",
+          "https://karnatakatourism.org/en/blogs/best-places-to-experince-ugadi-in-karnataka-and-must-try-sweets"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Sankranti",
@@ -275,11 +304,40 @@
           "text": "Across the state"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "సంక్రాంతి",
       "categories": [
-        "Harvest"
-      ]
+        "Harvest",
+        "Community"
+      ],
+      "story": "This guide focuses on Andhra Pradesh’s Sankranti season, when farming families mark the harvest and welcome relatives home. The celebration unfolds across days with distinct names and customs, including Bhogi and Kanuma. The Godavari region is particularly associated with these gatherings. Related midwinter festivals elsewhere in India have their own identities; the Andhra programme should not be assumed to match those of Gujarat or Tamil Nadu.",
+      "rituals": [
+        "Bhogi gatherings at the beginning of the festive period",
+        "Decorative muggu floor patterns outside homes",
+        "Kanuma observances recognising cattle and agricultural life"
+      ],
+      "food": "Families prepare regional sweets and celebratory meals. Ask what is being served locally instead of expecting a fixed statewide menu.",
+      "dress": "Festive saris and traditional clothing are common, alongside everyday dress. Wear practical shoes for village paths.",
+      "tips": [
+        "Choose a hosted village experience or announced public programme; private courtyards are not visitor attractions.",
+        "Check the date and location of each day’s activity separately, allowing time for holiday traffic."
+      ],
+      "places": [
+        [
+          "Amalapuram",
+          "AP",
+          82,
+          16.58,
+          "Gateway to Konaseema celebrations; town-centre marker, not a specific event entrance."
+        ]
+      ],
+      "sources": [
+        [
+          "Konaseema district: Festivals",
+          "https://konaseema.ap.gov.in/festivals/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Dree",
@@ -303,11 +361,41 @@
           "text": "Ziro Valley"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Harvest"
-      ]
+        "Harvest",
+        "Community",
+        "Devotion"
+      ],
+      "story": "Dree belongs to the Apatani community of Arunachal Pradesh’s Ziro Valley. Its meaning is closely connected to wet-rice cultivation and the wellbeing of people, crops and livestock. Ceremonies seek protection from pests and illness and blessings for fertile fields. Understanding this agricultural relationship helps visitors see Dree as a living community observance, rather than simply a stage performance. Public celebrations and village rites may offer different levels of access.",
+      "rituals": [
+        "Prayers connected with crop protection and wellbeing",
+        "Community gatherings during the agricultural festival",
+        "Public cultural presentations where announced"
+      ],
+      "food": "Food is shared according to the host community’s arrangements. Ask about ingredients and whether a meal is an invitation or a commercial service.",
+      "dress": "Apatani textiles are part of community identity. Visitors can wear comfortable clothing without imitating ceremonial dress.",
+      "tips": [
+        "Use a local host to understand which ceremonies welcome visitors and which are private.",
+        "Ask before photographing rituals or people, and keep to paths around working rice fields."
+      ],
+      "places": [
+        [
+          "Ziro",
+          "AR",
+          93.83,
+          27.59,
+          "Base for Apatani communities in Ziro Valley; confirm the specific celebration ground."
+        ]
+      ],
+      "sources": [
+        [
+          "Lower Subansiri district: Dree Festival",
+          "https://lowersubansiri.nic.in/festivals/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Losar",
@@ -337,11 +425,44 @@
           "text": "Gangtok & monasteries"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Community"
-      ]
+        "Community",
+        "Devotion"
+      ],
+      "story": "Losar is a New Year celebration within Tibetan Buddhist cultural traditions. In Tawang it is especially important to Monpa communities; it is also observed in Sikkim and other Himalayan regions. Religious prayers, family reunions and meals accompany hopes for a fortunate year. Local calendars and customs differ, so this guide does not assign one universal date or programme. Tawang’s Torgya monastery festival is a separate occasion and should not be confused with Losar.",
+      "rituals": [
+        "New Year prayers at home and religious venues",
+        "Visits and reunions with relatives",
+        "Sharing festive meals and greetings"
+      ],
+      "food": "Traditional feasts form part of the celebration. Regional foods and household recipes differ; ask hosts what their dishes signify.",
+      "dress": "Wear modest layers for monastery visits. Community ceremonial clothing is meaningful rather than a required visitor costume.",
+      "tips": [
+        "Confirm the community’s own calendar before arranging travel, especially when comparing Himalayan destinations.",
+        "Ask separately about monastery access and household invitations; a family celebration may not offer a public performance."
+      ],
+      "places": [
+        [
+          "Tawang",
+          "AR",
+          91.86,
+          27.59,
+          "Monpa cultural centre; visitor programmes and religious schedules vary."
+        ]
+      ],
+      "sources": [
+        [
+          "Tawang district: Culture and heritage",
+          "https://tawang.nic.in/tourism/culture-heritage/"
+        ],
+        [
+          "Sikkim government: Buddhist festivals",
+          "https://www.sikkim.gov.in/departments/ecclesiastical-affairs-department/buddhist-festivals"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Bohag Bihu",
@@ -430,11 +551,40 @@
           "text": "Across Assam"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "মাঘ বিহু",
       "categories": [
-        "Harvest"
-      ]
+        "Harvest",
+        "Community"
+      ],
+      "story": "Magh Bihu, also called Bhogali Bihu, celebrates the Assamese harvest season with an emphasis on food and community. Uruka, the preceding evening, is a time for shared meals. Temporary gathering structures and the meji bonfire are familiar features, although practices vary across Assam. It is distinct from springtime Bohag Bihu and the more restrained Kati Bihu: planning around the right Bihu matters if you want to understand its agricultural meaning.",
+      "rituals": [
+        "Uruka meals with family and neighbours",
+        "Building temporary gathering structures",
+        "Meji bonfire observances where locally practised"
+      ],
+      "food": "Pitha is closely associated with the festival; preparations include different rice-based snacks and sweets. A host can explain local varieties and ingredients.",
+      "dress": "Assamese textiles may be worn at gatherings. Everyday respectful clothing is appropriate unless an organiser advises otherwise.",
+      "tips": [
+        "Arrange access through a host instead of assuming a village feast is open to every passer-by.",
+        "Observe bonfires from a safe distance and follow local organisers’ instructions around temporary structures."
+      ],
+      "places": [
+        [
+          "Jorhat",
+          "AS",
+          94.22,
+          26.75,
+          "Town and surrounding communities; each Uruka gathering has its own arrangements."
+        ]
+      ],
+      "sources": [
+        [
+          "Ministry of Tourism: Bhogali Bihu",
+          "https://utsav.gov.in/public/view-event/bhogali-bihu-or-magh-bihu-1"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Chhath Puja",
@@ -521,11 +671,41 @@
           "text": "Sonepur"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "सोनपुर मेला",
       "categories": [
-        "Community"
-      ]
+        "Community",
+        "Arts",
+        "Devotion"
+      ],
+      "story": "Sonepur Mela brings together pilgrimage, trade and cultural programmes near the confluence of the Ganga and Gandak in Bihar. Its opening is associated with Kartik Purnima, when devotees visit the rivers and Harihar Nath Temple. The fair is historically known for livestock trading, but visitors can also explore crafts, performances and the atmosphere of a large regional gathering. Historic descriptions of animal sales should not be treated as a current programme or an invitation to buy wildlife.",
+      "rituals": [
+        "Kartik Purnima pilgrimage and temple prayers",
+        "Browsing market stalls and regional crafts",
+        "Announced music and cultural performances"
+      ],
+      "food": "Fairground vendors offer snacks and meals. Choose freshly prepared food and ask about ingredients; no single dish defines the whole mela.",
+      "dress": "Respectful everyday clothing and comfortable footwear suit the combination of religious visits and long walks.",
+      "tips": [
+        "Check the current fairground plan and performance schedule before visiting.",
+        "Use designated riverside routes and keep photography away from people bathing or worshipping."
+      ],
+      "places": [
+        [
+          "Sonepur",
+          "BR",
+          85.18,
+          25.7,
+          "Town near the river confluence; current fair entrances must be checked locally."
+        ]
+      ],
+      "sources": [
+        [
+          "Bihar Tourism: Sonepur Mela",
+          "https://tourism.bihar.gov.in/en/experiences/festivals-and-fairs/fairs/sonepur-mela"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Bastar Dussehra",
@@ -551,11 +731,41 @@
           "text": "Jagdalpur, Bastar"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "बस्तर दशहरा",
       "categories": [
-        "Devotion"
-      ]
+        "Devotion",
+        "Arts",
+        "Community"
+      ],
+      "story": "Bastar Dussehra is a long cycle of observances centred on Danteshwari and the deity traditions of Bastar. Unlike many other Dussehra celebrations, it does not centre on burning an effigy of Ravana. Village deities and their representatives gather, while chariot-making connects skilled craft, faith and collective participation. The cycle extends far beyond the main procession days, so choosing a particular ritual is more useful than assuming there is one short festival weekend.",
+      "rituals": [
+        "Pat Jatra associated with wood for the chariot",
+        "Crafting the ceremonial wooden chariot",
+        "Gatherings of deities and chariot processions"
+      ],
+      "food": "Explore regional food through public vendors or a local host. Ritual offerings and private community meals follow their own rules.",
+      "dress": "Dress respectfully and keep hands free in crowds. Community regalia and deity objects should never be handled without permission.",
+      "tips": [
+        "Choose authorised viewing areas and keep clear of chariot ropes and procession routes.",
+        "Ask a local guide to explain the specific stage you are seeing rather than applying another region’s Dussehra story."
+      ],
+      "places": [
+        [
+          "Jagdalpur",
+          "CT",
+          82.02,
+          19.07,
+          "Main town associated with Bastar Dussehra; procession routes are programme-dependent."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Bastar Dussehra",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/chhattisgarh/bastar-dussehra"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Hareli",
@@ -580,11 +790,44 @@
           "text": "Across Chhattisgarh"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "हरेली",
       "categories": [
-        "Harvest"
-      ]
+        "Harvest",
+        "Community"
+      ],
+      "story": "Hareli is associated with the greenery of the monsoon and Chhattisgarh’s agricultural life. Village celebrations recognise the work of farming and the season’s hopes for growth. Gedi, the practice of walking on bamboo stilts, is a well-known cultural feature in parts of the state. On Hareli Amavasya, Bastar also observes Pat Jatra within its longer Dussehra cycle; that specific rite should be distinguished from the broader household and village festival.",
+      "rituals": [
+        "Respecting agricultural tools and farming work",
+        "Village gatherings marking the monsoon season",
+        "Gedi displays where locally organised"
+      ],
+      "food": "Household and village meals vary. Ask your host about local preparations rather than expecting a standard festival menu.",
+      "dress": "Comfortable everyday clothing suits public gatherings. Village participants may use regional festive dress.",
+      "tips": [
+        "Confirm that a village gathering welcomes visitors and ask before entering farms or courtyards.",
+        "Watch stilt demonstrations from the space organisers provide; do not handle equipment without an invitation."
+      ],
+      "places": [
+        [
+          "Raipur",
+          "CT",
+          81.63,
+          21.25,
+          "A planning base for announced cultural programmes and nearby village visits."
+        ]
+      ],
+      "sources": [
+        [
+          "Chhattisgarh district administration: Culture and heritage",
+          "https://mohla-manpur-ambagarhchowki.cg.gov.in/en/culture-heritage/"
+        ],
+        [
+          "Ministry of Tourism: Bastar heritage trail and Pat Jatra",
+          "https://utsav.gov.in/view-event/bastar-dussehra-bastar-heritage-trail"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Carnival",
@@ -609,11 +852,41 @@
           "text": "Panaji, Margao & Vasco"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "Carnaval",
       "categories": [
+        "Arts",
+        "Music & dance",
         "Community"
-      ]
+      ],
+      "story": "Goa’s Carnival, often written Carnaval, is a public celebration with processions, music, costumes and decorated floats. Its history is linked to the pre-Lenten carnival tradition, with a distinctive Goan expression today. Parades in different towns form separate programmes rather than one continuously moving event. The figure of King Momo is associated with the festivities. Carnival is distinct from Shigmo, another major Goan celebration with its own seasonal and cultural roots.",
+      "rituals": [
+        "Decorated float parades",
+        "Music and dance along announced routes",
+        "Costume presentations and community entertainment"
+      ],
+      "food": "Food vendors and nearby restaurants offer varied Goan dishes. Ask about seafood, meat and vegetarian ingredients rather than assuming a uniform carnival menu.",
+      "dress": "Costumes belong to participating groups; spectators can wear light, comfortable clothes and walking shoes.",
+      "tips": [
+        "Use the published town-by-town route and arrival information to choose a viewing point.",
+        "Respect barriers and give floats and performers room; arrange your return journey before road closures begin."
+      ],
+      "places": [
+        [
+          "Panaji",
+          "GA",
+          73.83,
+          15.49,
+          "One of the parade cities; confirm the current route and viewing arrangements."
+        ]
+      ],
+      "sources": [
+        [
+          "Goa Tourism: Carnaval celebrations",
+          "https://goatourism.gov.in/blog-list/goa-carnaval-2026-concludes-on-a-grand-note-across-the-state-drawing-enthusiastic-crowds-global-attention/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Shigmo",
@@ -637,11 +910,41 @@
           "text": "Across Goa"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "शिगमो",
       "categories": [
+        "Arts",
+        "Music & dance",
         "Community"
-      ]
+      ],
+      "story": "Shigmo is a Goan spring celebration rooted in local community and religious traditions. Music, folk dance and processions carry these traditions into public space. Organised town parades include cultural presentations and floats, while village observances have their own character and timing. Shigmo is not another name for Carnival: learning which event is scheduled will help you understand the performances and avoid travelling for the wrong programme.",
+      "rituals": [
+        "Folk music and dance presentations",
+        "Community processions and local observances",
+        "Decorated floats at organised Shigmotsav parades"
+      ],
+      "food": "Try regional food from public stalls or restaurants. Household festive dishes vary, and religious spaces may have their own food restrictions.",
+      "dress": "Performers wear costumes suited to their tradition. Visitors need comfortable clothing rather than ceremonial dress.",
+      "tips": [
+        "Check the parade schedule for the particular town you want to visit; dates differ across Goa.",
+        "Ask before close-up photographs and stay out of performance formations, especially when instruments or large floats are moving."
+      ],
+      "places": [
+        [
+          "Ponda",
+          "GA",
+          74.01,
+          15.4,
+          "A base for Goan cultural traditions; confirm announced parade and village programmes."
+        ]
+      ],
+      "sources": [
+        [
+          "Goa Tourism: Faith and heritage celebrations",
+          "https://goatourism.gov.in/faith-heritage-and-spiritual-tourism-lead-goa-towards-a-more-reflective-tourism-experience/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Navratri",
@@ -733,11 +1036,40 @@
           "text": "Ahmedabad"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "ઉત્તરાયણ",
       "categories": [
-        "Community"
-      ]
+        "Community",
+        "Arts"
+      ],
+      "story": "Uttarayan is closely associated with kite flying across Gujarat around Makar Sankranti. Rooftops and open grounds become social spaces where families and friends watch the sky and share food. Ahmedabad’s organised International Kite Festival adds a public showcase of imaginative kites and visiting flyers. That scheduled event is related to, but not identical with, everyday neighbourhood celebrations; its venue and dates need separate confirmation.",
+      "rituals": [
+        "Kite flying and watching from open spaces",
+        "Neighbourhood and family gatherings",
+        "Demonstrations at the organised International Kite Festival"
+      ],
+      "food": "Seasonal food is part of gatherings, but menus vary by household. Ask a local host about their favourite winter dishes and dietary ingredients.",
+      "dress": "Wear comfortable clothes, sun protection and secure footwear. Rooftop access is not a reason to approach unprotected edges.",
+      "tips": [
+        "Choose a public viewing ground or an explicitly hosted rooftop visit.",
+        "Avoid hazardous kite string and never retrieve kites near traffic or power lines; follow local organiser guidance."
+      ],
+      "places": [
+        [
+          "Ahmedabad",
+          "GJ",
+          72.58,
+          23.02,
+          "Public kite-festival programmes and neighbourhood celebrations; verify the current venue."
+        ]
+      ],
+      "sources": [
+        [
+          "Gujarat Tourism: International Kite Festival",
+          "https://gujarattourism.com/fair-and-festival/international-kite-festival.html"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Teej",
@@ -762,11 +1094,41 @@
           "text": "Across Haryana"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "तीज",
       "categories": [
-        "Community"
-      ]
+        "Devotion",
+        "Community",
+        "Music & dance"
+      ],
+      "story": "This guide focuses on Haryana’s monsoon Teej traditions. The festival connects devotion to Parvati and Shiva with family relationships and the relief brought by seasonal rain. Women’s gatherings, songs, dance, mehendi and swings are familiar expressions of the occasion. Teej is observed in several regions and includes differently named observances; a public celebration in Haryana need not share the ritual calendar or procession format of Jaipur.",
+      "rituals": [
+        "Women’s songs and dance gatherings",
+        "Mehendi and decorated swings",
+        "Prayers and family observances, including fasting for some participants"
+      ],
+      "food": "Festive foods and sweets accompany social gatherings, while fasting practices vary. Ask hosts before offering food to someone observing a fast.",
+      "dress": "Colourful festive clothing and jewellery are common. Visitors can dress respectfully without copying personal or ceremonial adornment.",
+      "tips": [
+        "Ask before joining a women’s gathering or photographing participants at close range.",
+        "Check whether an advertised programme is a public cultural event or a private devotional observance."
+      ],
+      "places": [
+        [
+          "Rohtak",
+          "HR",
+          76.61,
+          28.9,
+          "Haryana cultural setting; identify a publicly announced local celebration before travelling."
+        ]
+      ],
+      "sources": [
+        [
+          "Haryana Art and Cultural Affairs: Teej",
+          "https://artandculturalaffairshry.gov.in/teej-festival/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Surajkund International Crafts Mela",
@@ -790,11 +1152,41 @@
           "text": "Surajkund, Faridabad"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Arts"
-      ]
+        "Arts",
+        "Community",
+        "Music & dance"
+      ],
+      "story": "Surajkund International Crafts Mela is an organised fair in Faridabad that brings craftspeople, weavers and performing groups together. Its central purpose is to give artisans a place to demonstrate and sell their work directly. Textiles, pottery and many other craft traditions appear alongside cultural performances. Themes and participating regions change between editions, so an old brochure is useful background but does not guarantee a particular stall or show this year.",
+      "rituals": [
+        "Browsing artisan and handloom stalls",
+        "Watching craft demonstrations where offered",
+        "Folk performances at the mela’s open-air stages"
+      ],
+      "food": "The fair offers a variety of regional food choices. Check individual vendors for ingredients and dietary needs; no single cuisine represents the event.",
+      "dress": "Comfortable walking shoes and weather-appropriate clothing are more useful than formal dress for exploring the large grounds.",
+      "tips": [
+        "Ask makers about materials, technique and care instructions before buying.",
+        "Check official ticketing, gate access and the performance schedule; allow time to return to the correct exit."
+      ],
+      "places": [
+        [
+          "Faridabad",
+          "HR",
+          77.31,
+          28.41,
+          "City-centre reference; the mela itself is at Surajkund, with designated gates."
+        ]
+      ],
+      "sources": [
+        [
+          "Haryana Tourism: Surajkund Crafts Mela",
+          "https://haryanatourism.gov.in/fair-and-festivals/surajkund-international-craft-mela/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Kullu Dussehra",
@@ -819,11 +1211,41 @@
           "text": "Dhalpur, Kullu"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "कुल्लू दशहरा",
       "categories": [
-        "Devotion"
-      ]
+        "Devotion",
+        "Community",
+        "Music & dance"
+      ],
+      "story": "Kullu Dussehra brings local deities and their representatives together around Lord Raghunath. A ceremonial chariot journey into Dhalpur forms a central public moment, followed by a wider fair and cultural programme. The gathering expresses relationships between valley communities as well as devotion. Its sequence differs from familiar one-day Dussehra spectacles elsewhere, so the arrival of deities, processions and performances should be planned as distinct experiences.",
+      "rituals": [
+        "Arrival of community deities and their attendants",
+        "Lord Raghunath’s ceremonial chariot procession",
+        "Cultural performances and fairground gatherings"
+      ],
+      "food": "Explore local food through public stalls and restaurants. Sacred offerings and community meals may have separate arrangements and access rules.",
+      "dress": "Layered clothing suits outdoor viewing. Regional caps and textiles are part of local dress, not compulsory visitor attire.",
+      "tips": [
+        "Keep clear of chariot ropes, bearers and deity palanquins even when taking photographs.",
+        "Check the current Dhalpur programme and allow extra travel time around procession closures."
+      ],
+      "places": [
+        [
+          "Kullu",
+          "HP",
+          77.11,
+          31.96,
+          "Dhalpur is associated with the main gathering; confirm current entrances and viewing areas."
+        ]
+      ],
+      "sources": [
+        [
+          "Himachal Tourism: Temples and deity traditions",
+          "https://himachaltourism.gov.in/destination/temples/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Mandi Shivratri",
@@ -848,11 +1270,41 @@
           "text": "Mandi"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "मंडी शिवरात्रि",
       "categories": [
-        "Devotion"
-      ]
+        "Devotion",
+        "Community",
+        "Arts"
+      ],
+      "story": "Mandi Shivratri combines religious observances with a major gathering of local deities, processions and cultural events. Bhootnath Temple and the presence of Madho Rai are important within its ceremonial setting. The fair gives visitors an opportunity to understand how village deity traditions relate to the town. Evening performances, exhibitions and the religious sequence are different parts of the occasion; they may operate on separate schedules.",
+      "rituals": [
+        "Gathering of local deities and their attendants",
+        "Religious visits and ceremonial processions",
+        "Cultural evenings, exhibitions and public fair activities"
+      ],
+      "food": "Himachali dham is associated with regional celebrations and is mentioned in tourism accounts of the fair. Confirm where meals are offered and how to join.",
+      "dress": "Respectful layers suit temple visits and outdoor evenings. Colourful local turbans are part of procession dress.",
+      "tips": [
+        "Give bearers and worshippers priority around temples and processions.",
+        "Check the daily programme before choosing between a religious observance and an evening cultural performance."
+      ],
+      "places": [
+        [
+          "Mandi",
+          "HP",
+          76.93,
+          31.71,
+          "Town-centre reference; official programme identifies procession and fair venues."
+        ]
+      ],
+      "sources": [
+        [
+          "Himachal Tourism: Mandi",
+          "https://himachaltourism.gov.in/destination/mandi/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Sarhul",
@@ -877,11 +1329,41 @@
           "text": "Ranchi & nearby villages"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "सरहुल",
       "categories": [
-        "Community"
-      ]
+        "Community",
+        "Devotion",
+        "Music & dance"
+      ],
+      "story": "Sarhul welcomes spring among several Adivasi communities in Jharkhand. Sal blossoms are closely associated with the occasion, linking worship and community life to the changing season. Songs, dancing and gatherings express renewal, but names, narratives and ritual details differ between communities. A public city procession offers one way to encounter Sarhul; it should not be treated as a complete representation of every village’s sacred practices.",
+      "rituals": [
+        "Community worship associated with the spring season",
+        "Use of sal blossoms in local observances",
+        "Songs, dancing and public gatherings"
+      ],
+      "food": "Families prepare celebratory food according to their own traditions. Ask before accepting or photographing offerings, and check ingredients with your host.",
+      "dress": "White saris with red borders appear in public celebrations, among other regional clothing. Visitors do not need to adopt community dress.",
+      "tips": [
+        "Ask permission before entering a sacred grove or approaching a ritual area.",
+        "Use a local guide or host to identify the community and meaning of the celebration rather than describing all practices as the same."
+      ],
+      "places": [
+        [
+          "Ranchi",
+          "JH",
+          85.31,
+          23.34,
+          "Public processions and nearby community celebrations; access differs by site."
+        ]
+      ],
+      "sources": [
+        [
+          "Jharkhand Chief Minister’s office: Sarhul",
+          "https://cm.jharkhand.gov.in/sarhul"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Karam",
@@ -906,11 +1388,41 @@
           "text": "Across Jharkhand"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "करम",
       "categories": [
-        "Community"
-      ]
+        "Devotion",
+        "Community",
+        "Music & dance"
+      ],
+      "story": "Karam centres on reverence for Karam devta and is observed by several communities in Jharkhand and neighbouring regions. Young people, communal singing and dance are prominent in accounts of the celebration. Its relationship with nature, wellbeing and collective life makes the ritual setting important, not merely the performance. Practices vary, so a host’s explanation of their own observance is more reliable than assuming one statewide sequence.",
+      "rituals": [
+        "Worship associated with Karam devta",
+        "Community songs and dance",
+        "Gatherings in which young people play an important role"
+      ],
+      "food": "Offerings and shared meals follow local custom. Ask hosts about preparation and participation rather than assuming every gathering has a public feast.",
+      "dress": "Regional festive textiles and everyday dress vary by community. Choose respectful clothing and avoid handling ceremonial objects.",
+      "tips": [
+        "Ask which activities are public and where visitors may stand before a ceremony starts.",
+        "Seek permission for portraits and recordings, particularly when songs or rituals are not intended as public performances."
+      ],
+      "places": [
+        [
+          "Ranchi",
+          "JH",
+          85.31,
+          23.34,
+          "A base for learning about local Karam traditions; arrange a specific hosted visit."
+        ]
+      ],
+      "sources": [
+        [
+          "Jharkhand Tourism: Festivals",
+          "https://tourism.jharkhand.gov.in/festivals"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Mysuru Dasara",
@@ -1068,11 +1580,45 @@
           "text": "Across Kerala"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "വിഷു",
       "categories": [
-        "Community"
-      ]
+        "Community",
+        "Devotion",
+        "Harvest"
+      ],
+      "story": "Vishu marks an auspicious solar-calendar occasion in Kerala, usually during April. The first sight of the day, Vishukkani, is central: an arrangement of produce, flowers, a mirror and other meaningful objects is prepared with care. Gifts from elders and a shared feast connect the ritual to family life. Household practices and temple observances differ, and Vishu should not be treated as interchangeable with Onam or every other regional New Year.",
+      "rituals": [
+        "Viewing the Vishukkani arrangement on waking",
+        "Vishukkaineetam gifts from elders",
+        "Family meals and temple visits where observed"
+      ],
+      "food": "Vishu sadya offers a range of Kerala dishes; menus vary. Vishu katta is another regional preparation associated with the occasion.",
+      "dress": "Kerala saris and mundu are familiar festive choices. Temple dress requirements may be more specific, so check before visiting.",
+      "tips": [
+        "A household Vishukkani is an intimate family moment: arrange a host’s invitation rather than arriving unannounced.",
+        "If booking a festive meal, confirm its menu and service time independently of temple schedules."
+      ],
+      "places": [
+        [
+          "Thrissur",
+          "KL",
+          76.21,
+          10.53,
+          "A Kerala cultural base; confirm the specific temple or hosted family arrangements."
+        ]
+      ],
+      "sources": [
+        [
+          "Kerala Tourism: Vishu",
+          "https://www.keralatourism.org//vishu/"
+        ],
+        [
+          "Kerala Tourism: Vishu katta",
+          "https://www.keralatourism.org/kerala-food/vishu-katta/164/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Bhagoria",
@@ -1097,11 +1643,41 @@
           "text": "Jhabua & Alirajpur"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "भगोरिया",
       "categories": [
-        "Community"
-      ]
+        "Harvest",
+        "Community",
+        "Music & dance"
+      ],
+      "story": "Bhagoria is a series of fairs associated especially with Bhil and Bhilala communities in western Madhya Pradesh. Held around local market days before Holi, the gatherings connect the end of the harvest with music, dance, social visits and trade. Jhabua, Alirajpur, Dhar and Khargone are among the regions associated with it. Reducing Bhagoria to a sensational story about courtship overlooks its agricultural, commercial and community importance.",
+      "rituals": [
+        "Market-day gatherings at local haats",
+        "Traditional music and group dancing",
+        "Exchange of colour where participants welcome it"
+      ],
+      "food": "Market stalls offer food and seasonal produce. Ask vendors about ingredients; everyday regional cuisine and ritual food are not necessarily the same.",
+      "dress": "Bright clothing and silver ornaments appear in community dress. Ask permission for photographs rather than treating participants as exhibits.",
+      "tips": [
+        "Find the local haat calendar, since different towns celebrate on different days.",
+        "Ask before applying colour, joining a dance or photographing personal interactions; participation should always be welcome."
+      ],
+      "places": [
+        [
+          "Jhabua",
+          "MP",
+          74.59,
+          22.77,
+          "Base for regional haats; identify the exact market and day locally."
+        ]
+      ],
+      "sources": [
+        [
+          "Madhya Pradesh Tourism: Bhagoria",
+          "https://www.mptourism.com/bhagoria-tribal-festival.htm"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Khajuraho Dance Festival",
@@ -1125,11 +1701,40 @@
           "text": "Khajuraho"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Arts"
-      ]
+        "Arts",
+        "Music & dance"
+      ],
+      "story": "Khajuraho Dance Festival presents Indian classical dance in the setting of Khajuraho’s monumental heritage. It is a curated arts programme, with named performers and scheduled presentations, rather than a single religious rite shared by all visitors. Different dance traditions bring distinctive movement, music and storytelling. Reading the programme before attending makes it easier to understand what you are watching and to choose performances that interest you.",
+      "rituals": [
+        "Scheduled classical dance recitals",
+        "Musical accompaniment and expressive storytelling",
+        "Associated cultural activities when included by organisers"
+      ],
+      "food": "Food is part of the wider visitor experience rather than a defining ritual. Plan a meal around performance times and use the designated eating areas.",
+      "dress": "Comfortable, respectful evening clothing is suitable for audiences. Performers’ costumes belong to particular dance traditions.",
+      "tips": [
+        "Check the current performance roster, venue and entry arrangements; an earlier edition’s lineup is not a promise.",
+        "Keep phones silent and follow rules on flash, filming and movement during a recital; visit the monuments separately if required."
+      ],
+      "places": [
+        [
+          "Khajuraho",
+          "MP",
+          79.92,
+          24.83,
+          "Town reference near the temple heritage area; current festival venue must be confirmed."
+        ]
+      ],
+      "sources": [
+        [
+          "Madhya Pradesh Tourism: Khajuraho Dance Festival",
+          "https://www.mptourism.com/khajuraho-dance-festival.htm"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Ganesh Chaturthi",
@@ -1224,11 +1829,41 @@
           "text": "Across Maharashtra"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "गुढीपाडवा",
       "categories": [
-        "Community"
-      ]
+        "Community",
+        "Devotion",
+        "Arts"
+      ],
+      "story": "Gudi Padwa welcomes the Marathi New Year at the beginning of Chaitra. A gudi, raised outside the home, gives the celebration its distinctive visual symbol and expresses auspiciousness and renewal. Household prayers and meals sit alongside public shobhayatra processions in places such as Pune and Mumbai. It shares a seasonal setting with other regional New Year celebrations, but its customs and local programmes deserve their own attention.",
+      "rituals": [
+        "Raising and worshipping a decorated gudi",
+        "Making rangoli and decorating entrances",
+        "Community shobhayatra processions where announced"
+      ],
+      "food": "Puran poli and shrikhand are familiar festive foods. Neem and jaggery can express acceptance of life’s bitter and sweet experiences; customs vary.",
+      "dress": "Saris, kurtas and regional festive clothing are common. Comfortable footwear is useful for public procession viewing.",
+      "tips": [
+        "View household gudis from public space unless invited inside.",
+        "Confirm the route and time of the particular shobhayatra, and leave clear space for performers and worshippers."
+      ],
+      "places": [
+        [
+          "Pune",
+          "MH",
+          73.86,
+          18.52,
+          "Public processions and household traditions; check neighbourhood-specific schedules."
+        ]
+      ],
+      "sources": [
+        [
+          "Maharashtra Tourism: Gudi Padwa",
+          "https://maharashtratourism.gov.in/festivals/gudi-padwa/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Yaoshang",
@@ -1253,11 +1888,40 @@
           "text": "Imphal & surrounding areas"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Community"
-      ]
+        "Community",
+        "Music & dance"
+      ],
+      "story": "Yaoshang is an important spring celebration in Manipur, traditionally extending over several days around the full moon of Phalguna. It is especially associated with Meitei cultural life. Thabal Chongba, in which participants form a circle and dance together, is a recognisable part of the festive season. Community programmes vary, so the festival is best understood through a particular neighbourhood’s arrangements rather than a single assumed statewide timetable.",
+      "rituals": [
+        "Community gatherings over the spring festive period",
+        "Thabal Chongba circle dancing",
+        "Local cultural activities according to the neighbourhood programme"
+      ],
+      "food": "Explore local food through public vendors or a host. Festival hospitality does not imply that every household meal is open to visitors.",
+      "dress": "Participants may wear Manipuri textiles and festive clothes. Ask hosts about appropriate clothing if invited to join an activity.",
+      "tips": [
+        "Obtain the local programme and confirm that visitors may attend the dance gathering.",
+        "Join only when invited, follow the group’s lead and ask before photographing people; confirm current local travel arrangements before making plans."
+      ],
+      "places": [
+        [
+          "Imphal",
+          "MN",
+          93.94,
+          24.82,
+          "Neighbourhood celebrations have separate organisers and access arrangements."
+        ]
+      ],
+      "sources": [
+        [
+          "Manipur Tourism: Festivals in Manipur",
+          "https://manipurtourism.gov.in/festivals-in-manipur/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Sangai Festival",
@@ -1281,11 +1945,41 @@
           "text": "Manipur; venues vary"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Arts"
-      ]
+        "Arts",
+        "Community",
+        "Music & dance"
+      ],
+      "story": "Sangai Festival is an organised showcase of Manipur’s arts, crafts, cuisine and sporting traditions. It takes its name from the state’s distinctive brow-antlered deer. Past editions have brought performances, handlooms and demonstrations together across several venues, helping visitors encounter the diversity of the state. This is an annual event whose delivery depends on organiser announcements: a historical programme should not be presented as confirmation of a forthcoming edition.",
+      "rituals": [
+        "Announced dance and music performances",
+        "Handloom and craft exhibitions",
+        "Demonstrations of indigenous games when programmed"
+      ],
+      "food": "Past food programmes have included dishes such as eromba, singju and fish curry. Ingredients vary; ask specifically about fermented fish and vegetarian preparation.",
+      "dress": "Comfortable clothing suits exhibition grounds. Performance costumes represent distinct communities rather than one universal Manipuri outfit.",
+      "tips": [
+        "Confirm that the edition is going ahead, then check venues, tickets and local travel arrangements.",
+        "Plan transport between venues instead of assuming all activities occur in one fairground; ask makers before photographing their work."
+      ],
+      "places": [
+        [
+          "Imphal",
+          "MN",
+          93.94,
+          24.82,
+          "Planning base; festival venues may also be outside the city."
+        ]
+      ],
+      "sources": [
+        [
+          "Manipur Tourism: Sangai Festival background and past programme",
+          "https://manipurtourism.gov.in/sangai-festival-2018/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Wangala",
@@ -1310,11 +2004,41 @@
           "text": "Garo Hills"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Harvest"
-      ]
+        "Harvest",
+        "Music & dance",
+        "Community"
+      ],
+      "story": "Wangala is a Garo harvest celebration associated with gratitude to Saljong and the agricultural cycle. Drumming and coordinated dancing are important public expressions of the occasion, especially in the well-known Hundred Drums presentation. Village observances have their own settings and calendars; the organised showcase should not be mistaken for the only form of Wangala. Learning from a Garo host helps connect the performances to their cultural and spiritual meaning.",
+      "rituals": [
+        "Harvest thanksgiving observances",
+        "Rhythmic group dancing accompanied by drums",
+        "Community gatherings and organised cultural presentations"
+      ],
+      "food": "Garo food and traditional beverages may be offered. Ask about ingredients and alcohol content; accepting a drink is not necessary to appreciate the gathering.",
+      "dress": "Community textiles and headpieces carry cultural meaning. Visitors can wear practical clothes and ask before photographing or handling ornaments.",
+      "tips": [
+        "Check the specific village or showcase programme instead of assuming one date applies throughout the Garo Hills.",
+        "Keep dance lines and drummers’ space clear, and seek guidance before approaching ritual areas."
+      ],
+      "places": [
+        [
+          "Tura",
+          "ML",
+          90.22,
+          25.51,
+          "Base for Garo Hills visits; verify the actual Wangala ground separately."
+        ]
+      ],
+      "sources": [
+        [
+          "Meghalaya Tourism: Wangala",
+          "https://www.meghalayatourism.in/explore/about-meghalaya/dance-music/wangala-dance/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Nongkrem Dance Festival",
@@ -1339,11 +2063,41 @@
           "text": "Smit, near Shillong"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Community"
-      ]
+        "Harvest",
+        "Devotion",
+        "Arts"
+      ],
+      "story": "Nongkrem is a Khasi thanksgiving festival held at Smit, the traditional seat of Hima Khyrim near Shillong. Its ceremonies connect prayers for prosperity and a good harvest with the responsibilities of the Syiem and religious authorities. The public dance is one part of a larger sacred observance, rather than a performance arranged simply for visitors. Women and men have distinct roles, and the ceremonial dress, music and movement carry community meanings. Autumn is a useful planning window, but the organising authorities announce the actual programme.",
+      "rituals": [
+        "Thanksgiving ceremonies associated with the Pomblang observance",
+        "Women and men performing ceremonial dances in the courtyard",
+        "Traditional instrumental music accompanying the dancers"
+      ],
+      "food": "Look for locally run Khasi food stalls nearby; refreshments for visitors are separate from ceremonial offerings. Ask about ingredients and vegetarian options.",
+      "dress": "Dancers wear elaborate Khasi ceremonial textiles and ornaments. Visitors can wear comfortable, respectful everyday clothing.",
+      "tips": [
+        "Stay outside the designated dancing space and ask before photographing ceremonial participants.",
+        "Confirm the principal dance day before arranging transport from Shillong; allow time for traffic near Smit."
+      ],
+      "places": [
+        [
+          "Smit",
+          "ML",
+          91.9,
+          25.52,
+          "Approximate village centre; follow local directions to the ceremonial courtyard."
+        ]
+      ],
+      "sources": [
+        [
+          "Meghalaya Government: Nongkrem Dance",
+          "https://meghalaya.gov.in/index.php/nongkrem-dance"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Chapchar Kut",
@@ -1367,11 +2121,45 @@
           "text": "Aizawl & across Mizoram"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Community"
-      ]
+        "Harvest",
+        "Community",
+        "Arts"
+      ],
+      "story": "Chapchar Kut is a spring celebration rooted in the agricultural rhythm of jhum cultivation. It marks a pause after the demanding work of clearing land, bringing people together through music, dancing and shared festivities. Contemporary public programmes also celebrate Mizo cultural identity, textiles and performance. Aizawl is a useful starting point for a visitor, though local communities hold their own events. The usual spring season should not be treated as a fixed annual date: the announced programme determines when the main gathering takes place.",
+      "rituals": [
+        "Traditional dances and songs performed by community groups",
+        "Drum and cymbal accompaniment",
+        "Public gatherings showcasing Mizo dress and cultural expression"
+      ],
+      "food": "Bamboo-shoot and leafy vegetable preparations are regional foods to explore. Menus vary by vendor, so ask about meat or fermented ingredients.",
+      "dress": "Performers often wear bright Mizo woven clothing and headgear; visitors do not need ceremonial costume.",
+      "tips": [
+        "Check the published Aizawl programme and venue before making bookings.",
+        "Watch organised dances from the audience area; join participatory activities only when invited."
+      ],
+      "places": [
+        [
+          "Aizawl",
+          "MZ",
+          92.72,
+          23.73,
+          "City centre reference; confirm the announced festival ground."
+        ]
+      ],
+      "sources": [
+        [
+          "Mizoram Tourism: Chapchar Kut",
+          "https://mizoramtourism.com/festivals/1"
+        ],
+        [
+          "Aizawl District: Chapchar Kut",
+          "https://aizawl.nic.in/festival/chapchar-kut-festival/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Mim Kut",
@@ -1396,11 +2184,40 @@
           "text": "Mizo communities"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Harvest"
-      ]
+        "Harvest",
+        "Community"
+      ],
+      "story": "Mim Kut is one of the traditional seasonal festivals documented by Mizoram Tourism, which describes it as the Maize Festival. It belongs to the agricultural and cultural heritage of Mizo communities, with singing, dancing and communal enjoyment associated with the celebration. Accounts of older practices and present-day gatherings can differ, so a historical description should not be assumed to describe every household today. Unlike a large annual ticketed event, a local observance may have no advertised visitor programme. Ask a community host what is being celebrated and which activities welcome guests.",
+      "rituals": [
+        "Community songs and dances where locally organised",
+        "Gatherings connected with the seasonal harvest",
+        "Sharing food according to the host community’s customs"
+      ],
+      "food": "Harvest foods and local meals vary between communities. Historical accounts mention rice beer, but visitors should not assume it is served or required.",
+      "dress": "Woven Mizo clothing may feature in cultural programmes. Everyday respectful dress is appropriate unless organisers advise otherwise.",
+      "tips": [
+        "Confirm that a public gathering is taking place before planning travel around it.",
+        "Ask permission before entering family gatherings or photographing participants."
+      ],
+      "places": [
+        [
+          "Aizawl",
+          "MZ",
+          92.72,
+          23.73,
+          "Planning base for local cultural information; not a guaranteed public festival venue."
+        ]
+      ],
+      "sources": [
+        [
+          "Mizoram Tourism: Festivals",
+          "https://mizoramtourism.com/festivals"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Hornbill Festival",
@@ -1490,11 +2307,41 @@
           "text": "Ao communities, Mokokchung"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Harvest"
-      ]
+        "Harvest",
+        "Community",
+        "Arts"
+      ],
+      "story": "Moatsu is an Ao Naga festival associated with community bonding after agricultural work. The Ministry of Tourism describes a three-day celebration in May, bringing people together through shared festivities. Its importance lies in the relationships renewed among neighbours and families, alongside cultural expression. Mokokchung and surrounding Ao villages provide the relevant geographical context, but an announced public event and a village’s own observance may have different arrangements. Treat the general season as an introduction and seek the host community’s programme before making a special journey.",
+      "rituals": [
+        "Community gatherings and shared celebrations",
+        "Traditional music and dance in organised programmes",
+        "Hospitality that renews relationships among participants"
+      ],
+      "food": "Food is arranged by the host community; ask what is included before accepting a meal, particularly if you avoid meat or particular ingredients.",
+      "dress": "Ao shawls and traditional clothing may be worn by participants. Ceremonial garments have meanings that a local guide can explain.",
+      "tips": [
+        "Contact a local host to identify public events in the Mokokchung area.",
+        "Ask before photographing people or joining a group meal; private hospitality is by invitation."
+      ],
+      "places": [
+        [
+          "Mokokchung",
+          "NL",
+          94.52,
+          26.32,
+          "Town centre reference for Ao community celebrations in the surrounding area."
+        ]
+      ],
+      "sources": [
+        [
+          "Ministry of Tourism: Moatsu Festival",
+          "https://utsav.gov.in/public/view-event/moatsu-festival"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Rath Yatra",
@@ -1577,11 +2424,40 @@
           "text": "Across Odisha"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
+        "Harvest",
         "Community"
-      ]
+      ],
+      "story": "Raja Parba celebrates womanhood and the renewal of the earth at the approach of the monsoon in Odisha. The three-day observance symbolically gives Mother Earth rest, with agricultural work traditionally paused. Swings, games, new clothes and festive food are prominent parts of the celebration, particularly for girls and women. It is both a household occasion and a community festival; public Raja events can provide a welcoming introduction for visitors. Customs vary across Odisha, and the symbolism is best understood through the voices of the people who practise it.",
+      "rituals": [
+        "Decorated swings and traditional games",
+        "A symbolic pause in agricultural work",
+        "Family and community gatherings celebrating seasonal renewal"
+      ],
+      "food": "Pitha and other festive treats are a good starting point for exploring Odia food. Ask vendors about ingredients and preparation rather than assuming a single standard menu.",
+      "dress": "New festive clothing is common; visitors can choose light, comfortable clothing suitable for outdoor gatherings.",
+      "tips": [
+        "Look for announced public Raja programmes in Bhubaneswar rather than entering private celebrations.",
+        "Ask permission before using a community swing and wait for organisers to supervise children."
+      ],
+      "places": [
+        [
+          "Bhubaneswar",
+          "OR",
+          85.82,
+          20.3,
+          "City centre reference; public Raja venues vary by edition."
+        ]
+      ],
+      "sources": [
+        [
+          "Odisha Tourism: Raja Parba and celebrations",
+          "https://odishatourism.gov.in/en/events"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Vaisakhi",
@@ -1671,11 +2547,44 @@
           "text": "Across Punjab"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
+        "Harvest",
         "Community"
-      ]
+      ],
+      "story": "Lohri is a winter folk celebration strongly associated with Punjab and Punjabi communities elsewhere. An evening bonfire becomes a focus for gathering, singing and sharing seasonal treats. It expresses warmth and companionship during the cold season, and a family’s celebration may also mark a recent marriage or the arrival of a child. The character of the occasion depends on the hosts: a neighbourhood gathering, family party and organised cultural programme offer different experiences. A public programme is the simplest route for visitors who do not have a personal invitation.",
+      "rituals": [
+        "Gathering around an evening bonfire",
+        "Folk songs and dancing in community celebrations",
+        "Sharing seasonal snacks among friends and neighbours"
+      ],
+      "food": "Peanuts, popcorn, revri and gajak are familiar Lohri treats. Sesame and nuts are common ingredients, so check allergens before sharing.",
+      "dress": "Punjabi festive clothing may appear at organised events. Warm layers and practical footwear are useful for an outdoor evening.",
+      "tips": [
+        "Keep loose clothing and children away from the fire and follow the organisers’ viewing boundaries.",
+        "Ask a local host about a public celebration; private family festivities are not open-access attractions."
+      ],
+      "places": [
+        [
+          "Amritsar",
+          "PB",
+          74.87,
+          31.63,
+          "City centre reference for Punjabi winter celebrations."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Celebrating Lohri",
+          "https://www.incredibleindia.gov.in/en/punjab/amritsar/celebrating-lohri-the-punjabi-way"
+        ],
+        [
+          "Delhi Tourism: Lohri",
+          "https://delhitourism.gov.in/dt/festivals/lohri.html"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Gangaur",
@@ -1766,11 +2675,44 @@
           "text": "Pushkar"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Community"
-      ]
+        "Community",
+        "Arts"
+      ],
+      "story": "Pushkar Fair brings together livestock trading, pilgrimage and a public cultural fair in Rajasthan. The town’s lake, temples, markets and fairground create several overlapping experiences, so the most useful itinerary depends on whether you want to explore craft stalls, cultural performances or the religious setting. The trading activity and public entertainment do not necessarily peak on the same day. Pushkar’s sacred lake remains a place of worship during the festivities, and its ghats should be approached with the same care as a temple rather than as a photographic stage.",
+      "rituals": [
+        "Livestock trading and fairground activity",
+        "Craft and textile stalls alongside cultural programmes",
+        "Pilgrimage and worship around Pushkar Lake"
+      ],
+      "food": "Explore the town’s vegetarian meals and sweet shops; fairground vendors offer snacks, but menus and hygiene arrangements differ.",
+      "dress": "Comfortable walking clothes, sun protection and a layer for the evening work well; dress respectfully at the ghats.",
+      "tips": [
+        "Check separate schedules for livestock activity and staged events before choosing your dates.",
+        "Ask before photographing traders, avoid obstructing animals and confirm any activity’s price before agreeing."
+      ],
+      "places": [
+        [
+          "Pushkar",
+          "RJ",
+          74.55,
+          26.49,
+          "Town centre reference; lake ghats and fairground are different locations."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Pushkar Camel Fair",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/pushkar-camel-fair"
+        ],
+        [
+          "Incredible India: Pushkar",
+          "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/ajmer/pushkar.html"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Losoong / Namsoong",
@@ -1795,11 +2737,41 @@
           "text": "Across Sikkim"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Harvest"
-      ]
+        "Harvest",
+        "Community",
+        "Devotion"
+      ],
+      "story": "Losoong and Namsoong are closely associated seasonal celebrations in Sikkim, observed among Bhutia and Lepcha communities respectively. The period celebrates the harvest and includes family gatherings, while associated monastery programmes may feature ceremonial cham dances. The Government of Sikkim also notes traditional skills such as archery. These related observances should not erase differences between communities or be confused with Losar. A monastery’s dance programme can take place before the main family festival, making local confirmation especially important for visitors.",
+      "rituals": [
+        "Family and community harvest celebrations",
+        "Cham dances at participating monasteries on their own schedules",
+        "Traditional games or archery where organised"
+      ],
+      "food": "Family meals reflect local traditions and preferences. Ask hosts about the menu; a regional dish available in Gangtok is not automatically a ceremonial food.",
+      "dress": "Traditional Bhutia and Lepcha clothing may be seen at celebrations. Bring warm layers for winter outdoor viewing.",
+      "tips": [
+        "Confirm the specific monastery’s programme rather than assuming all dances happen on the same day.",
+        "Remain outside the ritual performance area and follow monastery photography rules."
+      ],
+      "places": [
+        [
+          "Gangtok",
+          "SK",
+          88.61,
+          27.33,
+          "Planning base; confirm individual monastery and community venues."
+        ]
+      ],
+      "sources": [
+        [
+          "Government of Sikkim: Festivals",
+          "https://www.sikkim.gov.in/KnowSikkim/about-sikkim/festivals-in-sikkim"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Pongal",
@@ -1892,11 +2864,40 @@
           "text": "Across Tamil Nadu"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "புத்தாண்டு",
       "categories": [
-        "Community"
-      ]
+        "Community",
+        "Devotion"
+      ],
+      "story": "Puthandu marks the opening of the Tamil month of Chithirai and the beginning of the Tamil New Year. It is a time for family visits, greetings and renewal, with household decorations and worship forming part of many celebrations. Kolam designs at entrances welcome the occasion, while special meals bring generations together. Tamil communities around the world observe the festival, and households vary in how they combine religious and cultural customs. In Tamil Nadu, a temple visit can form part of the day, but each temple sets its own arrangements.",
+      "rituals": [
+        "Kolam designs and decorated household entrances",
+        "New Year greetings and seeking elders’ blessings",
+        "Special worship and family meals"
+      ],
+      "food": "Mango pachadi is a well-known seasonal preparation; festive meals can also include rice, vegetable dishes, vadai and payasam. Household recipes differ.",
+      "dress": "New or festive clothing is common. Follow the individual temple’s dress requirements if you plan to enter.",
+      "tips": [
+        "Confirm temple opening and entry arrangements before setting out.",
+        "Do not confuse Tamil New Year with the separate multi-day Chithirai festival programme in Madurai."
+      ],
+      "places": [
+        [
+          "Chennai",
+          "TN",
+          80.27,
+          13.08,
+          "City reference for Tamil New Year celebrations and temple visits."
+        ]
+      ],
+      "sources": [
+        [
+          "Ministry of Tourism: Tamil New Year",
+          "https://utsav.gov.in/public/view-event/tamil-new-year-arulmigu-meenakshi-sundareshwarar-temple-1"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Bathukamma",
@@ -1980,11 +2981,40 @@
           "text": "Hyderabad & Secunderabad"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "బోనాలు",
       "categories": [
-        "Devotion"
-      ]
+        "Devotion",
+        "Community"
+      ],
+      "story": "Bonalu is a Telangana festival of devotion and thanksgiving to Mahakali. In Hyderabad, Secunderabad and other communities, women carry decorated pots containing a prepared food offering to the goddess. The name is associated with the meal offered, and the procession combines devotion with strong neighbourhood participation. Celebrations take place through the month of Ashadam, with different temples and localities following their own schedules. A visitor should therefore choose a particular temple programme rather than assume there is one citywide festival day.",
+      "rituals": [
+        "Preparing and carrying the bonam offering in decorated pots",
+        "Temple worship dedicated to Mahakali",
+        "Neighbourhood processions and accompanying music"
+      ],
+      "food": "The bonam is a sacred food offering; descriptions include cooked rice, jaggery and curd. Preparations vary, and offerings are not general visitor refreshments.",
+      "dress": "Women carrying offerings often wear festive traditional attire. Visitors should dress respectfully and leave room for worshippers.",
+      "tips": [
+        "Check the schedule for the particular Hyderabad or Secunderabad temple you wish to visit.",
+        "Avoid standing in the procession’s path or interrupting someone carrying an offering for a photograph."
+      ],
+      "places": [
+        [
+          "Hyderabad",
+          "TG",
+          78.49,
+          17.39,
+          "City reference; temple celebrations occur at multiple locations."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Telangana Bonalu",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/telangana/bonalu"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Kharchi Puja",
@@ -2009,11 +3039,40 @@
           "text": "Old Agartala"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Devotion"
-      ]
+        "Devotion",
+        "Community"
+      ],
+      "story": "Kharchi Puja is one of Tripura’s major religious festivals, centred on the Fourteen Gods temple at Old Agartala. Its traditions connect the state’s historic royal worship with a much wider gathering of devotees and visitors. Ceremonies and a surrounding fair bring different communities together over several days. For a visitor, the temple observance and the public fair are related but distinct spaces: worshippers take priority around sacred objects and ritual routes. The lunar calendar and local organisers determine the programme each year.",
+      "rituals": [
+        "Worship associated with the fourteen deities",
+        "Ceremonial activities led by the temple’s religious authorities",
+        "A public fair and community gathering around the festival"
+      ],
+      "food": "Sweets and other offerings have devotional roles. Food sold at the fair is a separate visitor choice; ask about ingredients and serving arrangements.",
+      "dress": "Respectful clothing suitable for temple surroundings is appropriate. Follow instructions about footwear and restricted areas.",
+      "tips": [
+        "Confirm the current temple and fair timetable before travelling from central Agartala.",
+        "Ask before photographing rituals and allow extra time for queues near the shrine."
+      ],
+      "places": [
+        [
+          "Old Agartala",
+          "TR",
+          91.37,
+          23.86,
+          "Approximate locality near the Fourteen Gods temple; confirm the entrance locally."
+        ]
+      ],
+      "sources": [
+        [
+          "Tripura Information and Cultural Affairs: Kharchi Festival",
+          "https://ica.tripura.gov.in/kharchi-festival"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Garia Puja",
@@ -2037,11 +3096,41 @@
           "text": "Tripuri communities"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Harvest"
-      ]
+        "Devotion",
+        "Harvest",
+        "Community"
+      ],
+      "story": "Garia Puja is a spring observance among indigenous communities of Tripura, centred on prayers for well-being and prosperity. Ritual offerings and community celebration are important, but practices belong to particular communities and hosts rather than to a single statewide tourist performance. The Department of Information and Cultural Affairs documents a range of ritual ingredients, showing how material offerings form part of the observance. Visitors should seek a public programme or an invitation from a local host who can explain the significance of what is taking place.",
+      "rituals": [
+        "Community worship and offerings associated with Garia",
+        "Gatherings that express hopes for prosperity and welfare",
+        "Music and dance where included in local cultural programmes"
+      ],
+      "food": "Ritual offerings can include rice, eggs and other items, according to local custom. They should not be treated as a standard visitor meal.",
+      "dress": "Community-specific woven dress may feature in celebrations. Ask before wearing ceremonial garments or borrowing accessories.",
+      "tips": [
+        "Use a local cultural host to identify a gathering that welcomes visitors.",
+        "Do not handle ritual objects or offerings; ask the host about any restrictions before taking photographs."
+      ],
+      "places": [
+        [
+          "Agartala",
+          "TR",
+          91.29,
+          23.83,
+          "Planning base for community-led events; not a guaranteed ritual venue."
+        ]
+      ],
+      "sources": [
+        [
+          "Tripura Information and Cultural Affairs: Garia Puja",
+          "https://ica.tripura.gov.in/garia-puja"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Holi",
@@ -2139,11 +3228,44 @@
           "text": "Varanasi"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Community"
-      ]
+        "Devotion",
+        "Arts"
+      ],
+      "story": "Dev Deepawali transforms Varanasi’s riverfront with rows of lamps on Kartik Purnima. It is a separate observance from the main Diwali night, with worship, prayers and cultural activity focused on the Ganga and its ghats. The illuminated steps are visually striking, but they remain working public and sacred spaces. A riverside walk, a fixed viewing point and a boat trip offer very different experiences; choose one that suits your group’s mobility and comfort with crowds. The exact event programme and access arrangements change by edition.",
+      "rituals": [
+        "Lighting lamps along the ghats",
+        "Prayers and riverfront religious observances",
+        "Cultural music and performances where scheduled"
+      ],
+      "food": "Varanasi’s local snacks and sweets can be explored away from the busiest viewing areas. Festival offerings should be handled only as directed by organisers.",
+      "dress": "Wear comfortable shoes with grip for steps and respectful clothing around worship areas. Carry a light evening layer.",
+      "tips": [
+        "Identify your return route before the ghats become crowded.",
+        "For boat viewing, confirm boarding location, capacity and life-jacket provision directly with the operator."
+      ],
+      "places": [
+        [
+          "Varanasi",
+          "UP",
+          83,
+          25.32,
+          "City reference; choose and confirm a particular ghat or boarding point."
+        ]
+      ],
+      "sources": [
+        [
+          "Kashi Government Portal: Dev Deepawali",
+          "https://kashi.gov.in/event/dev-deepawali"
+        ],
+        [
+          "Incredible India: Dev Deepawali",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/illuminating-the-eternal-spirit-of-kashi"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Harela",
@@ -2167,11 +3289,44 @@
           "text": "Kumaon"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "हरेला",
       "categories": [
+        "Harvest",
         "Community"
-      ]
+      ],
+      "story": "Harela celebrates greenery and the close relationship between people and the agricultural landscape of Uttarakhand. The monsoon observance is especially associated with Kumaon, while contemporary celebrations across the state include tree planting and environmental activities. The festival offers a useful introduction to living local traditions beyond the better-known pilgrimage routes. A household ceremony, village gathering and organised plantation event may each emphasise different aspects. Visitors interested in joining should choose a publicly announced activity and learn from the organisers about its local meaning.",
+      "rituals": [
+        "Seasonal celebrations connected with greenery and agriculture",
+        "Family or community observances according to local custom",
+        "Tree-planting programmes organised by community and public bodies"
+      ],
+      "food": "Meals depend on the household or event. Try regional Kumaoni food through a local host, without assuming that one dish defines every Harela celebration.",
+      "dress": "Comfortable clothing suitable for outdoor activity is useful. For planting programmes, use footwear that can cope with mud.",
+      "tips": [
+        "Check the local programme and weather before travelling to an outdoor activity.",
+        "Join planting only through organisers who select appropriate species and arrange ongoing care."
+      ],
+      "places": [
+        [
+          "Almora",
+          "UT",
+          79.66,
+          29.6,
+          "Kumaon town reference; confirm a public local programme."
+        ]
+      ],
+      "sources": [
+        [
+          "Uttarakhand Governor: Harela celebration",
+          "https://governoruk.gov.in/16-07-2024harela-the-festival-that-signifies-uttarakhands-folk-culture-and-environmental-conservation-was-celebrated-at-raj-bhawan/"
+        ],
+        [
+          "Uttarakhand Chief Electoral Officer: Harela",
+          "https://ceo.uk.gov.in/event/harela-festival-2025/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Phool Dei",
@@ -2195,11 +3350,44 @@
           "text": "Garhwal & Kumaon"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "फूल देई",
       "categories": [
-        "Community"
-      ]
+        "Community",
+        "Harvest"
+      ],
+      "story": "Phool Dei welcomes spring in Uttarakhand through a gentle tradition closely associated with children. Flowers are placed at household thresholds with wishes for happiness and prosperity, linking neighbourhood life with the changing season. Cultural organisations also arrange public celebrations to help younger generations learn the songs and customs. It is principally a community practice rather than a large destination festival. A host-led visit offers a better understanding than searching for a single central venue, and visitors should respect the privacy of homes and participating families.",
+      "rituals": [
+        "Children placing flowers at thresholds",
+        "Good wishes and seasonal songs",
+        "Community activities that pass traditions between generations"
+      ],
+      "food": "Households may share small treats with participating children; offerings and recipes vary. Ask parents before giving children any food.",
+      "dress": "Everyday or locally chosen festive dress is appropriate; practical footwear helps when moving between homes.",
+      "tips": [
+        "Seek a public cultural event or a host’s invitation rather than following children into private homes.",
+        "Ask parental permission before photographing children and use flowers obtained without damaging wild plants."
+      ],
+      "places": [
+        [
+          "Almora",
+          "UT",
+          79.66,
+          29.6,
+          "Town reference for local spring traditions; public venues vary."
+        ]
+      ],
+      "sources": [
+        [
+          "Uttarakhand Governor: Phool Dei traditions",
+          "https://governoruk.gov.in/14-03-2021-lokphar-phuldei-is-a-celebration-of-environmental-protection-governor/"
+        ],
+        [
+          "Uttarakhand Tourism: Voices and culture",
+          "https://www.uttarakhandtourism.gov.in/page/voices-and-culture"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Durga Puja",
@@ -2295,11 +3483,41 @@
           "text": "Kolkata & across West Bengal"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "কালীপূজা",
       "categories": [
-        "Devotion"
-      ]
+        "Devotion",
+        "Arts",
+        "Community"
+      ],
+      "story": "Kali Puja honours the goddess Kali and is particularly prominent in West Bengal. Temples, household shrines and neighbourhood pandals each create their own setting for worship, often with elaborate images and lighting. The observance falls around the autumn new moon associated with Diwali, but its devotional focus is distinct. Kolkata offers both major temple traditions and community celebrations; a carefully chosen neighbourhood route is more practical than trying to see everything in one night. Ritual timing and visitor access should be checked with each venue.",
+      "rituals": [
+        "Worship of Kali at temples and household or community shrines",
+        "Decorated pandals and goddess images",
+        "Evening lighting and neighbourhood gatherings"
+      ],
+      "food": "Prasad and meals vary widely by temple and community. Ask organisers what is available and avoid assuming that every venue serves the same offerings.",
+      "dress": "Festive clothing is common, while visitors should choose respectful dress and comfortable shoes for queues and walking.",
+      "tips": [
+        "Check whether photography is permitted inside a temple or pandal.",
+        "Keep routes short enough for your group, and arrange a meeting point away from the busiest entrance."
+      ],
+      "places": [
+        [
+          "Kolkata",
+          "WB",
+          88.36,
+          22.57,
+          "City reference; temple and neighbourhood pandal locations differ."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Kali Puja",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/kali-puja"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Poila Boishakh",
@@ -2323,11 +3541,40 @@
           "text": "Across West Bengal"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "পয়লা বৈশাখ",
       "categories": [
-        "Community"
-      ]
+        "Community",
+        "Arts"
+      ],
+      "story": "Poila Boishakh marks the beginning of the Bengali calendar year. In West Bengal, it brings together family meals, new clothes, greetings and cultural programmes. Some businesses observe Halkhata, the symbolic opening of a new accounts ledger, often welcoming customers with sweets. Music, neighbourhood activity and household traditions give the occasion a character that extends beyond a single religious setting. Kolkata is a useful base, though celebrations also take place across Bengali communities. Follow the local calendar rather than assuming every country or community observes an identical date.",
+      "rituals": [
+        "New Year greetings and family gatherings",
+        "Halkhata customs among participating businesses",
+        "Music, cultural programmes and household alpana designs"
+      ],
+      "food": "Bengali sweets and festive meals are prominent, but menus vary by household and restaurant. Book a special restaurant meal directly if that is your preferred experience.",
+      "dress": "Saris, kurtas and other new festive clothing are common choices; there is no required visitor costume.",
+      "tips": [
+        "Choose an announced cultural programme for public participation.",
+        "Ask a shopkeeper before photographing a Halkhata ceremony; it is a business and devotional custom, not a staged attraction."
+      ],
+      "places": [
+        [
+          "Kolkata",
+          "WB",
+          88.36,
+          22.57,
+          "City reference for Bengali New Year cultural programmes."
+        ]
+      ],
+      "sources": [
+        [
+          "West Bengal Tourism official blog: Poila Boishakh",
+          "https://wbtourismdotblog.wordpress.com/2019/04/16/poila-boishakh-the-changing-face-of-bengali-new-year-celebration/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Island Tourism Festival",
@@ -2349,11 +3596,44 @@
           "text": "Sri Vijaya Puram (Port Blair)"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Arts"
-      ]
+        "Arts",
+        "Community"
+      ],
+      "story": "The Island Tourism Festival is an organised cultural event in the Andaman and Nicobar Islands. It brings together performances, exhibitions and public entertainment, with visiting mainland troupes joining island-based cultural groups. This makes it different from a single community’s religious festival: its programme is curated by the organisers and can change from one edition to another. The principal urban venue has historically been the ITF Ground in the capital, now named Sri Vijaya Puram. Use the current official announcement to establish dates and venues rather than relying on the festival’s historic January pattern.",
+      "rituals": [
+        "Stage programmes featuring music and dance",
+        "Exhibitions and stalls where included in the edition",
+        "Participation by island and visiting cultural groups"
+      ],
+      "food": "Food stalls depend on the published programme. Ask vendors about seafood, allergens and vegetarian choices; the event does not have one prescribed festival meal.",
+      "dress": "Light everyday clothing and comfortable footwear suit outdoor stalls; performers wear the clothing appropriate to their own traditions.",
+      "tips": [
+        "Confirm the current edition and exact ground before planning travel around the festival.",
+        "Treat cultural performances as specific to their participating communities rather than representative of every island community."
+      ],
+      "places": [
+        [
+          "Sri Vijaya Puram",
+          "AN",
+          92.74,
+          11.67,
+          "Capital city reference; verify the ITF Ground entrance and any additional venues."
+        ]
+      ],
+      "sources": [
+        [
+          "Ministry of Tourism: Island Tourism Festival",
+          "https://www.utsav.gov.in/view-event/island-tourism-festival-1"
+        ],
+        [
+          "Andaman and Nicobar Directorate of Art and Culture",
+          "https://artculture.andamannicobar.gov.in/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Rose Festival",
@@ -2378,11 +3658,40 @@
           "text": "Zakir Hussain Rose Garden"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
+        "Arts",
         "Community"
-      ]
+      ],
+      "story": "Chandigarh’s Rose Festival is an organised civic celebration built around the city’s rose gardens and seasonal blooms. It combines horticultural interest with a public festival atmosphere, and the tourism administration usually places it in the late-February period. Visitors can approach it as a garden outing, while any entertainment, competitions or additional attractions depend on that edition’s programme. The Rose Garden is the main geographical reference, but organisers may use surrounding public spaces as well. Confirm the official announcement before assuming a particular activity or opening time.",
+      "rituals": [
+        "Viewing rose displays and garden plantings",
+        "Public cultural activities where announced",
+        "Horticultural interest and community participation"
+      ],
+      "food": "Refreshments depend on approved stalls and nearby businesses. There is no ritual menu; bring drinking water and ask about ingredients at food counters.",
+      "dress": "Comfortable daytime clothing and walking shoes work well. A light layer may be useful for an evening programme.",
+      "tips": [
+        "Stay on permitted paths and leave flowers for everyone to enjoy.",
+        "Check the festival’s current programme, access points and transport arrangements rather than relying on a previous year’s listing."
+      ],
+      "places": [
+        [
+          "Chandigarh",
+          "CH",
+          76.79,
+          30.74,
+          "City centre reference near the Rose Garden; confirm the current festival access points."
+        ]
+      ],
+      "sources": [
+        [
+          "Ministry of Tourism: Chandigarh Rose Festival",
+          "https://utsav.gov.in/view-event/chandigarh-rose-festival"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Nariyal Purnima",
@@ -2406,11 +3715,44 @@
           "text": "Coastal communities of Daman & Diu"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
+        "Devotion",
         "Community"
-      ]
+      ],
+      "story": "Nariyal Purnima, also known as Narali Purnima in neighbouring coastal traditions, is associated with coconut offerings and respect for the sea. Daman is one of the places where the festival forms part of local coastal cultural life. Related fishing-community observances express hopes for protection and a fruitful season, while organised cultural activities can add a public element. The ceremonial occasion should not be interpreted as a guarantee of safe sea conditions or a universal date for fishing to resume. Local weather, rules and community arrangements still govern activity on the water.",
+      "rituals": [
+        "Coconut offerings associated with devotion to the sea",
+        "Community gatherings in coastal settings",
+        "Cultural programmes where locally announced"
+      ],
+      "food": "Coconut features symbolically in the festival. Nearby vendors may offer local snacks; ceremonial offerings should not be taken without guidance.",
+      "dress": "Light, respectful clothing and footwear suitable for the waterfront are practical. Community participants may wear festive regional dress.",
+      "tips": [
+        "Confirm the local gathering place with organisers before travelling to the waterfront.",
+        "Stay behind waterfront barriers and avoid adding packaging or other litter to the sea."
+      ],
+      "places": [
+        [
+          "Daman",
+          "DH",
+          72.83,
+          20.42,
+          "Coastal town reference; verify the designated celebration area."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Daman",
+          "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/daman"
+        ],
+        [
+          "Ministry of Tourism: Narali Purnima",
+          "https://utsav.gov.in/view-event/narali-purnima"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Diwali",
@@ -2443,11 +3785,40 @@
           "text": "Across Delhi"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "दीपावली",
       "categories": [
+        "Devotion",
         "Community"
-      ]
+      ],
+      "story": "Diwali, or Deepavali, is a festival of lights celebrated through many regional and community traditions. Lamps, decorated homes, sweets and family gatherings are familiar features, but the stories and ceremonies are not identical everywhere. Worship of Lakshmi is important in many Hindu households, while other communities give the season their own meanings. Public illuminations and markets offer visitors a way to experience the atmosphere without needing access to a private home. Choose a destination and local programme first: the surrounding festive days matter as much as the main night.",
+      "rituals": [
+        "Lighting diyas and decorating homes or public spaces",
+        "Family worship and gatherings according to local tradition",
+        "Exchanging sweets, greetings and gifts"
+      ],
+      "food": "Mithai and savoury snacks are widely shared; recipes differ across India. Nuts, milk and ghee are common, so ask about ingredients.",
+      "dress": "Festive clothing is common. Keep loose fabrics away from oil lamps and choose practical footwear for crowded markets.",
+      "tips": [
+        "Confirm local public events and transport arrangements before choosing a viewing route.",
+        "Accept household invitations respectfully and ask before photographing a family’s worship."
+      ],
+      "places": [
+        [
+          "Delhi",
+          "DL",
+          77.21,
+          28.61,
+          "City reference for markets and public celebrations; choose a specific local programme."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Diwali",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/diwali"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Eid al-Fitr",
@@ -2480,11 +3851,44 @@
           "text": "Across the islands"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
-        "Devotion"
-      ]
+        "Devotion",
+        "Community"
+      ],
+      "story": "Eid al-Fitr marks the completion of Ramadan, bringing Muslim communities together in prayer, generosity and celebration. Family visits, greetings and shared meals are central to many households, alongside care for people in need. The occasion is observed across India, with distinct local food and cultural traditions rather than a single standard celebration. Its date follows the Islamic calendar and local moon-sighting announcements, so a forecast date should not be presented as confirmed. In Delhi, the neighbourhoods around major mosques can be lively, but worship spaces remain places of prayer.",
+      "rituals": [
+        "Congregational Eid prayer",
+        "Charitable giving and support for others",
+        "Family visits, greetings and shared festive meals"
+      ],
+      "food": "Sweet vermicelli preparations and other festive foods vary by region and family. Check ingredients and opening times with individual restaurants.",
+      "dress": "Worshippers often wear their best or new clothes. Visitors entering a mosque should follow its requirements for modest dress and footwear.",
+      "tips": [
+        "Confirm the locally announced date and visitor access directly with the mosque.",
+        "Do not obstruct prayer or photograph worshippers without permission; explore surrounding markets at a suitable time."
+      ],
+      "places": [
+        [
+          "Delhi",
+          "DL",
+          77.21,
+          28.61,
+          "City reference; confirm access and prayer arrangements at individual mosques."
+        ]
+      ],
+      "sources": [
+        [
+          "Incredible India: Eid ul-Fitr",
+          "https://www.incredibleindia.gov.in/en/festivals-and-events/eid-ul-fitr"
+        ],
+        [
+          "Delhi Tourism: Eid-ul-Fitr",
+          "https://delhitourism.gov.in/dt/festivals/eid-ul-fitr.html"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Herath",
@@ -2509,11 +3913,40 @@
           "text": "Kashmiri Pandit communities"
         }
       ],
-      "photo": null,
-      "reviewed": null,
+      "native": "",
       "categories": [
+        "Devotion",
         "Community"
-      ]
+      ],
+      "story": "Herath is the Kashmiri Pandit observance of Shivaratri, with a distinctive sequence of household preparations, worship and social visits. The Indira Gandhi National Centre for the Arts documents the use of ritual vessels and walnuts in the ceremonies, followed by the sharing of soaked walnuts with relatives, friends and neighbours. It is primarily a living family and community tradition, not a single public spectacle. Kashmiri Pandit communities also maintain the celebration beyond the Kashmir Valley, so its cultural geography extends beyond any one destination.",
+      "rituals": [
+        "Household worship involving ritual vessels",
+        "Preparation and later sharing of soaked walnuts",
+        "Visits and exchanges that renew family and neighbourhood ties"
+      ],
+      "food": "Walnuts have a specific ceremonial role. Other dishes vary by household, and a visitor should ask their host about the meal rather than assume one Shivaratri menu applies everywhere.",
+      "dress": "Respectful everyday or festive clothing is suitable when invited. Warm layers are useful for a winter visit to Srinagar.",
+      "tips": [
+        "Join a household observance only by invitation and follow the host’s guidance around sacred vessels.",
+        "Confirm any public temple programme separately; it may not reflect the full sequence of home rituals."
+      ],
+      "places": [
+        [
+          "Srinagar",
+          "JK",
+          74.8,
+          34.08,
+          "City reference for Kashmiri Pandit heritage; household ceremonies are private."
+        ]
+      ],
+      "sources": [
+        [
+          "Indira Gandhi National Centre for the Arts: Mahasivaratri in Kashmir",
+          "https://ignca.gov.in/mahasivaratri-in-kashmir/"
+        ]
+      ],
+      "reviewed": "2026-10-11",
+      "photo": null
     },
     {
       "name": "Hemis Festival",
