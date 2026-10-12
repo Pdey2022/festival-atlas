@@ -5,7 +5,7 @@ Explore India's festivals: https://pdey2022.github.io/festival-atlas/
 ## Three-stage upgrade
 
 1. **Festival guides:** 62 expanded shareable guides with traditions, food, places, visitor advice and sources. Three licensed historical photographs include attribution.
-2. **Discovery and calendar:** all 28 states and 8 union territories, map zoom/pan, approximate city markers, search and state/region/category/month filters. Seven sourced 2026 calendar listings distinguish published and provisional dates and support ICS downloads. Seasonal inspiration remains separate; 2027 dates are not invented.
+2. **Discovery and calendar:** all 28 states and 8 union territories, map zoom/pan, approximate city markers, search and state/region/category/month filters. Fifteen sourced 2026–2027 calendar listings distinguish published and provisional dates and support ICS downloads. Seasonal inspiration remains separate; 2027 entries are included only with published sources.
 3. **Personal planning:** browser-local favourites, shareable collections, JSON backup/restore, correction links, accessible controls and mobile layouts.
 
 ## Travel planning release
@@ -30,7 +30,7 @@ Run `node scripts/test.cjs` and `node scripts/test-trip.cjs` for data integrity,
 
 ## Content and map provenance
 
-This is a curated introductory collection, not an exhaustive cultural calendar. Festivals are not exclusive to the state in which they are listed. Typical seasons are separate from the seven sourced 2026 annual listings; provisional dates are explicitly marked. No 2027 dates have been verified. Check organisers before travel; some community events require permission or have restricted participation. The app links to official festival listings:
+This is a curated introductory collection, not an exhaustive cultural calendar. Festivals are not exclusive to the state in which they are listed. Typical seasons are separate from the 15 sourced 2026–2027 annual listings; provisional dates are explicitly marked. Three 2027 listings are included; the Khajuraho listing remains provisional because its source has a conflicting year. Check organisers before travel; some community events require permission or have restricted participation. The app links to official festival listings:
 
 - https://www.incredibleindia.gov.in/en/festivals-and-events
 - https://www.incredibleindia.gov.in/en/festivals-and-events/west-bengal/durga-puja
@@ -47,3 +47,9 @@ The map is derived from DataMeet via geoBoundaries and the GeoDataViewer simplif
 
 The 36 map feature codes were checked against the 36 content records. Geometry has been projected and rounded into SVG. The downloaded source is preserved in `assets/india.geojson`. Small territory dots are enlarged interaction targets; they do not represent land area. Boundaries reflect this third-party source and are not an authoritative depiction of territorial claims. Retain map attribution when publishing.
 
+
+## Mobile and calendar update
+
+15 annual listings (12 in 2026, 3 in 2027), with source links and per-entry check dates. Calendar location filters use event venues or explicit nationwide coverage, rather than festival associations. Local programme names are preserved in calendar downloads.
+
+Mobile controls have larger tap targets and 16px form fields; narrow layouts wrap controls and long titles. Map dragging is explicitly enabled with Move map after zooming, preserving page scrolling when disabled. Print layout allows long itinerary notes to flow across pages. Logic and DOM checks do not substitute for real-device visual testing, which remains outstanding.
