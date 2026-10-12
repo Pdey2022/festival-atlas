@@ -1,9 +1,244 @@
 [
-{"id":"holi-2026","festival":"holi","year":2026,"start":"2026-03-04","end":"2026-03-04","status":"Published listing","place":"India-wide observance; local Braj events vary","source":"https://www.incredibleindia.gov.in/en/plan-your-trip/public-holidays","note":"Main holiday date, not the full Braj programme.","checked":"2026-10-10"},
-{"id":"ganesh-2026","festival":"ganesh-chaturthi","year":2026,"start":"2026-09-14","end":"2026-09-14","status":"Published listing","place":"Maharashtra and other regions","source":"https://www.incredibleindia.gov.in/en/festivals-and-events/maharashtra/ganesh-chaturthi","note":"Opening observance only. Household durations and immersion dates vary.","checked":"2026-10-10"},
-{"id":"navratri-2026","festival":"navratri","year":2026,"start":"2026-10-11","end":"2026-10-19","status":"Published listing","place":"Gujarat and other regions","source":"https://www.incredibleindia.gov.in/en/festivals-and-events/navratri","note":"Autumn Navratri listing. Individual garba venues set their own schedules and tickets.","checked":"2026-10-10"},
-{"id":"mysuru-2026","festival":"mysuru-dasara","year":2026,"start":"2026-10-11","end":"2026-10-21","status":"Provisional","place":"Mysuru, Karnataka","source":"https://www.incredibleindia.gov.in/en/festivals-and-events/mysuru-dasara","note":"Tourism listing extends to 21 October; it is not a confirmed procession date. Verify the local programme before booking.","checked":"2026-10-10"},
-{"id":"durga-2026","festival":"durga-puja","year":2026,"start":"2026-10-17","end":"2026-10-21","status":"Provisional","place":"Kolkata, West Bengal","source":"https://www.incredibleindia.gov.in/en/festivals-and-events/durga-puja","note":"Tourism listing shows 17–21 October; local ritual calendars may differ. Verify with the pandal organiser.","checked":"2026-10-10"},
-{"id":"diwali-2026","festival":"diwali","year":2026,"start":"2026-11-08","end":"2026-11-08","status":"Published listing","place":"Across India; regional observances vary","source":"https://www.incredibleindia.gov.in/en/festivals-and-events/diwali","note":"Main listed observance, not every regional or multiday celebration.","checked":"2026-10-10"},
-{"id":"chhath-2026","festival":"chhath-puja","year":2026,"start":"2026-11-13","end":"2026-11-16","status":"Published listing","place":"Bihar and participating communities","source":"https://www.incredibleindia.gov.in/en/bihar","note":"Four-day tourism listing; local ghat access and ritual timings require separate confirmation.","checked":"2026-10-10"}
+  {
+    "id": "holi-2026",
+    "festival": "holi",
+    "year": 2026,
+    "start": "2026-03-04",
+    "end": "2026-03-04",
+    "status": "Published listing",
+    "place": "India-wide observance; local Braj events vary",
+    "source": "https://www.incredibleindia.gov.in/en/plan-your-trip/public-holidays",
+    "note": "Main holiday date, not the full Braj programme.",
+    "checked": "2026-10-10",
+    "states": [
+      "UP"
+    ],
+    "nationwide": true
+  },
+  {
+    "id": "ganesh-2026",
+    "festival": "ganesh-chaturthi",
+    "year": 2026,
+    "start": "2026-09-14",
+    "end": "2026-09-14",
+    "status": "Published listing",
+    "place": "Maharashtra and other regions",
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/maharashtra/ganesh-chaturthi",
+    "note": "Opening observance only. Household durations and immersion dates vary.",
+    "checked": "2026-10-10",
+    "states": [
+      "MH"
+    ],
+    "nationwide": false
+  },
+  {
+    "id": "navratri-2026",
+    "festival": "navratri",
+    "year": 2026,
+    "start": "2026-10-11",
+    "end": "2026-10-19",
+    "status": "Published listing",
+    "place": "Gujarat and other regions",
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/navratri",
+    "note": "Autumn Navratri listing. Individual garba venues set their own schedules and tickets.",
+    "checked": "2026-10-10",
+    "states": [
+      "GJ"
+    ],
+    "nationwide": false
+  },
+  {
+    "id": "mysuru-2026",
+    "festival": "mysuru-dasara",
+    "year": 2026,
+    "start": "2026-10-11",
+    "end": "2026-10-21",
+    "status": "Provisional",
+    "place": "Mysuru, Karnataka",
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/mysuru-dasara",
+    "note": "Tourism listing extends to 21 October; it is not a confirmed procession date. Verify the local programme before booking.",
+    "checked": "2026-10-10",
+    "states": [
+      "KA"
+    ],
+    "nationwide": false
+  },
+  {
+    "id": "durga-2026",
+    "festival": "durga-puja",
+    "year": 2026,
+    "start": "2026-10-17",
+    "end": "2026-10-21",
+    "status": "Provisional",
+    "place": "Kolkata, West Bengal",
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/durga-puja",
+    "note": "Tourism listing shows 17–21 October; local ritual calendars may differ. Verify with the pandal organiser.",
+    "checked": "2026-10-10",
+    "states": [
+      "WB"
+    ],
+    "nationwide": false
+  },
+  {
+    "id": "diwali-2026",
+    "festival": "diwali",
+    "year": 2026,
+    "start": "2026-11-08",
+    "end": "2026-11-08",
+    "status": "Published listing",
+    "place": "Across India; regional observances vary",
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/diwali",
+    "note": "Main listed observance, not every regional or multiday celebration.",
+    "checked": "2026-10-10",
+    "states": [],
+    "nationwide": true
+  },
+  {
+    "id": "chhath-2026",
+    "festival": "chhath-puja",
+    "year": 2026,
+    "start": "2026-11-13",
+    "end": "2026-11-16",
+    "status": "Published listing",
+    "place": "Bihar and participating communities",
+    "source": "https://www.incredibleindia.gov.in/en/bihar",
+    "note": "Four-day tourism listing; local ghat access and ritual timings require separate confirmation.",
+    "checked": "2026-10-10",
+    "states": [
+      "BR"
+    ],
+    "nationwide": false
+  },
+  {
+    "id": "hornbill-2026",
+    "festival": "hornbill-festival",
+    "year": 2026,
+    "start": "2026-12-01",
+    "end": "2026-12-10",
+    "status": "Published listing",
+    "place": "Kisama, near Kohima, Nagaland",
+    "states": [
+      "NL"
+    ],
+    "nationwide": false,
+    "source": "https://tourism.nagaland.gov.in/",
+    "note": "State tourism lists these dates. Check daily programmes, entry arrangements and any changes with organisers.",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": "pushkar-2026",
+    "festival": "pushkar-fair",
+    "year": 2026,
+    "start": "2026-11-17",
+    "end": "2026-11-24",
+    "status": "Published listing",
+    "place": "Pushkar, Rajasthan",
+    "states": [
+      "RJ"
+    ],
+    "nationwide": false,
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/pushkar-camel-fair",
+    "note": "Tourism-listed fair window; livestock trading and religious observances may have different schedules.",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": "sonepur-2026",
+    "festival": "sonepur-mela",
+    "year": 2026,
+    "start": "2026-11-24",
+    "end": "2026-12-05",
+    "status": "Provisional",
+    "place": "Sonepur, Bihar",
+    "states": [
+      "BR"
+    ],
+    "nationwide": false,
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/sonepur-cattle-fair",
+    "note": "The date field lists 24 November–5 December, while the page describes a month-long fair. Confirm the actual duration and programme with Bihar Tourism.",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": "dev-varanasi-2026",
+    "festival": "dev-deepawali",
+    "year": 2026,
+    "start": "2026-11-24",
+    "end": "2026-11-24",
+    "status": "Provisional",
+    "place": "Varanasi, Uttar Pradesh",
+    "states": [
+      "UP"
+    ],
+    "nationwide": false,
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/illuminating-the-eternal-spirit-of-kashi",
+    "note": "The detail page lists 24 November; the directory spans 24–25 November. Confirm the principal illumination night and access arrangements.",
+    "checked": "2026-10-12",
+    "title": "Dev Deepawali — Varanasi"
+  },
+  {
+    "id": "dev-prayagraj-2026",
+    "festival": "dev-deepawali",
+    "year": 2026,
+    "start": "2026-11-24",
+    "end": "2026-11-24",
+    "status": "Published listing",
+    "place": "Prayagraj, Uttar Pradesh",
+    "states": [
+      "UP"
+    ],
+    "nationwide": false,
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/dev-deepawali-prayagraj",
+    "note": "City-specific listing. Confirm ghat access and timings with the local organiser.",
+    "checked": "2026-10-12",
+    "title": "Dev Deepawali — Prayagraj"
+  },
+  {
+    "id": "khajuraho-2027",
+    "festival": "khajuraho-dance-festival",
+    "year": 2027,
+    "start": "2027-02-20",
+    "end": "2027-02-26",
+    "status": "Provisional",
+    "place": "Khajuraho Group of Temples, Madhya Pradesh",
+    "states": [
+      "MP"
+    ],
+    "nationwide": false,
+    "source": "https://www.mptourism.com/khajuraho-dance-festival.htm",
+    "note": "The title and date field specify 2027, but the introductory paragraph says 2026. Treat this as provisional until the organiser resolves the mismatch.",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": "sankranti-sidhi-2027",
+    "festival": "sankranti",
+    "year": 2027,
+    "start": "2027-01-14",
+    "end": "2027-01-15",
+    "status": "Published listing",
+    "place": "Jogdaha Ghat, Sidhi, Madhya Pradesh",
+    "states": [
+      "MP"
+    ],
+    "nationwide": false,
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/madhya-pradesh/makar-sankranti-fair",
+    "note": "Dates apply to this local fair, not every regional Sankranti observance. Confirm venue access and the daily programme.",
+    "checked": "2026-10-12",
+    "title": "Makar Sankranti Fair — Sidhi"
+  },
+  {
+    "id": "sankranti-kites-2027",
+    "festival": "sankranti",
+    "year": 2027,
+    "start": "2027-01-13",
+    "end": "2027-01-15",
+    "status": "Published listing",
+    "place": "Parade Grounds, Secunderabad, Telangana",
+    "states": [
+      "TG"
+    ],
+    "nationwide": false,
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/telangana/international-kite---sweet-festival",
+    "note": "A tourism programme associated with Sankranti. These dates describe the kite and sweet festival, not the religious observance throughout India.",
+    "checked": "2026-10-12",
+    "title": "International Kite & Sweet Festival — Hyderabad"
+  }
 ]

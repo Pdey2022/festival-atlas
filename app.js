@@ -6,11 +6,12 @@ for(let i=1;i<=12;i++){const o=document.createElement('option');o.value=i;o.text
 for(const text of [...new Set(DB.festivals.flatMap(f=>f.categories))].sort()){const o=document.createElement('option');o.textContent=text;category.append(o)}
 for(const text of [...new Set(DB.states.map(s=>s.region))].sort()){const o=document.createElement('option');o.textContent=text;region.append(o)}
 $('festival-count').textContent=DB.festivals.length;
-const fullView=[0,0,620,625];let view=[...fullView],zoom=1,drag=null,dragged=false;
-function updateView(){svg.setAttribute('viewBox',view.join(' '));$('zoom-out').disabled=zoom<=1;$('zoom-in').disabled=zoom>=4;$('zoom-label').textContent=zoom.toFixed(1)+'×';}
+const fullView=[0,0,620,625];let view=[...fullView],zoom=1,panEnabled=false,drag=null,dragged=false;
+function updateView(){svg.classList.toggle('zoomed',zoom>1);if(zoom<=1)panEnabled=false;svg.classList.toggle('pan-enabled',panEnabled);$('pan-toggle').disabled=zoom<=1;$('pan-toggle').setAttribute('aria-pressed',String(panEnabled));svg.setAttribute('viewBox',view.join(' '));$('zoom-out').disabled=zoom<=1;$('zoom-in').disabled=zoom>=4;$('zoom-label').textContent=zoom.toFixed(1)+'×';}
 function zoomTo(next){next=Math.max(1,Math.min(4,next));let cx=view[0]+view[2]/2,cy=view[1]+view[3]/2;if(zoom===1&&selected){const p=svg.querySelector(`path[data-code="${selected}"]`);if(p){const b=p.getBBox();cx=b.x+b.width/2;cy=b.y+b.height/2;}}zoom=next;const w=620/zoom,h=625/zoom;view=[Math.max(0,Math.min(620-w,cx-w/2)),Math.max(0,Math.min(625-h,cy-h/2)),w,h];updateView();}
+$('pan-toggle').onclick=()=>{panEnabled=!panEnabled;updateView();};
 $('zoom-in').onclick=()=>zoomTo(zoom+.75);$('zoom-out').onclick=()=>zoomTo(zoom-.75);$('zoom-reset').onclick=()=>{zoom=1;view=[...fullView];updateView()};
-svg.addEventListener('pointerdown',e=>{dragged=false;if(zoom<=1||e.button!==0)return;drag={x:e.clientX,y:e.clientY,view:[...view],id:e.pointerId};});
+svg.addEventListener('pointerdown',e=>{dragged=false;if(zoom<=1||!panEnabled||e.button!==0)return;drag={x:e.clientX,y:e.clientY,view:[...view],id:e.pointerId};});
 svg.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.abs(dx)+Math.abs(dy)>6){dragged=true;svg.setPointerCapture(e.pointerId);}if(dragged){const rect=svg.getBoundingClientRect();const scale=Math.min(rect.width/view[2],rect.height/view[3]);view[0]=Math.max(0,Math.min(620-view[2],drag.view[0]-dx/scale));view[1]=Math.max(0,Math.min(625-view[3],drag.view[1]-dy/scale));updateView();}});
 svg.addEventListener('pointerup',()=>{drag=null;setTimeout(()=>dragged=false,0)});svg.addEventListener('pointercancel',()=>{drag=null;dragged=false});
 svg.setAttribute('tabindex','0');svg.addEventListener('keydown',e=>{if(e.target!==svg)return;const direction={ArrowLeft:[-20,0],ArrowRight:[20,0],ArrowUp:[0,-20],ArrowDown:[0,20]}[e.key];if(direction){e.preventDefault();view[0]=Math.max(0,Math.min(620-view[2],view[0]+direction[0]));view[1]=Math.max(0,Math.min(625-view[3],view[1]+direction[1]));updateView();}});

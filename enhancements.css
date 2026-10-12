@@ -7,3 +7,28 @@ header{gap:18px;flex-wrap:wrap}header nav{flex-wrap:wrap;gap:14px}header nav [da
 @media print{.no-print,.trip-page footer,header,.skip,#toast{display:none!important}.print-heading,.print-notes{display:block}.print-notes{white-space:pre-wrap;overflow-wrap:anywhere;margin:14px 0}.notes-label{display:none}.trip-page{max-width:none;padding:0}.trip-stop{break-inside:avoid;border:1px solid #aaa;box-shadow:none}.trip-page input{border:0;padding:0}.trip-page a{color:#000;text-decoration:none}.trip-page .stop-heading h2{font-size:22px}.trip-page .note{color:#333}.trip-page .trip-fields{grid-template-columns:1fr 2fr}body{background:white!important}}
 
 .print-stop-details{display:none}@media print{.trip-page .trip-fields{display:none}.print-stop-details{display:block;overflow-wrap:anywhere}}
+/* Mobile usability: generous targets, readable fields and overflow-safe layouts. */
+header nav a{display:inline-flex;align-items:center;gap:5px;min-height:44px}
+.map-tools{flex-wrap:wrap}.map-tools button,.share{min-width:44px;min-height:44px}
+.map-tools button[aria-pressed=true]{background:var(--ink);color:white}
+.map-wrap svg.pan-enabled{touch-action:none;cursor:grab}.map-wrap svg.pan-enabled:active{cursor:grabbing}
+.map-wrap svg:focus-visible{outline:3px solid var(--orange);outline-offset:-3px}
+.guide,.detail-panel,.event-card>div,.stop-heading>div{min-width:0}
+.event-card,.stop-heading,.festival-top{overflow-wrap:anywhere}
+.toast{max-width:calc(100vw - 24px);width:max-content;bottom:max(16px,env(safe-area-inset-bottom));overflow-wrap:anywhere}
+label.button:focus-within{outline:3px solid var(--orange);outline-offset:3px}
+@media(max-width:680px){
+ header nav{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+ header nav a{justify-content:center;border:1px solid var(--line);border-radius:7px;padding:8px 4px;font-size:12px}
+ .map-bar{flex-wrap:wrap}.map-tools{width:100%;justify-content:space-between}.map-bar #zoom-label{display:inline;font-variant-numeric:tabular-nums}
+ .filters,.filters-more,.calendar-controls{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .filters input,.filters select,.filters-more select,.map-filter select,.calendar-controls select,.trip-page input,.trip-page textarea,.copy-dialog input{font-size:16px;min-height:44px}
+ .actions button,.actions .button,.event-card button,.stop-tools button,.results button,.directory-grid button,.map-legend button{min-height:44px}
+ .actions{gap:8px}.actions button,.actions .button{padding:10px 12px;font-size:12px}
+ .event-card button{white-space:normal}.festival-top{display:block}.season{white-space:normal}
+ .guide h1{font-size:clamp(30px,9vw,42px);overflow-wrap:anywhere}.guide h2{overflow-wrap:anywhere}
+ .stop-heading>div:not(.stop-tools){flex:1}.stop-tools{margin-left:0;flex-wrap:wrap}.stop-tools button{flex:1}
+ .check{min-height:44px}.check input{width:20px;height:20px}.map-wrap svg .city-marker{r:5}
+}
+@media(max-width:380px){.calendar-controls,.visit-controls,.filters,.filters-more{grid-template-columns:minmax(0,1fr)}.map-tools{gap:4px}.map-tools button{font-size:12px}.directory-grid{grid-template-columns:1fr}.map-wrap .map-label{display:none}.map-wrap svg.zoomed .map-label{display:block}}
+@media print{.trip-stop{break-inside:auto}.stop-heading{break-after:avoid}.print-notes{orphans:3;widows:3}}
