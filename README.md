@@ -76,3 +76,6 @@ Use `finder.html` to filter typical seasons, regions and any matching interests.
 
 ### Destination guidance
 `destinations.html` contains 16 sourced travel bases linked to 20 festival guides. Arrival gateways, railway stations, nearby attractions and source check dates accompany editorial stay suggestions and destination-specific accessibility questions. Accessibility facilities have not been audited. Other guides explicitly mark coverage as pending. Destination planning also appears in comparison rows and trip links, and is included in refreshed offline packs. Run `node scripts/test-destinations.cjs` to check mappings and generated coverage.
+
+### Community suggestions
+`contribute.html` prepares correction and festival-suggestion drafts with required supporting sources. Guide links preselect the affected festival. Drafts are previewed locally and can be copied or downloaded; nothing is submitted automatically or saved in browser storage. Continue to GitHub opens a public issue composer, requiring the visitor to sign in and submit. Long URL drafts use a copy-and-paste fallback. Editorial review and a later deployment are required to alter the atlas. Run `node scripts/test-contribute.cjs` for validation and issue-link checks.
