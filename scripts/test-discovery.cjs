@@ -1,0 +1,3 @@
+const assert=require('node:assert/strict'),C=require('../core.js'),db=require('../content/catalog.json');
+for(const f of db.festivals){const related=C.related(db.festivals,f.id);assert.equal(related.length,3);assert.equal(new Set(related.map(r=>r.festival.id)).size,3);assert(related.every(r=>r.festival.id!==f.id&&r.reason&&r.score>0));}
+const a=db.festivals.slice(0,3);assert.equal(C.discover(a,a[0].id,[],()=>0).id,a[1].id);assert.equal(C.discover(a,a[0].id,[a[1].id],()=>0).id,a[2].id);assert.equal(C.discover(a,a[0].id,[a[1].id,a[2].id],()=>0).id,a[1].id);assert.equal(C.discover([a[0]],a[0].id),null);assert.equal(C.discover([]),null);console.log('Passed: unique related suggestions, no self-links, repeat avoidance and empty offline selection.');
