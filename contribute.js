@@ -1,0 +1,15 @@
+(()=>{'use strict';const D=window.ATLAS,C=window.AtlasContribute,$=id=>document.getElementById(id);if(!D||!C||!$('contribution-form'))return;
+const form=$('contribution-form'),type=$('submission-type');
+function option(select,value,label){const o=document.createElement('option');o.value=value;o.textContent=label;select.append(o);}
+D.festivals.slice().sort((a,b)=>a.name.localeCompare(b.name)).forEach(f=>option($('page'),f.id,f.name));D.states.slice().sort((a,b)=>a.name.localeCompare(b.name)).forEach(s=>option($('state'),s.code,s.name));
+const params=new URLSearchParams(location.search);if(params.get('type')==='festival')type.value='festival';if(D.festivals.some(f=>f.id===params.get('festival')))$('page').value=params.get('festival');
+let draft=null;
+function invalidate(){draft=null;$('submission-preview').hidden=true;$('github-issue').removeAttribute('href');$('form-message').textContent='';}
+function mode(){const suggestion=type.value==='festival';for(const [id,enabled] of [['festival-fields',suggestion],['correction-fields',!suggestion]]){const fieldset=$(id);fieldset.hidden=!enabled;fieldset.disabled=!enabled;}$('details-label').textContent=suggestion?'Describe the festival and whether visitors can attend':'Suggested change';invalidate();}
+type.addEventListener('change',mode);form.addEventListener('input',invalidate);form.addEventListener('change',invalidate);
+form.addEventListener('submit',e=>{e.preventDefault();invalidate();if(!form.reportValidity())return;try{draft=C.build({type:type.value,page:$('page').value,issue:$('issue').value,name:$('festival-name').value,state:$('state').value,location:$('festival-location').value,season:$('season').value,details:$('details').value,source:$('source').value},D);$('preview-title').textContent=draft.title;$('preview-body').value=draft.body;$('github-issue').href=draft.url;$('paste-note').hidden=!draft.needsPaste;$('submission-preview').hidden=false;$('preview-title').focus();$('form-message').textContent='Draft ready. Nothing has been submitted.';}catch(error){$('form-message').textContent=error.message;}});
+$('copy-draft').onclick=async()=>{if(!draft)return;try{await navigator.clipboard.writeText(draft.body);$('draft-message').textContent='Issue text copied.';}catch{$('preview-body').focus();$('preview-body').select();$('draft-message').textContent='Select and copy the text above, or download it.';}};
+$('download-draft').onclick=()=>{if(!draft)return;const url=URL.createObjectURL(new Blob([draft.title+'\n\n'+draft.body],{type:'text/plain;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='festival-atlas-suggestion.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+$('github-issue').onclick=e=>{if(!draft){e.preventDefault();return;}$('draft-message').textContent='Finish on GitHub: review the issue and choose Submit new issue. This page cannot confirm whether you submit it.';};
+form.addEventListener('reset',()=>{setTimeout(mode,0);$('draft-message').textContent='';});mode();
+})();

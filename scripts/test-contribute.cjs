@@ -1,0 +1,9 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),C=require('../contribute-core.js'),D=require('../content/catalog.json');
+const correction={type:'correction',page:'durga-puja',issue:'Dates wrong for 2027',details:'Please check the opening day.',source:'https://example.org/event?year=2027&lang=en'};
+let d=C.build(correction,D),u=new URL(d.url);assert.equal(u.origin,'https://github.com');assert.equal(u.searchParams.get('body'),d.body);assert(d.body.includes('festivals/durga-puja.html'));assert(!d.needsPaste);
+assert.throws(()=>C.build({...correction,source:'javascript:alert(1)'},D));assert.throws(()=>C.build({...correction,source:'https://name:password@example.org'},D));assert.throws(()=>C.build({...correction,page:'not-a-page'},D));assert.throws(()=>C.build({...correction,details:' '},D));assert.throws(()=>C.build({...correction,issue:'x'.repeat(601)},D));
+const suggestion={type:'festival',name:'New tradition',state:'WB',location:'Kolkata',season:'October',details:'Public cultural programme. Confirm access.',source:'https://example.org'};d=C.build(suggestion,D);assert(d.body.includes('West Bengal'));assert(d.body.includes('October'));assert.throws(()=>C.build({...suggestion,state:'invalid'},D));
+d=C.build({...correction,details:'অ'.repeat(1200)},D);assert(d.needsPaste);assert(!new URL(d.url).searchParams.has('body'));assert(d.body.includes('অ'));
+for(const f of D.festivals)assert(fs.readFileSync('festivals/'+f.id+'.html','utf8').includes('../contribute.html?festival='+f.id));
+for(const p of ['contribute.html','contribute-core.js','contribute.js'])assert(require('../offline-manifest.json').shell.includes(p));
+console.log('Passed issue encoding, correction prefills, suggestion fields, validation, unsafe URL rejection, long Unicode fallback and offline packaging.');
