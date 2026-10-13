@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict'),C=require('../core.js');
+const event={start:'2027-04-01',end:'2027-04-03',checked:'2026-12-01',status:'Published listing'};
+const key=(changes,today)=>C.eventFreshness({...event,...changes},today).key;
+assert.equal(key({},'2027-02-28'),'recent');
+assert.equal(key({},'2027-03-01'),'stale');
+assert.equal(key({checked:'2027-02-01'},'2027-03-02'),'recent');
+assert.equal(key({checked:'2027-02-01'},'2027-03-03'),'stale');
+assert.equal(key({checked:'2027-03-04'},'2027-04-03'),'stale');
+assert.equal(key({},'2027-04-04'),'past');
+for(const checked of ['',undefined,'2027-02-30','2028-01-01'])assert.equal(key({checked},'2027-03-01'),'stale');
+assert.equal(key({checked:'2027-03-01',status:'Provisional'},'2027-03-01'),'provisional');
+assert.equal(C.todayIndia(new Date('2026-12-31T20:00:00Z')),'2027-01-01');
+const rows=[{...event,id:'fresh',checked:'2027-03-01'},{...event,id:'stale'},{...event,id:'provisional',checked:'2027-03-01',status:'Provisional'},{...event,id:'past',end:'2026-12-31'}];
+assert.deepEqual(C.filterEvents(rows,[],{review:true,today:'2027-03-01'}).map(e=>e.id),['stale','provisional']);
+assert.equal(require('../content/events.json').filter(e=>e.year===2027).length,9);
+console.log('Passed: 30/90-day review boundaries, ongoing/past events, invalid checks, provisional status, India timezone and review filtering.');

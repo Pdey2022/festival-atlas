@@ -240,5 +240,107 @@
     "note": "A tourism programme associated with Sankranti. These dates describe the kite and sweet festival, not the religious observance throughout India.",
     "checked": "2026-10-12",
     "title": "International Kite & Sweet Festival — Hyderabad"
+  },
+  {
+    "id": "kite-ahmedabad-2027",
+    "festival": "uttarayan",
+    "title": "International Kite Festival — Ahmedabad",
+    "year": 2027,
+    "start": "2027-01-10",
+    "end": "2027-01-14",
+    "states": [
+      "GJ"
+    ],
+    "nationwide": false,
+    "place": "Sabarmati Riverfront, Ahmedabad",
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/gujarat/International-Kite-Festival0",
+    "status": "Provisional",
+    "note": "The national tourism listing gives these 2027 dates; the organiser microsite still describes the 2026 edition. Confirm the 2027 programme before booking.",
+    "checked": "2026-10-13"
+  },
+  {
+    "id": "braj-bharatpur-2027",
+    "festival": "holi",
+    "title": "Braj Holi Festival — Bharatpur",
+    "year": 2027,
+    "start": "2027-03-17",
+    "end": "2027-03-18",
+    "states": [
+      "RJ"
+    ],
+    "nationwide": false,
+    "place": "Bharatpur, Rajasthan",
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/braj-holi-festival",
+    "status": "Published listing",
+    "note": "Dates for the local Bharatpur cultural programme, not all Holi celebrations across Braj. Check the final programme with Rajasthan Tourism.",
+    "checked": "2026-10-13"
+  },
+  {
+    "id": "dhulandi-jaipur-2027",
+    "festival": "holi",
+    "title": "Dhulandi Festival — Jaipur",
+    "year": 2027,
+    "start": "2027-03-22",
+    "end": "2027-03-22",
+    "states": [
+      "RJ"
+    ],
+    "nationwide": false,
+    "place": "Khasa Kothi, Jaipur",
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/dhulandi-festival",
+    "status": "Published listing",
+    "note": "Local Rajasthan Tourism programme. Confirm admission arrangements and participation requirements with the organiser.",
+    "checked": "2026-10-13"
+  },
+  {
+    "id": "rangotsav-braj-2027",
+    "festival": "holi",
+    "title": "Rangotsav — Mathura and Vrindavan",
+    "year": 2027,
+    "start": "2027-03-16",
+    "end": "2027-03-30",
+    "states": [
+      "UP"
+    ],
+    "nationwide": false,
+    "place": "Mathura and Vrindavan, Uttar Pradesh",
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/rangotsav-2027",
+    "status": "Published listing",
+    "note": "Broad regional programme window published by UP Tourism. Individual temple rituals and local celebrations have separate schedules.",
+    "checked": "2026-10-13"
+  },
+  {
+    "id": "rangpanchami-indore-2027",
+    "festival": "holi",
+    "title": "Rangpanchami Ger Mahotsav — Indore",
+    "year": 2027,
+    "start": "2027-03-27",
+    "end": "2027-03-27",
+    "states": [
+      "MP"
+    ],
+    "nationwide": false,
+    "place": "Rajwada, Indore",
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/madhya-pradesh/rangpanchami-ger-mahotsav0",
+    "status": "Published listing",
+    "note": "Local Rangpanchami celebration associated with the Holi season. Check procession timings and routes closer to the event.",
+    "checked": "2026-10-13"
+  },
+  {
+    "id": "mewar-udaipur-2027",
+    "festival": "gangaur",
+    "title": "Mewar Festival — Udaipur and Gogunda",
+    "year": 2027,
+    "start": "2027-04-09",
+    "end": "2027-04-11",
+    "states": [
+      "RJ"
+    ],
+    "nationwide": false,
+    "place": "Jagdish Chowk, Gangaur Ghat, Udaipur and Gogunda",
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/mewar-festival-2026",
+    "status": "Provisional",
+    "note": "The source date field says 9–11 April 2027 but the page title and URL still say 2026. Confirm the edition and dates with the Tourist Reception Centre, Udaipur.",
+    "checked": "2026-10-13"
   }
 ]
