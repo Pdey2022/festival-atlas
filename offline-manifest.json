@@ -1,7 +1,10 @@
 {
   "version": 1,
-  "contentVersion": "6895596867329362",
+  "contentVersion": "7ccbd9e3a4aaef60",
   "shell": [
+    "finder.html",
+    "choice-core.js",
+    "choices.js",
     "index.html",
     "offline.html",
     "saved.html",
