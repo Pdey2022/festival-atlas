@@ -1,4 +1,411 @@
 {
+  "destinations": [
+    {
+      "id": "kolkata",
+      "name": "Kolkata",
+      "region": "East",
+      "aliases": [
+        "Kolkata"
+      ],
+      "air": "Netaji Subhash Chandra Bose International Airport (CCU)",
+      "rail": "Howrah Junction (HWH)",
+      "stay": "3–4 nights",
+      "plan": "Allow two festival outings and a separate museum day. Choose your neighbourhood around the programmes you want to attend.",
+      "nearby": [
+        "Victoria Memorial",
+        "Indian Museum"
+      ],
+      "access": "Ask pandal organisers about step-free entrances, quieter visiting hours and the distance from the permitted vehicle drop-off.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/west-bengal/kolkata"
+        ]
+      ]
+    },
+    {
+      "id": "mysuru",
+      "name": "Mysuru",
+      "region": "South",
+      "aliases": [
+        "Mysuru"
+      ],
+      "air": "Mysuru Airport (MYQ)",
+      "rail": "Mysuru Junction (MYS)",
+      "stay": "2–3 nights",
+      "plan": "Keep one day for the palace and another for the festival programme; add time if attending more than one major event.",
+      "nearby": [
+        "Mysuru Palace",
+        "Jaganmohan Palace art gallery"
+      ],
+      "access": "Ask about accessible seating and the entry route for your particular Dasara event; palace access does not establish procession access.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/karnataka/mysuru"
+        ]
+      ]
+    },
+    {
+      "id": "varanasi",
+      "name": "Varanasi",
+      "region": "North",
+      "aliases": [
+        "Varanasi"
+      ],
+      "air": "Lal Bahadur Shastri International Airport (VNS)",
+      "rail": "Varanasi Junction (BSB)",
+      "stay": "3 nights",
+      "plan": "Keep the festival evening free and visit Sarnath on another day. Arrange a meeting point and return transfer in advance.",
+      "nearby": [
+        "Sarnath",
+        "Assi Ghat"
+      ],
+      "access": "Ask for a route without ghat steps, the closest permitted drop-off and accessible toilets. Confirm boarding assistance before arranging a boat.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi"
+        ],
+        [
+          "District transport guide",
+          "https://varanasi.nic.in/how-to-reach/"
+        ]
+      ]
+    },
+    {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "region": "North",
+      "aliases": [
+        "Jaipur"
+      ],
+      "air": "Jaipur International Airport (JAI)",
+      "rail": "Jaipur Junction (JP)",
+      "stay": "3 nights",
+      "plan": "Combine one festival day with two shorter sightseeing days; keep the event route separate from your sightseeing plan.",
+      "nearby": [
+        "Hawa Mahal",
+        "Jantar Mantar"
+      ],
+      "access": "Ask each monument about lift or ramp access and which floors can be visited; confirm a suitable viewing area for processions.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/rajasthan/jaipur"
+        ]
+      ]
+    },
+    {
+      "id": "ahmedabad",
+      "name": "Ahmedabad",
+      "region": "West",
+      "aliases": [
+        "Ahmedabad"
+      ],
+      "air": "Sardar Vallabhbhai Patel International Airport (AMD)",
+      "rail": "Ahmedabad Junction (ADI)",
+      "stay": "2–3 nights",
+      "plan": "Reserve time for the booked festival programme and a separate heritage visit. Confirm the actual venue rather than assuming all events use the riverfront.",
+      "nearby": [
+        "Sabarmati Gandhi Ashram",
+        "Sabarmati Riverfront"
+      ],
+      "access": "Ask the chosen garba or kite venue about step-free entry, seating, toilets and quieter sessions; rooftop access needs a separate check.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/gujarat/ahmedabad"
+        ]
+      ]
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "region": "West",
+      "aliases": [
+        "Mumbai"
+      ],
+      "air": "Chhatrapati Shivaji Maharaj International Airport (BOM)",
+      "rail": "Mumbai Central (MMCT); choose the station shown on your train booking",
+      "stay": "3–4 nights",
+      "plan": "Choose a compact area for each day and allow a separate outing for the festival. Keep return arrangements flexible around the announced event route.",
+      "nearby": [
+        "Gateway of India",
+        "National Gallery of Modern Art"
+      ],
+      "access": "Ask the event organiser about crowd-managed access and drop-off points. Confirm station lifts and assistance for the exact journey you plan.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/maharashtra/mumbai"
+        ]
+      ]
+    },
+    {
+      "id": "kochi",
+      "name": "Kochi",
+      "region": "South",
+      "aliases": [
+        "Kochi"
+      ],
+      "air": "Cochin International Airport (COK)",
+      "rail": "Ernakulam Junction (ERS)",
+      "stay": "2–3 nights",
+      "plan": "Combine a confirmed Onam programme with a separate day in Fort Kochi and Mattancherry. Reserve any hosted meal directly.",
+      "nearby": [
+        "Fort Kochi",
+        "Mattancherry Palace"
+      ],
+      "access": "If using a ferry, ask about boarding gradients and assistance at both jetties. Check step-free access to the selected meal or performance venue.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/kerala/kochi"
+        ],
+        [
+          "Fort Kochi and nearby heritage",
+          "https://ernakulam.nic.in/en/tourist-place/fort-kochi/"
+        ]
+      ]
+    },
+    {
+      "id": "udaipur",
+      "name": "Udaipur",
+      "region": "North",
+      "aliases": [
+        "Udaipur"
+      ],
+      "air": "Maharana Pratap Airport (UDR)",
+      "rail": "Udaipur City (UDZ)",
+      "stay": "2–3 nights",
+      "plan": "Keep the festival programme and a palace visit on separate days; leave a spare half-day for changes to local arrangements.",
+      "nearby": [
+        "City Palace",
+        "Lake Pichola"
+      ],
+      "access": "Ask which palace areas can be reached without stairs and whether a step-free festival viewing point is available. Confirm boat boarding separately.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/rajasthan/udaipur"
+        ]
+      ]
+    },
+    {
+      "id": "amritsar",
+      "name": "Amritsar",
+      "region": "North",
+      "aliases": [
+        "Amritsar"
+      ],
+      "air": "Sri Guru Ram Dass Jee International Airport (ATQ)",
+      "rail": "Amritsar Junction (ASR)",
+      "stay": "2–3 nights",
+      "plan": "Allow time for the religious observance and a separate history-focused outing. Confirm the particular community programme before choosing dates.",
+      "nearby": [
+        "Jallianwala Bagh",
+        "Partition Museum"
+      ],
+      "access": "Ask the gurdwara or event host about wheelchair routes, resting places and assistance with entry procedures; check museum access separately.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/punjab/amritsar"
+        ]
+      ]
+    },
+    {
+      "id": "hyderabad",
+      "name": "Hyderabad",
+      "region": "South",
+      "aliases": [
+        "Hyderabad"
+      ],
+      "air": "Rajiv Gandhi International Airport (HYD)",
+      "rail": "Hyderabad Deccan / Nampally (HYB); verify your booked station",
+      "stay": "3 nights",
+      "plan": "Keep one outing for the festival and another for the old-city sights. Confirm where the specific Bathukamma or Bonalu programme takes place.",
+      "nearby": [
+        "Charminar",
+        "Salar Jung Museum"
+      ],
+      "access": "Ask about accessible viewing areas, shade, toilets and transport drop-off points for the specific procession or gathering.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/telangana/hyderabad"
+        ]
+      ]
+    },
+    {
+      "id": "guwahati",
+      "name": "Guwahati",
+      "region": "North East",
+      "aliases": [
+        "Guwahati"
+      ],
+      "air": "Lokpriya Gopinath Bordoloi International Airport (GAU)",
+      "rail": "Guwahati Railway Station (GHY)",
+      "stay": "2–3 nights",
+      "plan": "Plan around a confirmed Bihu programme and allow a separate day for city sights. This base does not cover the whole of Assam.",
+      "nearby": [
+        "Assam State Museum",
+        "Kamakhya Temple"
+      ],
+      "access": "Ask the performance venue about seating and step-free entry. Confirm temple access and queue assistance directly rather than assuming it matches the concert venue.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/assam/guwahati"
+        ]
+      ]
+    },
+    {
+      "id": "khajuraho",
+      "name": "Khajuraho",
+      "region": "Central",
+      "aliases": [
+        "Khajuraho"
+      ],
+      "air": "Khajuraho Airport (HJR)",
+      "rail": "Khajuraho Railway Station (KURJ)",
+      "stay": "2–3 nights",
+      "plan": "Pair one or two evening performances with daytime temple visits. Check the published running order before booking your stay.",
+      "nearby": [
+        "Western Group of Temples",
+        "Lakshmana Temple"
+      ],
+      "access": "Ask about step-free routes, accessible toilets and reserved seating at the actual performance site; temple steps may require an alternative viewing plan.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/madhya-pradesh/khajuraho"
+        ]
+      ]
+    },
+    {
+      "id": "mathura",
+      "name": "Mathura and Vrindavan",
+      "region": "North",
+      "aliases": [
+        "Mathura",
+        "Vrindavan"
+      ],
+      "air": "Delhi Indira Gandhi International Airport (DEL) is a regional arrival option; onward travel is required",
+      "rail": "Mathura Junction (MTJ)",
+      "stay": "3–4 nights",
+      "plan": "Choose the exact local Holi events first, then build transfer and rest time around them. Do not try to cover every Braj town in one day.",
+      "nearby": [
+        "Government Museum, Mathura",
+        "Vishram Ghat"
+      ],
+      "access": "Ask the chosen temple or host about crowd controls, step-free entry, toilets and a quiet exit route. Confirm the last accessible vehicle drop-off.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/uttar-pradesh/mathura"
+        ]
+      ]
+    },
+    {
+      "id": "pushkar",
+      "name": "Pushkar",
+      "region": "North",
+      "aliases": [
+        "Pushkar"
+      ],
+      "air": "Jaipur International Airport (JAI) is a regional gateway; onward travel is required",
+      "rail": "Ajmer railway station for onward travel to Pushkar",
+      "stay": "2–3 nights",
+      "plan": "Choose the fair activities you want to see and allow time for the town and lake. Check the final programme before fixing your stay.",
+      "nearby": [
+        "Pushkar Lake",
+        "Brahma Temple"
+      ],
+      "access": "Ask about firm-surface routes at the fair, seating and accessible toilets. Confirm a route that avoids lake steps if required.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.tourism.rajasthan.gov.in/pushkar.html"
+        ]
+      ]
+    },
+    {
+      "id": "puri",
+      "name": "Puri",
+      "region": "East",
+      "aliases": [
+        "Puri"
+      ],
+      "air": "Biju Patnaik International Airport (BBI), Bhubaneswar",
+      "rail": "Puri Railway Station (PURI)",
+      "stay": "3 nights",
+      "plan": "Keep the main festival day free and consider Konark on another day. Confirm event access and entry rules before making plans.",
+      "nearby": [
+        "Konark Sun Temple (separate excursion)",
+        "Puri seafront"
+      ],
+      "access": "Ask organisers for accessible viewing arrangements, toilets and drop-off points. Confirm temple entry rules and do not assume attendance at a public procession includes temple admission.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://www.incredibleindia.gov.in/en/odisha/puri"
+        ],
+        [
+          "District transport guide — Puri rail terminus",
+          "https://puri.odisha.gov.in/en/tourism/how-to-reach"
+        ]
+      ]
+    },
+    {
+      "id": "kisama",
+      "name": "Kohima and Kisama",
+      "region": "North East",
+      "aliases": [
+        "Kisama Heritage Village"
+      ],
+      "air": "Dimapur Airport; onward road travel to Kohima and Kisama",
+      "rail": "Dimapur railway station; onward road travel required",
+      "stay": "3–4 nights",
+      "plan": "Allow an arrival and transfer day, one or two festival days, and time in Kohima. Confirm road transfers and visitor requirements with official tourism services.",
+      "nearby": [
+        "Kohima War Cemetery",
+        "Kisama Heritage Village"
+      ],
+      "access": "Ask the festival team about gradients, firm paths, accessible toilets and seating near the programme. Confirm vehicle access to your accommodation and the venue.",
+      "checked": "2026-10-13",
+      "sources": [
+        [
+          "Official destination and transport guide",
+          "https://kohima.nic.in/how-to-reach/"
+        ],
+        [
+          "Kisama visitor information",
+          "https://kohima.nic.in/tourist-place/kisama-heritage-village/"
+        ],
+        [
+          "Kohima places of interest",
+          "https://kohima.nic.in/places-of-interest/"
+        ]
+      ]
+    }
+  ],
   "states": [
     {
       "code": "AP",
@@ -280,7 +687,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Sankranti",
@@ -337,7 +745,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Dree",
@@ -395,7 +804,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Losar",
@@ -462,7 +872,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Bohag Bihu",
@@ -535,7 +946,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": [
+        "guwahati"
+      ]
     },
     {
       "name": "Magh Bihu",
@@ -592,7 +1006,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Chhath Puja",
@@ -662,7 +1077,8 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": []
     },
     {
       "name": "Sonepur Mela",
@@ -721,7 +1137,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Bastar Dussehra",
@@ -781,7 +1198,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Hareli",
@@ -843,7 +1261,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Carnival",
@@ -902,7 +1321,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Shigmo",
@@ -960,7 +1380,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Navratri",
@@ -1036,7 +1457,10 @@
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
       },
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": [
+        "ahmedabad"
+      ]
     },
     {
       "name": "Uttarayan",
@@ -1093,7 +1517,10 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": [
+        "ahmedabad"
+      ]
     },
     {
       "name": "Teej",
@@ -1152,7 +1579,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Surajkund International Crafts Mela",
@@ -1210,7 +1638,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Kullu Dussehra",
@@ -1269,7 +1698,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Mandi Shivratri",
@@ -1328,7 +1758,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Sarhul",
@@ -1387,7 +1818,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Karam",
@@ -1446,7 +1878,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Mysuru Dasara",
@@ -1505,7 +1938,10 @@
         ]
       ],
       "photo": null,
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": [
+        "mysuru"
+      ]
     },
     {
       "name": "Onam",
@@ -1580,7 +2016,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": [
+        "kochi"
+      ]
     },
     {
       "name": "Vishu",
@@ -1642,7 +2081,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Bhagoria",
@@ -1701,7 +2141,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Khajuraho Dance Festival",
@@ -1758,7 +2199,10 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": [
+        "khajuraho"
+      ]
     },
     {
       "name": "Ganesh Chaturthi",
@@ -1836,7 +2280,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": [
+        "mumbai"
+      ]
     },
     {
       "name": "Gudi Padwa",
@@ -1895,7 +2342,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Yaoshang",
@@ -1953,7 +2401,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Sangai Festival",
@@ -2011,7 +2460,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Wangala",
@@ -2070,7 +2520,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Nongkrem Dance Festival",
@@ -2129,7 +2580,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Chapchar Kut",
@@ -2191,7 +2643,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Mim Kut",
@@ -2249,7 +2702,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Hornbill Festival",
@@ -2315,7 +2769,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": [
+        "kisama"
+      ]
     },
     {
       "name": "Moatsu",
@@ -2373,7 +2830,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Rath Yatra",
@@ -2440,7 +2898,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       },
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": [
+        "puri"
+      ]
     },
     {
       "name": "Raja Parba",
@@ -2497,7 +2958,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Vaisakhi",
@@ -2563,7 +3025,10 @@
         ]
       ],
       "photo": null,
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": [
+        "amritsar"
+      ]
     },
     {
       "name": "Lohri",
@@ -2624,7 +3089,10 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": [
+        "amritsar"
+      ]
     },
     {
       "name": "Gangaur",
@@ -2690,7 +3158,11 @@
         ]
       ],
       "photo": null,
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": [
+        "jaipur",
+        "udaipur"
+      ]
     },
     {
       "name": "Pushkar Fair",
@@ -2752,7 +3224,10 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": [
+        "pushkar"
+      ]
     },
     {
       "name": "Losoong / Namsoong",
@@ -2811,7 +3286,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Pongal",
@@ -2888,7 +3364,8 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": []
     },
     {
       "name": "Tamil Puthandu",
@@ -2945,7 +3422,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Bathukamma",
@@ -3004,7 +3482,10 @@
         ]
       ],
       "photo": null,
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": [
+        "hyderabad"
+      ]
     },
     {
       "name": "Bonalu",
@@ -3062,7 +3543,10 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": [
+        "hyderabad"
+      ]
     },
     {
       "name": "Kharchi Puja",
@@ -3120,7 +3604,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Garia Puja",
@@ -3178,7 +3663,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Holi",
@@ -3259,7 +3745,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": [
+        "mathura"
+      ]
     },
     {
       "name": "Dev Deepawali",
@@ -3321,7 +3810,10 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": [
+        "varanasi"
+      ]
     },
     {
       "name": "Harela",
@@ -3382,7 +3874,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Phool Dei",
@@ -3443,7 +3936,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Durga Puja",
@@ -3514,7 +4008,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": [
+        "kolkata"
+      ]
     },
     {
       "name": "Kali Puja",
@@ -3573,7 +4070,10 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": [
+        "kolkata"
+      ]
     },
     {
       "name": "Poila Boishakh",
@@ -3630,7 +4130,10 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": [
+        "kolkata"
+      ]
     },
     {
       "name": "Island Tourism Festival",
@@ -3689,7 +4192,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Rose Festival",
@@ -3747,7 +4251,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Nariyal Purnima",
@@ -3808,7 +4313,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Diwali",
@@ -3882,7 +4388,8 @@
         "source": "https://commons.wikimedia.org/wiki/File:Diwali_Diyas_Lamps.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
-      }
+      },
+      "destinationIds": []
     },
     {
       "name": "Eid al-Fitr",
@@ -3952,7 +4459,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Herath",
@@ -4010,7 +4518,8 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": null,
+      "destinationIds": []
     },
     {
       "name": "Hemis Festival",
@@ -4069,7 +4578,8 @@
         ]
       ],
       "photo": null,
-      "reviewed": "2026-10-10"
+      "reviewed": "2026-10-10",
+      "destinationIds": []
     }
   ],
   "events": [
