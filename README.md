@@ -73,3 +73,6 @@ Six additional 2027 local programmes were checked on 13 October 2026. Conflictin
 
 ### Finder and comparison
 Use `finder.html` to filter typical seasons, regions and any matching interests. Match reasons explain the results; additional matching themes rank first. Compare up to three guides across experiences, food, locations, practical tips and upcoming sourced dates. Selections stay in browser storage; shared links contain festival IDs only. Finder and comparison are included in updated offline packs. Run `node scripts/test-choice.cjs` for selection and matching checks.
+
+### Destination guidance
+`destinations.html` contains 16 sourced travel bases linked to 20 festival guides. Arrival gateways, railway stations, nearby attractions and source check dates accompany editorial stay suggestions and destination-specific accessibility questions. Accessibility facilities have not been audited. Other guides explicitly mark coverage as pending. Destination planning also appears in comparison rows and trip links, and is included in refreshed offline packs. Run `node scripts/test-destinations.cjs` to check mappings and generated coverage.
