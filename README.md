@@ -5,7 +5,7 @@ Explore India's festivals: https://pdey2022.github.io/festival-atlas/
 ## Three-stage upgrade
 
 1. **Festival guides:** 62 expanded shareable guides with traditions, food, places, visitor advice and sources. Eleven licensed historical photographs include attribution.
-2. **Discovery and calendar:** all 28 states and 8 union territories, map zoom/pan, approximate city markers, search and state/region/category/month filters. Fifteen sourced 2026–2027 calendar listings distinguish published and provisional dates and support ICS downloads. Seasonal inspiration remains separate; 2027 entries are included only with published sources.
+2. **Discovery and calendar:** all 28 states and 8 union territories, map zoom/pan, approximate city markers, search and state/region/category/month filters. Twenty-one sourced 2026–2027 calendar listings distinguish published and provisional dates and support ICS downloads. Seasonal inspiration remains separate; 2027 entries are included only with published sources.
 3. **Personal planning:** browser-local favourites, shareable collections, JSON backup/restore, correction links, accessible controls and mobile layouts.
 
 ## Travel planning release
@@ -30,7 +30,7 @@ Run `node scripts/test.cjs` and `node scripts/test-trip.cjs` for data integrity,
 
 ## Content and map provenance
 
-This is a curated introductory collection, not an exhaustive cultural calendar. Festivals are not exclusive to the state in which they are listed. Typical seasons are separate from the 15 sourced 2026–2027 annual listings; provisional dates are explicitly marked. Three 2027 listings are included; the Khajuraho listing remains provisional because its source has a conflicting year. Check organisers before travel; some community events require permission or have restricted participation. The app links to official festival listings:
+This is a curated introductory collection, not an exhaustive cultural calendar. Festivals are not exclusive to the state in which they are listed. Typical seasons are separate from the 21 sourced 2026–2027 annual listings; provisional dates are explicitly marked. Nine 2027 listings are included; the Khajuraho listing remains provisional because its source has a conflicting year. Check organisers before travel; some community events require permission or have restricted participation. The app links to official festival listings:
 
 - https://www.incredibleindia.gov.in/en/festivals-and-events
 - https://www.incredibleindia.gov.in/en/festivals-and-events/west-bengal/durga-puja
@@ -50,7 +50,7 @@ The 36 map feature codes were checked against the 36 content records. Geometry h
 
 ## Mobile and calendar update
 
-15 annual listings (12 in 2026, 3 in 2027), with source links and per-entry check dates. Calendar location filters use event venues or explicit nationwide coverage, rather than festival associations. Local programme names are preserved in calendar downloads.
+21 annual listings (12 in 2026, 9 in 2027), with source links and per-entry check dates. Calendar location filters use event venues or explicit nationwide coverage, rather than festival associations. Local programme names are preserved in calendar downloads.
 
 Mobile controls have larger tap targets and 16px form fields; narrow layouts wrap controls and long titles. Map dragging is explicitly enabled with Move map after zooming, preserving page scrolling when disabled. Print layout allows long itinerary notes to flow across pages. Logic and DOM checks do not substitute for real-device visual testing, which remains outstanding.
 
@@ -67,3 +67,6 @@ Run `node scripts/test-offline.cjs` for manifest paths, cache selection, fallbac
 ## Related festivals and discovery
 
 Each guide offers three related guides based on shared state associations, categories and typical months, with a reason shown. These are cultural connections rather than matching annual dates. The home page and guide pages offer a Discover a festival button. It avoids the current guide and repeats until the available selection is exhausted; when the device reports offline, it draws only from downloaded guides. Existing offline packs must be updated to include this release.
+
+### Calendar freshness
+Six additional 2027 local programmes were checked on 13 October 2026. Conflicting edition labels remain provisional. Calendar, guides, visit results and trip notes show date-review prompts, also offline. Sources are checked manually: upcoming/ongoing entries become stale at 90 days, or at 30 days when starting within 30 days. Provisional entries remain in Needs review. Past listings are archived and never rolled forward. Run `node scripts/test-freshness.cjs` to check date boundaries and review filtering.
