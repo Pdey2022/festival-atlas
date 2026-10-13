@@ -63,3 +63,7 @@ Downloads are explicitly initiated by the visitor; the service worker is registe
 Removing downloads clears only this app's cache namespace and unregisters its worker. It preserves localStorage favourites and trip notes. Browser storage can be evicted or cleared; JSON trip backups remain useful. External sources, venue maps and licence pages are online-only. Download timestamps are separate from cultural review and annual-date check timestamps.
 
 Run `node scripts/test-offline.cjs` for manifest paths, cache selection, fallback routing, atomic failed updates, optional image failures and scoped removal. DOM tests cover the manager's selection/download/remove states. Actual service-worker lifecycle and airplane-mode behaviour still need real-device browser testing.
+
+## Related festivals and discovery
+
+Each guide offers three related guides based on shared state associations, categories and typical months, with a reason shown. These are cultural connections rather than matching annual dates. The home page and guide pages offer a Discover a festival button. It avoids the current guide and repeats until the available selection is exhausted; when the device reports offline, it draws only from downloaded guides. Existing offline packs must be updated to include this release.
