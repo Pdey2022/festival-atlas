@@ -4,7 +4,7 @@ Explore India's festivals: https://pdey2022.github.io/festival-atlas/
 
 ## Three-stage upgrade
 
-1. **Festival guides:** 62 expanded shareable guides with traditions, food, places, visitor advice and sources. Three licensed historical photographs include attribution.
+1. **Festival guides:** 62 expanded shareable guides with traditions, food, places, visitor advice and sources. Eleven licensed historical photographs include attribution.
 2. **Discovery and calendar:** all 28 states and 8 union territories, map zoom/pan, approximate city markers, search and state/region/category/month filters. Fifteen sourced 2026–2027 calendar listings distinguish published and provisional dates and support ICS downloads. Seasonal inspiration remains separate; 2027 entries are included only with published sources.
 3. **Personal planning:** browser-local favourites, shareable collections, JSON backup/restore, correction links, accessible controls and mobile layouts.
 
@@ -53,3 +53,13 @@ The 36 map feature codes were checked against the 36 content records. Geometry h
 15 annual listings (12 in 2026, 3 in 2027), with source links and per-entry check dates. Calendar location filters use event venues or explicit nationwide coverage, rather than festival associations. Local programme names are preserved in calendar downloads.
 
 Mobile controls have larger tap targets and 16px form fields; narrow layouts wrap controls and long titles. Map dragging is explicitly enabled with Move map after zooming, preserving page scrolling when disabled. Print layout allows long itinerary notes to flow across pages. Logic and DOM checks do not substitute for real-device visual testing, which remains outstanding.
+
+## Photos and offline downloads
+
+`offline.html` lets visitors download selected guide pages from their saved list or trip. Every pack includes the app shell, map, calendar and trip editor. Optional photos use attributed Wikimedia images; eight new photographs bring the collection to eleven.
+
+Downloads are explicitly initiated by the visitor; the service worker is registered only then. `scripts/add-offline.mjs` generates the pack manifest and a content digest. Update downloads are staged in a new cache, and metadata switches only after required files succeed. Optional photo failures are counted and reported. Online pages use the network; cached pages are a fallback when offline. An uncached guide shows the offline management page.
+
+Removing downloads clears only this app's cache namespace and unregisters its worker. It preserves localStorage favourites and trip notes. Browser storage can be evicted or cleared; JSON trip backups remain useful. External sources, venue maps and licence pages are online-only. Download timestamps are separate from cultural review and annual-date check timestamps.
+
+Run `node scripts/test-offline.cjs` for manifest paths, cache selection, fallback routing, atomic failed updates, optional image failures and scoped removal. DOM tests cover the manager's selection/download/remove states. Actual service-worker lifecycle and airplane-mode behaviour still need real-device browser testing.
