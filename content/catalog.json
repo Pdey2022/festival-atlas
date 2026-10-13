@@ -526,7 +526,15 @@
           "https://www.utsav.gov.in/view-event/bohag-bihu-or-rangali-bihu"
         ]
       ],
-      "photo": null,
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bihu_dance.jpg/960px-Bihu_dance.jpg",
+        "alt": "Bihu performers in red and cream clothing with drums, a horn and a decorated woven hat",
+        "caption": "Rongali Bihu performers in Assam, April 2018. Historical photograph.",
+        "author": "Diganta Talukdar",
+        "source": "https://commons.wikimedia.org/wiki/File:Bihu_dance.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
       "reviewed": "2026-10-10"
     },
     {
@@ -645,7 +653,15 @@
           "https://www.incredibleindia.gov.in/en/festivals-and-events/chhath-puja"
         ]
       ],
-      "photo": null,
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/CHHATH_PUJA.jpg/960px-CHHATH_PUJA.jpg",
+        "alt": "Devotees standing in the Hooghly River near Howrah Bridge with the sun low on the horizon",
+        "caption": "Chhath worship at the Hooghly River in Kolkata, 2022. Historical photograph.",
+        "author": "Susovan Chakraborty5",
+        "source": "https://commons.wikimedia.org/wiki/File:CHHATH_PUJA.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
       "reviewed": "2026-10-10"
     },
     {
@@ -1011,7 +1027,15 @@
           "https://www.incredibleindia.gov.in/en/festivals-and-events/navratri"
         ]
       ],
-      "photo": null,
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Navratri_Garba.jpg",
+        "alt": "Garba dancers in colourful embroidered clothing performing outdoors at night",
+        "caption": "Navratri garba in Ahmedabad. Historical photograph; capture date not supplied.",
+        "author": "Hardik jadeja",
+        "source": "https://commons.wikimedia.org/wiki/File:Navratri_Garba.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+      },
       "reviewed": "2026-10-10"
     },
     {
@@ -1803,7 +1827,15 @@
           "https://www.incredibleindia.gov.in/en/festivals-and-events/maharashtra/ganesh-chaturthi"
         ]
       ],
-      "photo": null,
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ganesh_Chaturthi_1.jpg/960px-Ganesh_Chaturthi_1.jpg",
+        "alt": "Ganesha idol surrounded by pink flowers beside a coconut and ceremonial vessels",
+        "caption": "Ganesh Chaturthi worship in India, August 2020. Historical photograph.",
+        "author": "Yugaljoshi",
+        "source": "https://commons.wikimedia.org/wiki/File:Ganesh_Chaturthi_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
       "reviewed": "2026-10-10"
     },
     {
@@ -2399,7 +2431,15 @@
           "https://www.incredibleindia.gov.in/en/festivals-and-events/odisha/rath-yatra"
         ]
       ],
-      "photo": null,
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Rath_Yatra_Puri.jpg/960px-Rath_Yatra_Puri.jpg",
+        "alt": "Three brightly decorated festival chariots lit at night with visitors in front",
+        "caption": "Rath Yatra chariots near Gundicha Temple in Puri, July 2011. Historical photograph.",
+        "author": "Zephyrmaten",
+        "source": "https://commons.wikimedia.org/wiki/File:Rath_Yatra_Puri.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
       "reviewed": "2026-10-10"
     },
     {
@@ -2839,7 +2879,15 @@
           "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/coimbatore/pongal-festival.html"
         ]
       ],
-      "photo": null,
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Pongal_Festival.jpg/960px-Pongal_Festival.jpg",
+        "alt": "People gathered around decorated cooking pots and a colourful ground design for Pongal",
+        "caption": "Pongal celebration in India, January 2024. Historical photograph.",
+        "author": "Hishampgm",
+        "source": "https://commons.wikimedia.org/wiki/File:Pongal_Festival.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
       "reviewed": "2026-10-10"
     },
     {
@@ -3202,7 +3250,15 @@
           "https://www.incredibleindia.gov.in/en/festivals-and-events/holi"
         ]
       ],
-      "photo": null,
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/HOLI_FESTIVAL.jpg/960px-HOLI_FESTIVAL.jpg",
+        "alt": "Person celebrating Holi amid a cloud of bright pink powder",
+        "caption": "Holi celebration in India, March 2016. Historical photograph.",
+        "author": "NIMESH DUSRA",
+        "source": "https://commons.wikimedia.org/wiki/File:HOLI_FESTIVAL.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
       "reviewed": "2026-10-10"
     },
     {
@@ -3818,7 +3874,15 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Diwali_Diyas_Lamps.jpg/960px-Diwali_Diyas_Lamps.jpg",
+        "alt": "Lit clay diyas arranged around a decorated lamp during Diwali",
+        "caption": "Diwali lamps, October 2011. Historical photograph.",
+        "author": "humdingor",
+        "source": "https://commons.wikimedia.org/wiki/File:Diwali_Diyas_Lamps.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+      }
     },
     {
       "name": "Eid al-Fitr",

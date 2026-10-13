@@ -1,0 +1,272 @@
+{
+  "version": 1,
+  "contentVersion": "dba278bd21571185",
+  "shell": [
+    "index.html",
+    "offline.html",
+    "saved.html",
+    "trip.html",
+    "visit.html",
+    "calendar.html",
+    "about.html",
+    "styles.css",
+    "enhancements.css",
+    "catalog.js",
+    "core.js",
+    "common.js",
+    "app.js",
+    "trip-core.js",
+    "planner.js",
+    "offline.js"
+  ],
+  "guides": {
+    "ugadi": {
+      "page": "festivals/ugadi.html",
+      "photo": null
+    },
+    "sankranti": {
+      "page": "festivals/sankranti.html",
+      "photo": null
+    },
+    "dree": {
+      "page": "festivals/dree.html",
+      "photo": null
+    },
+    "losar": {
+      "page": "festivals/losar.html",
+      "photo": null
+    },
+    "bohag-bihu": {
+      "page": "festivals/bohag-bihu.html",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bihu_dance.jpg/960px-Bihu_dance.jpg"
+    },
+    "magh-bihu": {
+      "page": "festivals/magh-bihu.html",
+      "photo": null
+    },
+    "chhath-puja": {
+      "page": "festivals/chhath-puja.html",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/CHHATH_PUJA.jpg/960px-CHHATH_PUJA.jpg"
+    },
+    "sonepur-mela": {
+      "page": "festivals/sonepur-mela.html",
+      "photo": null
+    },
+    "bastar-dussehra": {
+      "page": "festivals/bastar-dussehra.html",
+      "photo": null
+    },
+    "hareli": {
+      "page": "festivals/hareli.html",
+      "photo": null
+    },
+    "carnival": {
+      "page": "festivals/carnival.html",
+      "photo": null
+    },
+    "shigmo": {
+      "page": "festivals/shigmo.html",
+      "photo": null
+    },
+    "navratri": {
+      "page": "festivals/navratri.html",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/2/29/Navratri_Garba.jpg"
+    },
+    "uttarayan": {
+      "page": "festivals/uttarayan.html",
+      "photo": null
+    },
+    "teej": {
+      "page": "festivals/teej.html",
+      "photo": null
+    },
+    "surajkund-international-crafts-mela": {
+      "page": "festivals/surajkund-international-crafts-mela.html",
+      "photo": null
+    },
+    "kullu-dussehra": {
+      "page": "festivals/kullu-dussehra.html",
+      "photo": null
+    },
+    "mandi-shivratri": {
+      "page": "festivals/mandi-shivratri.html",
+      "photo": null
+    },
+    "sarhul": {
+      "page": "festivals/sarhul.html",
+      "photo": null
+    },
+    "karam": {
+      "page": "festivals/karam.html",
+      "photo": null
+    },
+    "mysuru-dasara": {
+      "page": "festivals/mysuru-dasara.html",
+      "photo": null
+    },
+    "onam": {
+      "page": "festivals/onam.html",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/9/94/Onam_celebration.jpg"
+    },
+    "vishu": {
+      "page": "festivals/vishu.html",
+      "photo": null
+    },
+    "bhagoria": {
+      "page": "festivals/bhagoria.html",
+      "photo": null
+    },
+    "khajuraho-dance-festival": {
+      "page": "festivals/khajuraho-dance-festival.html",
+      "photo": null
+    },
+    "ganesh-chaturthi": {
+      "page": "festivals/ganesh-chaturthi.html",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ganesh_Chaturthi_1.jpg/960px-Ganesh_Chaturthi_1.jpg"
+    },
+    "gudi-padwa": {
+      "page": "festivals/gudi-padwa.html",
+      "photo": null
+    },
+    "yaoshang": {
+      "page": "festivals/yaoshang.html",
+      "photo": null
+    },
+    "sangai-festival": {
+      "page": "festivals/sangai-festival.html",
+      "photo": null
+    },
+    "wangala": {
+      "page": "festivals/wangala.html",
+      "photo": null
+    },
+    "nongkrem-dance-festival": {
+      "page": "festivals/nongkrem-dance-festival.html",
+      "photo": null
+    },
+    "chapchar-kut": {
+      "page": "festivals/chapchar-kut.html",
+      "photo": null
+    },
+    "mim-kut": {
+      "page": "festivals/mim-kut.html",
+      "photo": null
+    },
+    "hornbill-festival": {
+      "page": "festivals/hornbill-festival.html",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Hornbill_festival.jpg"
+    },
+    "moatsu": {
+      "page": "festivals/moatsu.html",
+      "photo": null
+    },
+    "rath-yatra": {
+      "page": "festivals/rath-yatra.html",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Rath_Yatra_Puri.jpg/960px-Rath_Yatra_Puri.jpg"
+    },
+    "raja-parba": {
+      "page": "festivals/raja-parba.html",
+      "photo": null
+    },
+    "vaisakhi": {
+      "page": "festivals/vaisakhi.html",
+      "photo": null
+    },
+    "lohri": {
+      "page": "festivals/lohri.html",
+      "photo": null
+    },
+    "gangaur": {
+      "page": "festivals/gangaur.html",
+      "photo": null
+    },
+    "pushkar-fair": {
+      "page": "festivals/pushkar-fair.html",
+      "photo": null
+    },
+    "losoong-namsoong": {
+      "page": "festivals/losoong-namsoong.html",
+      "photo": null
+    },
+    "pongal": {
+      "page": "festivals/pongal.html",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Pongal_Festival.jpg/960px-Pongal_Festival.jpg"
+    },
+    "tamil-puthandu": {
+      "page": "festivals/tamil-puthandu.html",
+      "photo": null
+    },
+    "bathukamma": {
+      "page": "festivals/bathukamma.html",
+      "photo": null
+    },
+    "bonalu": {
+      "page": "festivals/bonalu.html",
+      "photo": null
+    },
+    "kharchi-puja": {
+      "page": "festivals/kharchi-puja.html",
+      "photo": null
+    },
+    "garia-puja": {
+      "page": "festivals/garia-puja.html",
+      "photo": null
+    },
+    "holi": {
+      "page": "festivals/holi.html",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/HOLI_FESTIVAL.jpg/960px-HOLI_FESTIVAL.jpg"
+    },
+    "dev-deepawali": {
+      "page": "festivals/dev-deepawali.html",
+      "photo": null
+    },
+    "harela": {
+      "page": "festivals/harela.html",
+      "photo": null
+    },
+    "phool-dei": {
+      "page": "festivals/phool-dei.html",
+      "photo": null
+    },
+    "durga-puja": {
+      "page": "festivals/durga-puja.html",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/05/Durga_Puja_in_West_Bengal.jpg"
+    },
+    "kali-puja": {
+      "page": "festivals/kali-puja.html",
+      "photo": null
+    },
+    "poila-boishakh": {
+      "page": "festivals/poila-boishakh.html",
+      "photo": null
+    },
+    "island-tourism-festival": {
+      "page": "festivals/island-tourism-festival.html",
+      "photo": null
+    },
+    "rose-festival": {
+      "page": "festivals/rose-festival.html",
+      "photo": null
+    },
+    "nariyal-purnima": {
+      "page": "festivals/nariyal-purnima.html",
+      "photo": null
+    },
+    "diwali": {
+      "page": "festivals/diwali.html",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Diwali_Diyas_Lamps.jpg/960px-Diwali_Diyas_Lamps.jpg"
+    },
+    "eid-al-fitr": {
+      "page": "festivals/eid-al-fitr.html",
+      "photo": null
+    },
+    "herath": {
+      "page": "festivals/herath.html",
+      "photo": null
+    },
+    "hemis-festival": {
+      "page": "festivals/hemis-festival.html",
+      "photo": null
+    }
+  }
+}
