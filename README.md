@@ -70,3 +70,6 @@ Each guide offers three related guides based on shared state associations, categ
 
 ### Calendar freshness
 Six additional 2027 local programmes were checked on 13 October 2026. Conflicting edition labels remain provisional. Calendar, guides, visit results and trip notes show date-review prompts, also offline. Sources are checked manually: upcoming/ongoing entries become stale at 90 days, or at 30 days when starting within 30 days. Provisional entries remain in Needs review. Past listings are archived and never rolled forward. Run `node scripts/test-freshness.cjs` to check date boundaries and review filtering.
+
+### Finder and comparison
+Use `finder.html` to filter typical seasons, regions and any matching interests. Match reasons explain the results; additional matching themes rank first. Compare up to three guides across experiences, food, locations, practical tips and upcoming sourced dates. Selections stay in browser storage; shared links contain festival IDs only. Finder and comparison are included in updated offline packs. Run `node scripts/test-choice.cjs` for selection and matching checks.
