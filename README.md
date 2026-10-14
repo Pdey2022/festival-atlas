@@ -79,3 +79,6 @@ Use `finder.html` to filter typical seasons, regions and any matching interests.
 
 ### Community suggestions
 `contribute.html` prepares correction and festival-suggestion drafts with required supporting sources. Guide links preselect the affected festival. Drafts are previewed locally and can be copied or downloaded; nothing is submitted automatically or saved in browser storage. Continue to GitHub opens a public issue composer, requiring the visitor to sign in and submit. Long URL drafts use a copy-and-paste fallback. Editorial review and a later deployment are required to alter the atlas. Run `node scripts/test-contribute.cjs` for validation and issue-link checks.
+
+### Homepage and mobile polish
+Three homepage starting points lead to the map, finder and month-based trip discovery, with a separate link to an existing itinerary. Map shortcuts reach results or the state list. Mobile navigation uses two columns, map controls have a full-width reset, contribution and finder fields use 16px text, and comparison overflow stays within its scrollable region. Source-level review and regression checks were performed; real-device visual QA remains outstanding.
