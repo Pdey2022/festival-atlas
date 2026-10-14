@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "contentVersion": "6111638d53e9d8d9",
+  "contentVersion": "178d00bb0f63f4fa",
   "shell": [
+    "gallery.html",
     "contribute.html",
     "contribute-core.js",
     "contribute.js",
@@ -110,7 +111,7 @@
     },
     "mysuru-dasara": {
       "page": "festivals/mysuru-dasara.html",
-      "photo": null
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Mysore_Dasara_procession.jpg"
     },
     "onam": {
       "page": "festivals/onam.html",
@@ -146,7 +147,7 @@
     },
     "wangala": {
       "page": "festivals/wangala.html",
-      "photo": null
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wangala_Dance_44th_Wangala_Festival.jpg/960px-Wangala_Dance_44th_Wangala_Festival.jpg"
     },
     "nongkrem-dance-festival": {
       "page": "festivals/nongkrem-dance-festival.html",
@@ -154,7 +155,7 @@
     },
     "chapchar-kut": {
       "page": "festivals/chapchar-kut.html",
-      "photo": null
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/2/2c/CHAPCHAR_KUT_2013.jpg"
     },
     "mim-kut": {
       "page": "festivals/mim-kut.html",
@@ -190,7 +191,7 @@
     },
     "pushkar-fair": {
       "page": "festivals/pushkar-fair.html",
-      "photo": null
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Pushkar_Fair.jpg/960px-Pushkar_Fair.jpg"
     },
     "losoong-namsoong": {
       "page": "festivals/losoong-namsoong.html",
@@ -206,7 +207,7 @@
     },
     "bathukamma": {
       "page": "festivals/bathukamma.html",
-      "photo": null
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Bathukamma_in_telangana.jpg/500px-Bathukamma_in_telangana.jpg"
     },
     "bonalu": {
       "page": "festivals/bonalu.html",
@@ -274,7 +275,7 @@
     },
     "hemis-festival": {
       "page": "festivals/hemis-festival.html",
-      "photo": null
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Hemis_Monastery_Festival_1.jpg/960px-Hemis_Monastery_Festival_1.jpg"
     }
   }
 }

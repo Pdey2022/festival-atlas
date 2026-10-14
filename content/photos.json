@@ -97,5 +97,77 @@
     "source": "https://commons.wikimedia.org/wiki/File:CHHATH_PUJA.jpg",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "wangala": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wangala_Dance_44th_Wangala_Festival.jpg/960px-Wangala_Dance_44th_Wangala_Festival.jpg",
+    "alt": "Drummers and dancers in colourful clothing performing outdoors at Wangala",
+    "caption": "Wangala at Chibragre, West Garo Hills, November 2021. Historical photograph.",
+    "author": "Visma kumar",
+    "source": "https://commons.wikimedia.org/wiki/File:Wangala_Dance_44th_Wangala_Festival.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "width": 960,
+    "height": 640,
+    "checked": "2026-10-14"
+  },
+  "bathukamma": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Bathukamma_in_telangana.jpg/500px-Bathukamma_in_telangana.jpg",
+    "alt": "Women gathered around colourful stacked flower arrangements in a street at night",
+    "caption": "Bathukamma celebration in Telangana. Historical photograph; the source’s recorded date does not establish the festival date.",
+    "author": "Happie1Soul",
+    "source": "https://commons.wikimedia.org/wiki/File:Bathukamma_in_telangana.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "width": 500,
+    "height": 1109,
+    "checked": "2026-10-14"
+  },
+  "mysuru-dasara": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Mysore_Dasara_procession.jpg",
+    "alt": "Decorated elephants passing spectators during the Dasara procession in Mysuru",
+    "caption": "Mysuru Dasara procession, October 2007. Historical photograph.",
+    "author": "Kalyan Kumar",
+    "source": "https://commons.wikimedia.org/wiki/File:Mysore_Dasara_procession.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "width": 1024,
+    "height": 739,
+    "checked": "2026-10-14"
+  },
+  "chapchar-kut": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/CHAPCHAR_KUT_2013.jpg",
+    "alt": "Dancers stepping between bamboo poles with spectators on the hillside at Vairengte",
+    "caption": "Chapchar Kut dance in Vairengte, Mizoram. Historical photograph; the filename and recorded date differ, so the capture year is unconfirmed.",
+    "author": "Anup Rou",
+    "source": "https://commons.wikimedia.org/wiki/File:CHAPCHAR_KUT_2013.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "width": 900,
+    "height": 600,
+    "checked": "2026-10-14"
+  },
+  "hemis-festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Hemis_Monastery_Festival_1.jpg/960px-Hemis_Monastery_Festival_1.jpg",
+    "alt": "Masked festival performer in red and yellow robes in the courtyard of Hemis Monastery",
+    "caption": "Hemis Monastery festival in Ladakh, July 2006. Historical photograph.",
+    "author": "MaryOfPrag",
+    "source": "https://commons.wikimedia.org/wiki/File:Hemis_Monastery_Festival_1.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "width": 960,
+    "height": 720,
+    "checked": "2026-10-14"
+  },
+  "pushkar-fair": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Pushkar_Fair.jpg/960px-Pushkar_Fair.jpg",
+    "alt": "Participants with a camel-drawn cart at Pushkar Fair",
+    "caption": "Pushkar Fair, November 2018. Historical photograph.",
+    "author": "V.K wikimats",
+    "source": "https://commons.wikimedia.org/wiki/File:Pushkar_Fair.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "width": 960,
+    "height": 640,
+    "checked": "2026-10-14"
   }
 }
