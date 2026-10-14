@@ -1,11 +1,12 @@
 {
   "version": 1,
-  "contentVersion": "ea23ad7d18cdd49e",
+  "contentVersion": "6111638d53e9d8d9",
   "shell": [
     "contribute.html",
     "contribute-core.js",
     "contribute.js",
     "destinations.html",
+    "destinations.js",
     "finder.html",
     "choice-core.js",
     "choices.js",
