@@ -250,7 +250,7 @@
   {
     "id": "guwahati",
     "name": "Guwahati",
-    "region": "North East",
+    "region": "Northeast",
     "aliases": [
       "Guwahati"
     ],
@@ -375,7 +375,7 @@
   {
     "id": "kisama",
     "name": "Kohima and Kisama",
-    "region": "North East",
+    "region": "Northeast",
     "aliases": [
       "Kisama Heritage Village"
     ],
@@ -401,6 +401,1043 @@
       [
         "Kohima places of interest",
         "https://kohima.nic.in/places-of-interest/"
+      ]
+    ]
+  },
+  {
+    "id": "bengaluru",
+    "name": "Bengaluru",
+    "region": "South",
+    "aliases": [
+      "Bengaluru"
+    ],
+    "air": "Kempegowda International Airport (BLR)",
+    "rail": "KSR Bengaluru City railway station (SBC); check your booked station",
+    "stay": "2–3 nights",
+    "plan": "Arrange a hosted Ugadi celebration or public programme first, then choose accommodation near that neighbourhood. Leave a separate morning for the gardens.",
+    "nearby": [
+      "Lalbagh Botanical Garden",
+      "Cubbon Park"
+    ],
+    "access": "Ask your host about step-free dining and seating. Check park entrance distances, resting places and accessible toilets.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/karnataka/bengaluru"
+      ]
+    ]
+  },
+  {
+    "id": "amalapuram",
+    "name": "Amalapuram and Konaseema",
+    "region": "South",
+    "aliases": [
+      "Amalapuram"
+    ],
+    "air": "Rajahmundry Airport is a regional gateway; arrange onward road travel",
+    "rail": "Rajahmundry railway station is a regional arrival option; arrange a road transfer to Amalapuram",
+    "stay": "2–3 nights",
+    "plan": "Choose an invited or publicly announced Sankranti programme and arrange local transport with your host. Keep a separate day for a Konaseema excursion.",
+    "nearby": [
+      "Ainavilli temple",
+      "Adurru archaeological site"
+    ],
+    "access": "Ask about vehicle access to the host village, firm paths, toilets and seating. Confirm access at each temple or archaeological site separately.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/andhra-pradesh/rajahmundry"
+      ],
+      [
+        "Konaseema sights",
+        "https://konaseema.ap.gov.in/tourism-2/"
+      ],
+      [
+        "District and road access",
+        "https://konaseema.ap.gov.in/about-district/"
+      ]
+    ]
+  },
+  {
+    "id": "thrissur",
+    "name": "Thrissur",
+    "region": "South",
+    "aliases": [
+      "Thrissur"
+    ],
+    "air": "Cochin International Airport (COK), with onward road travel",
+    "rail": "Thrissur railway station (TCR)",
+    "stay": "2–3 nights",
+    "plan": "Arrange your Vishu visit with a host or temple and leave time for the city. Treat a Guruvayur visit as a separate outing with its own entry requirements.",
+    "nearby": [
+      "Vadakkunnathan Temple",
+      "Guruvayur (separate excursion)"
+    ],
+    "access": "Ask about temple entry procedures, step-free routes and queue assistance. Confirm seating and dietary arrangements for any hosted meal.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/kerala/thrissur"
+      ],
+      [
+        "Official arrival information",
+        "https://prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/thrissur.html"
+      ]
+    ]
+  },
+  {
+    "id": "madurai",
+    "name": "Madurai",
+    "region": "South",
+    "aliases": [
+      "Madurai"
+    ],
+    "air": "Madurai Airport (IXM)",
+    "rail": "Madurai Junction (MDU)",
+    "stay": "3 nights",
+    "plan": "Allow a day for a confirmed Pongal programme and another for the temple and palace. Arrange village visits through a host rather than assuming celebrations are open to visitors.",
+    "nearby": [
+      "Meenakshi Amman Temple",
+      "Thirumalai Nayak Palace"
+    ],
+    "access": "Ask about the permitted temple entry route, queue assistance and rest stops. Check which palace areas can be reached without steps.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/tamil-nadu/madurai"
+      ]
+    ]
+  },
+  {
+    "id": "chennai",
+    "name": "Chennai",
+    "region": "South",
+    "aliases": [
+      "Chennai"
+    ],
+    "air": "Chennai International Airport (MAA)",
+    "rail": "Chennai Central or Chennai Egmore; check the station on your booking",
+    "stay": "2–3 nights",
+    "plan": "Choose the Tamil New Year observance you want to attend before booking a neighbourhood. Leave a separate outing for the seafront and heritage sights.",
+    "nearby": [
+      "Marina Beach",
+      "Santhome Cathedral"
+    ],
+    "access": "Ask about accessible seating and entry at the chosen programme. Check the surface and distance of your seafront route and the nearest suitable toilet.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/tamil-nadu/chennai"
+      ],
+      [
+        "Official city arrival guide",
+        "https://prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/chennai.html"
+      ]
+    ]
+  },
+  {
+    "id": "puducherry",
+    "name": "Puducherry",
+    "region": "South",
+    "aliases": [
+      "Puducherry"
+    ],
+    "air": "Puducherry Airport; Chennai International Airport is another gateway with onward road travel",
+    "rail": "Puducherry railway station; check the current service for your origin",
+    "stay": "2–3 nights",
+    "plan": "Confirm a public Pongal programme or hosted visit, then leave another day for the museum and seafront. Book any village visit directly with a local host.",
+    "nearby": [
+      "Puducherry Museum",
+      "Promenade seafront"
+    ],
+    "access": "Ask about step-free accommodation and museum entry. Confirm pavement surfaces and road crossings on the route to your celebration.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Government tourism travel and sights FAQ",
+        "https://pondytourism.py.gov.in/onlinebs/FAQ.aspx"
+      ]
+    ]
+  },
+  {
+    "id": "patna",
+    "name": "Patna",
+    "region": "East",
+    "aliases": [
+      "Patna"
+    ],
+    "air": "Jay Prakash Narayan Airport (PAT)",
+    "rail": "Patna Junction (PNBE)",
+    "stay": "2–3 nights",
+    "plan": "Confirm the designated Chhath ghat and local access arrangements. Keep the observance separate from a museum or city sightseeing day.",
+    "nearby": [
+      "Patna Museum",
+      "Golghar"
+    ],
+    "access": "Ask the local organisers for a step-free viewing alternative, accessible toilets, lighting and the last permitted drop-off near the ghat.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/bihar/patna"
+      ]
+    ]
+  },
+  {
+    "id": "sonepur",
+    "name": "Sonepur",
+    "region": "East",
+    "aliases": [
+      "Sonepur"
+    ],
+    "air": "Patna Airport, with onward road travel to Sonepur",
+    "rail": "Sonepur Junction; Hajipur and Patliputra are alternative rail gateways",
+    "stay": "2–3 nights",
+    "plan": "Plan one full fair day and a shorter return visit around the confirmed programme. Compare accommodation in Sonepur and Patna with the actual transfer arrangements.",
+    "nearby": [
+      "Hariharnath Temple",
+      "Ganga–Gandak confluence"
+    ],
+    "access": "Ask about firm paths through the fair, accessible toilets and a seated rest area. Confirm a viewing route that avoids riverbank steps.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "District fair transport guide",
+        "https://saran.nic.in/mela-how-to-reach/"
+      ],
+      [
+        "Sonepur heritage and confluence",
+        "https://sarandivision.bih.nic.in/places-centres/sonepur/"
+      ]
+    ]
+  },
+  {
+    "id": "ranchi",
+    "name": "Ranchi",
+    "region": "East",
+    "aliases": [
+      "Ranchi"
+    ],
+    "air": "Birsa Munda Airport (IXR)",
+    "rail": "Ranchi railway station",
+    "stay": "3 nights",
+    "plan": "Confirm a community invitation or public Sarhul or Karam programme. Leave a separate day for a waterfall excursion and arrange your return transport in advance.",
+    "nearby": [
+      "Hundru Falls (separate excursion)",
+      "Jonha Falls (separate excursion)"
+    ],
+    "access": "Ask the event host about seating, toilets and step-free viewing. Ask waterfall staff about steps and alternative viewpoints before arranging an excursion.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/jharkhand/ranchi"
+      ]
+    ]
+  },
+  {
+    "id": "bhubaneswar",
+    "name": "Bhubaneswar",
+    "region": "East",
+    "aliases": [
+      "Bhubaneswar"
+    ],
+    "air": "Biju Patnaik International Airport (BBI)",
+    "rail": "Bhubaneswar railway station (BBS)",
+    "stay": "2–3 nights",
+    "plan": "Book a hosted or public Raja Parba experience and leave another day for heritage sights. Choose one excursion at a time rather than combining every stop.",
+    "nearby": [
+      "Khandagiri and Udayagiri Caves",
+      "Nandankanan Zoological Park"
+    ],
+    "access": "Ask hosts about seating and toilets; confirm a ground-level alternative if swings or cave steps do not suit your access needs.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar"
+      ]
+    ]
+  },
+  {
+    "id": "jagdalpur",
+    "name": "Jagdalpur",
+    "region": "Central",
+    "aliases": [
+      "Jagdalpur"
+    ],
+    "air": "Jagdalpur Airport; Raipur Airport is a regional alternative requiring a longer road transfer. Confirm available flights before booking.",
+    "rail": "Jagdalpur railway station",
+    "stay": "3–4 nights",
+    "plan": "Choose which Bastar Dussehra observances you will attend, then plan a separate waterfall day. Arrange local visits and transport with an informed host.",
+    "nearby": [
+      "Chitrakote Falls (separate excursion)",
+      "Tirathgarh Falls (separate excursion)"
+    ],
+    "access": "Ask about crowd-managed viewing, firm paths and seating at the festival. Check steps and accessible viewpoints at each waterfall.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "District arrival guide",
+        "https://bastar.gov.in/en/tourism/how-to-reach/"
+      ],
+      [
+        "District places of interest",
+        "https://bastar.gov.in/en/tourism/places-of-interest/"
+      ],
+      [
+        "Jagdalpur airport passenger-service inauguration",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1657303"
+      ]
+    ]
+  },
+  {
+    "id": "raipur",
+    "name": "Raipur",
+    "region": "Central",
+    "aliases": [
+      "Raipur"
+    ],
+    "air": "Swami Vivekananda Airport (RPR)",
+    "rail": "Raipur Junction",
+    "stay": "2–3 nights",
+    "plan": "Use Raipur as a base for a confirmed Hareli programme. Arrange any village outing with the host and keep a separate half-day for the museum.",
+    "nearby": [
+      "Mahant Ghasidas Memorial Museum",
+      "Swami Vivekananda Sarovar"
+    ],
+    "access": "Ask about firm paths and seating at the rural programme, and confirm step-free access to your accommodation and museum.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/chhattisgarh/raipur"
+      ]
+    ]
+  },
+  {
+    "id": "jhabua",
+    "name": "Jhabua",
+    "region": "Central",
+    "aliases": [
+      "Jhabua"
+    ],
+    "air": "Indore Airport, with onward road travel",
+    "rail": "Meghnagar railway station, with onward road travel to Jhabua",
+    "stay": "2–3 nights",
+    "plan": "Check the specific Bhagoria market location and day before booking. Arrange a local host or guide and leave spare time between market visits.",
+    "nearby": [
+      "Devjhiri",
+      "Rajwada, Jhabua"
+    ],
+    "access": "Ask about market ground surfaces, shade, seating and accessible toilets. Confirm how close a suitable vehicle can reach the gathering.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "District transport guide",
+        "https://jhabua.nic.in/en/how-to-reach/"
+      ],
+      [
+        "District places of interest",
+        "https://jhabua.nic.in/en/places-of-interest/"
+      ]
+    ]
+  },
+  {
+    "id": "panaji",
+    "name": "Panaji",
+    "region": "West",
+    "aliases": [
+      "Panaji"
+    ],
+    "air": "Dabolim Airport or Manohar International Airport at Mopa; check which airport your booking uses and arrange the onward transfer",
+    "rail": "Karmali or other Goa rail stations, with onward road travel; choose the stop served by your train",
+    "stay": "3 nights",
+    "plan": "Plan around the confirmed Carnival route and keep another day for Panaji heritage. Choose accommodation with a workable return route during event road closures.",
+    "nearby": [
+      "Fontainhas heritage quarter",
+      "Church Square, Panaji"
+    ],
+    "access": "Ask about step-free procession viewing, seating and toilets. Confirm a drop-off outside any closed streets and check gradients on the heritage route.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Goa rail and Dabolim gateway information",
+        "https://goa-tourism.com/media-room/getting-here/"
+      ],
+      [
+        "Manohar International Airport",
+        "https://www.pppinindia.gov.in/bestpractices/best-practice-detail/manohar-international-airport-in-mopa%2C-goa"
+      ],
+      [
+        "Panaji heritage guide",
+        "https://www.goa.gov.in/places/panaji-also-known-as-panjim/"
+      ]
+    ]
+  },
+  {
+    "id": "ponda",
+    "name": "Ponda",
+    "region": "West",
+    "aliases": [
+      "Ponda"
+    ],
+    "air": "Dabolim Airport or Manohar International Airport at Mopa; check which airport your booking uses and arrange the onward transfer",
+    "rail": "Madgaon or Karmali are Goa rail gateways; arrange onward road travel to Ponda",
+    "stay": "2–3 nights",
+    "plan": "Check Ponda’s announced Shigmo programme and allow another day for nearby temples. Do not assume the parade takes place on the same date as other Goa towns.",
+    "nearby": [
+      "Shri Mangueshi Temple",
+      "Shri Shantadurga Temple"
+    ],
+    "access": "Ask about a firm, step-free parade viewing area and accessible toilets. Confirm temple stairs, entry procedures and the distance from parking.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Goa rail and Dabolim gateway information",
+        "https://goa-tourism.com/media-room/getting-here/"
+      ],
+      [
+        "Manohar International Airport",
+        "https://www.pppinindia.gov.in/bestpractices/best-practice-detail/manohar-international-airport-in-mopa%2C-goa"
+      ],
+      [
+        "Ponda temples and heritage",
+        "https://goa-tourism.com/guide/ponda/"
+      ]
+    ]
+  },
+  {
+    "id": "pune",
+    "name": "Pune",
+    "region": "West",
+    "aliases": [
+      "Pune"
+    ],
+    "air": "Pune Airport (PNQ)",
+    "rail": "Pune Junction",
+    "stay": "2–3 nights",
+    "plan": "Choose the Gudi Padwa or Ganesh programme first and stay within a manageable distance. Leave heritage visits for a separate day.",
+    "nearby": [
+      "Shaniwar Wada",
+      "Aga Khan Palace"
+    ],
+    "access": "Ask organisers about step-free viewing and exits during processions. Check monument access and accessible toilets independently.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/maharashtra/pune"
+      ]
+    ]
+  },
+  {
+    "id": "daman",
+    "name": "Daman",
+    "region": "West",
+    "aliases": [
+      "Daman"
+    ],
+    "air": "Daman Airport (NAMO Airport); check current bookable services before planning your trip",
+    "rail": "Vapi railway station, with onward road travel to Daman",
+    "stay": "2–3 nights",
+    "plan": "Confirm where the public Nariyal Purnima observance takes place and leave another day for the forts. Arrange a return transfer away from the waterfront crowds.",
+    "nearby": [
+      "Moti Daman Fort",
+      "Fort of St. Jerome"
+    ],
+    "access": "Ask about firm waterfront paths, seating and toilets. Confirm whether your chosen fort route involves steps or uneven surfaces.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/daman"
+      ],
+      [
+        "Daman airport passenger-service launch, July 2026",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2285563"
+      ]
+    ]
+  },
+  {
+    "id": "rohtak",
+    "name": "Rohtak",
+    "region": "North",
+    "aliases": [
+      "Rohtak"
+    ],
+    "air": "Delhi Indira Gandhi International Airport (DEL), with onward travel",
+    "rail": "Rohtak Junction",
+    "stay": "1–2 nights",
+    "plan": "Confirm a public Teej programme or invitation before travelling. Pair it with a separate visit to the Tilyar area.",
+    "nearby": [
+      "Tilyar Tourist Complex",
+      "Rohtak Zoo, adjoining Tilyar"
+    ],
+    "access": "Ask the event host about shaded seating, step-free entry and accessible toilets. Confirm paths and resting places for the Tilyar outing.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "District transport guide",
+        "https://rohtak.gov.in/how-to-reach/"
+      ],
+      [
+        "Haryana Forest Department — Rohtak Zoo and Tilyar",
+        "https://haryanaforest.gov.in/places-centres/rohtak-zoo/"
+      ]
+    ]
+  },
+  {
+    "id": "faridabad",
+    "name": "Faridabad and Surajkund",
+    "region": "North",
+    "aliases": [
+      "Faridabad"
+    ],
+    "air": "Delhi Indira Gandhi International Airport (DEL), with onward travel",
+    "rail": "Faridabad railway station (FDB); arrange the last leg to Surajkund separately",
+    "stay": "2 nights",
+    "plan": "Allow a full day at the crafts mela and another shorter visit or heritage outing. Choose accommodation after checking the mela entrance and transport plan.",
+    "nearby": [
+      "Raja Nahar Singh Palace",
+      "Badkhal Lake"
+    ],
+    "access": "Ask the mela team about accessible gates, firm paths, seating and toilets. Check the distance between parking, entrance and performance areas.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "District transport guide",
+        "https://faridabad.nic.in/how-to-reach/"
+      ],
+      [
+        "District tourism sights",
+        "https://faridabad.nic.in/tourism/"
+      ]
+    ]
+  },
+  {
+    "id": "kullu",
+    "name": "Kullu",
+    "region": "North",
+    "aliases": [
+      "Kullu"
+    ],
+    "air": "Kullu–Manali Airport at Bhuntar, with onward road travel",
+    "rail": "Kiratpur Sahib is a rail gateway requiring onward road travel; check current connections",
+    "stay": "3–4 nights",
+    "plan": "Choose the Dussehra days that matter most to you and leave buffer time for the road journey. Keep any hill excursion on a separate day.",
+    "nearby": [
+      "Raghunathji Temple",
+      "Bijli Mahadev Temple (separate hill excursion)"
+    ],
+    "access": "Ask about accessible festival viewing, toilets and seating at Dhalpur. Confirm the walking and climbing required for any temple excursion before committing.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "District transport guide",
+        "https://hpkullu.nic.in/how-to-reach/"
+      ],
+      [
+        "Official temple and nearby guide",
+        "https://www.incredibleindia.gov.in/en/himachal-pradesh/kullu/raghunathji-temple"
+      ]
+    ]
+  },
+  {
+    "id": "mandi",
+    "name": "Mandi",
+    "region": "North",
+    "aliases": [
+      "Mandi"
+    ],
+    "air": "Kullu Airport at Bhuntar, with onward road travel",
+    "rail": "Kiratpur Sahib or Chandigarh railway station, with onward road travel",
+    "stay": "2–3 nights",
+    "plan": "Keep the Shivratri programme day free and explore the town on another day. Allow spare time for mountain-road transfers.",
+    "nearby": [
+      "Bhoot Nath Temple",
+      "Historic Ghantaghar and Indira Market"
+    ],
+    "access": "Ask about step-free festival viewing and toilets. Check temple steps, market surfaces and the closest permitted vehicle drop-off.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "District transport guide",
+        "https://hpmandi.nic.in/how-to-reach/"
+      ],
+      [
+        "District heritage guide",
+        "https://hpmandi.nic.in/places-of-interest/"
+      ]
+    ]
+  },
+  {
+    "id": "almora",
+    "name": "Almora",
+    "region": "North",
+    "aliases": [
+      "Almora"
+    ],
+    "air": "Pantnagar Airport, with onward hill-road travel",
+    "rail": "Kathgodam railway station, with onward road travel",
+    "stay": "3 nights",
+    "plan": "Arrange Harela or Phool Dei participation through a local host; household customs are not automatically visitor events. Keep sightseeing and travel days flexible.",
+    "nearby": [
+      "Nanda Devi Temple",
+      "Kasar Devi (separate excursion)"
+    ],
+    "access": "Ask your host about vehicle access, gradients, steps and accessible toilets. Check the walking required for each temple and agree on an alternative if needed.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "District transport guide",
+        "https://almora.nic.in/how-to-reach/"
+      ],
+      [
+        "District places of interest",
+        "https://almora.nic.in/places-of-interest/"
+      ]
+    ]
+  },
+  {
+    "id": "chandigarh",
+    "name": "Chandigarh",
+    "region": "North",
+    "aliases": [
+      "Chandigarh"
+    ],
+    "air": "Shaheed Bhagat Singh International Airport (IXC)",
+    "rail": "Chandigarh railway station (CDG)",
+    "stay": "2–3 nights",
+    "plan": "Allow a day for the Rose Festival and another for a small selection of city sights. Confirm the programme before fixing your visit.",
+    "nearby": [
+      "Rock Garden",
+      "Sukhna Lake"
+    ],
+    "access": "Ask festival staff about step-free entrances, resting places and toilets. Check narrow passages and steps before choosing a Rock Garden route.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh"
+      ]
+    ]
+  },
+  {
+    "id": "delhi",
+    "name": "Delhi",
+    "region": "North",
+    "aliases": [
+      "Delhi"
+    ],
+    "air": "Indira Gandhi International Airport (DEL)",
+    "rail": "New Delhi, Old Delhi or Hazrat Nizamuddin; check the exact station on your booking",
+    "stay": "3 nights",
+    "plan": "Choose a neighbourhood and confirmed Diwali or Eid programme rather than trying to cross the whole city in one day. Leave a separate day for monuments.",
+    "nearby": [
+      "Humayun’s Tomb",
+      "Qutub Minar"
+    ],
+    "access": "Ask the chosen venue about step-free entrances, quiet exits and accessible toilets. Check station assistance and monument access for your exact route.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/delhi/delhi"
+      ],
+      [
+        "Official city arrival guide",
+        "https://prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/delhi.html"
+      ]
+    ]
+  },
+  {
+    "id": "srinagar",
+    "name": "Srinagar",
+    "region": "North",
+    "aliases": [
+      "Srinagar"
+    ],
+    "air": "Sheikh ul-Alam International Airport (SXR)",
+    "rail": "Srinagar railway station on the USBRL corridor; confirm your service and any interchange through Indian Railways",
+    "stay": "3–4 nights",
+    "plan": "Herath is often a household observance: arrange participation through an invitation. Leave time for the lake and gardens, and check local travel notices before departure.",
+    "nearby": [
+      "Dal Lake",
+      "Nishat Bagh"
+    ],
+    "access": "Ask about step-free accommodation and event access. If arranging a lake outing, confirm boat boarding assistance and access at both ends.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "District arrival guide",
+        "https://srinagar.nic.in/how-to-reach/"
+      ],
+      [
+        "Dal Lake",
+        "https://srinagar.nic.in/tourist-place/dal-lake/"
+      ],
+      [
+        "District gardens and sights",
+        "https://srinagar.nic.in/tourist-places/page/2/"
+      ]
+    ]
+  },
+  {
+    "id": "hemis",
+    "name": "Leh and Hemis",
+    "region": "North",
+    "aliases": [
+      "Hemis Monastery"
+    ],
+    "air": "Leh Airport, followed by a road transfer to your base and Hemis",
+    "rail": "Plan arrival by air or road; there is no local rail arrival option listed in the district guide",
+    "stay": "4–5 nights, plus any additional acclimatisation time advised",
+    "plan": "Build the festival around arrival and acclimatisation time, following current official high-altitude guidance. Confirm monastery access and avoid scheduling an ambitious excursion immediately after arrival.",
+    "nearby": [
+      "Thiksey Monastery (separate excursion)",
+      "Leh Palace"
+    ],
+    "access": "Ask about monastery steps, courtyard seating, toilets and the final vehicle drop-off. Confirm whether an alternative viewing area suits your needs.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Leh transport guide",
+        "https://leh.nic.in/tourism/how-to-reach/"
+      ],
+      [
+        "District heritage guide",
+        "https://leh.nic.in/tourism/culture-heritage/"
+      ],
+      [
+        "Official tourist information",
+        "https://leh.nic.in/tourism/tourist-info/"
+      ]
+    ]
+  },
+  {
+    "id": "ziro",
+    "name": "Ziro",
+    "region": "Northeast",
+    "aliases": [
+      "Ziro"
+    ],
+    "air": "Donyi Polo Airport at Hollongi, with onward road travel",
+    "rail": "Naharlagun railway station, with onward road travel",
+    "stay": "3–4 nights",
+    "plan": "Arrange a Dree programme visit with local hosts and leave time for the valley. Confirm current visitor requirements and road transfers before booking.",
+    "nearby": [
+      "Tarin Fish Farm",
+      "Apatani paddy-and-fish farming landscape (with a local host)"
+    ],
+    "access": "Ask about firm paths across the venue, seating and toilets. Confirm accommodation steps and whether farm visits can follow a suitable route.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/arunachal-pradesh/ziro"
+      ],
+      [
+        "District transport guide",
+        "https://lowersubansiri.nic.in/how-to-reach/"
+      ]
+    ]
+  },
+  {
+    "id": "tawang",
+    "name": "Tawang",
+    "region": "Northeast",
+    "aliases": [
+      "Tawang"
+    ],
+    "air": "Guwahati Airport is a regional gateway requiring a substantial onward mountain-road journey",
+    "rail": "Guwahati railway station is a regional gateway; arrange the mountain-road transfer separately",
+    "stay": "3–4 nights in Tawang, plus transfer and acclimatisation stops",
+    "plan": "Arrange the journey and overnight stops before choosing festival days. Follow the district’s current high-altitude guidance and check visitor requirements, weather and road conditions.",
+    "nearby": [
+      "Tawang Monastery",
+      "Sela Tunnel (on the approach route)"
+    ],
+    "access": "Ask about monastery steps, sheltered seating and accessible toilets. Confirm vehicle access to accommodation and whether your route can avoid long outdoor waits.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "District arrival and visitor guidance",
+        "https://tawang.nic.in/tourism/how-to-reach/"
+      ],
+      [
+        "District places to visit",
+        "https://tawang.nic.in/tourism/tourist-places/"
+      ],
+      [
+        "Official high-altitude travel advisory",
+        "https://tawang.nic.in/notice/tourist-safety-advisory-high-altitude-travel-guidelines/"
+      ]
+    ]
+  },
+  {
+    "id": "jorhat",
+    "name": "Jorhat",
+    "region": "Northeast",
+    "aliases": [
+      "Jorhat"
+    ],
+    "air": "Jorhat Airport at Rowriah",
+    "rail": "Jorhat Town or Mariani Junction; choose the station served by your train",
+    "stay": "2–3 nights",
+    "plan": "Arrange a hosted Magh Bihu experience and leave another day for nearby heritage. Confirm invitations and meal arrangements directly rather than expecting entry to a private gathering.",
+    "nearby": [
+      "Lachit Borphukan Maidam",
+      "Dhekiakhowa Bornamghar"
+    ],
+    "access": "Ask your host about firm paths, seating and accessible toilets. Confirm access procedures and footwear arrangements at the prayer hall.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/assam/jorhat"
+      ],
+      [
+        "Dhekiakhowa Bornamghar and nearby heritage",
+        "https://www.incredibleindia.gov.in/en/assam/jorhat/dhekiakhowa-bornamghar"
+      ]
+    ]
+  },
+  {
+    "id": "imphal",
+    "name": "Imphal",
+    "region": "Northeast",
+    "aliases": [
+      "Imphal"
+    ],
+    "air": "Bir Tikendrajit International Airport (IMF)",
+    "rail": "Direct passenger rail arrival in Imphal has not been verified. The Jiribam–Imphal project remains a separate connection to check with Indian Railways; do not book on the assumption that Imphal station is operating.",
+    "stay": "3–4 nights",
+    "plan": "Confirm the current Yaoshang or Sangai programme and local travel arrangements before booking. Keep city visits and a Loktak excursion on separate days.",
+    "nearby": [
+      "Shree Shree Govindajee Temple",
+      "Loktak Lake (separate excursion)"
+    ],
+    "access": "Ask the organiser about step-free venue entry, seating and toilets. If arranging a lake visit, confirm boarding assistance and a land-based alternative.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/manipur/imphal"
+      ],
+      [
+        "Railway project status — Ministry of Railways",
+        "https://www.pib.gov.in/FactsheetDetails.aspx?Id=149283&lang=2&reg=48"
+      ]
+    ]
+  },
+  {
+    "id": "tura",
+    "name": "Tura",
+    "region": "Northeast",
+    "aliases": [
+      "Tura"
+    ],
+    "air": "Guwahati Airport, with onward road travel",
+    "rail": "Guwahati railway station is a regional gateway, with onward road travel",
+    "stay": "3–4 nights",
+    "plan": "Confirm the specific Wangala venue and arrange transfers from Tura. Keep an extra day for an optional nature outing with locally confirmed access.",
+    "nearby": [
+      "Tura Peak",
+      "Nokrek National Park (separate excursion)"
+    ],
+    "access": "Ask about firm paths, seating and toilets at the Wangala ground. Check trail gradients and whether an alternative viewpoint is possible before a nature excursion.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "District transport guide",
+        "https://westgarohills.gov.in/how-to-reach/"
+      ],
+      [
+        "Meghalaya Tourism — Tura and nearby sights",
+        "https://rc-www.meghalayatourism.in/destinations/tura/"
+      ],
+      [
+        "Tura Peak visitor information",
+        "https://rc-www.meghalayatourism.in/destinations/tura-peak/"
+      ]
+    ]
+  },
+  {
+    "id": "smit",
+    "name": "Smit and Shillong",
+    "region": "Northeast",
+    "aliases": [
+      "Smit"
+    ],
+    "air": "Shillong Airport is an arrival option; arrange onward road travel to Smit",
+    "rail": "Guwahati railway station is a regional gateway; onward road travel via Shillong is required",
+    "stay": "3 nights",
+    "plan": "Use Shillong or a locally arranged stay as your base and confirm transport to the Nongkrem programme in Smit. Keep a separate outing for the Laitlum area.",
+    "nearby": [
+      "Laitlum landscape and viewpoints",
+      "Smit’s traditional royal residence area (access by local permission)"
+    ],
+    "access": "Ask about firm paths and seating around the dance ground, toilets and the last vehicle drop-off. Check viewpoint edges, steps and gradients before visiting.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/meghalaya/shillong"
+      ],
+      [
+        "Laitlum and Smit visitor guide",
+        "https://www.incredibleindia.gov.in/en/meghalaya/cherrapunjee/laitlum-and-smit"
+      ],
+      [
+        "Government cultural guide to Smit",
+        "https://www.megipr.gov.in/about-meghalaya.html"
+      ]
+    ]
+  },
+  {
+    "id": "aizawl",
+    "name": "Aizawl",
+    "region": "Northeast",
+    "aliases": [
+      "Aizawl"
+    ],
+    "air": "Lengpui Airport (AJL), with onward road travel",
+    "rail": "Sairang railway station, with onward road travel to Aizawl; check current train availability",
+    "stay": "3 nights",
+    "plan": "Choose a confirmed Chapchar Kut or Mim Kut programme and leave another day for city heritage. Confirm current visitor requirements and transport from your arrival point.",
+    "nearby": [
+      "Mizoram State Museum",
+      "Solomon’s Temple"
+    ],
+    "access": "Ask about step-free routes, lifts and vehicle access at your accommodation. Confirm seating and accessible toilets at the actual festival venue.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/mizoram/aizawl"
+      ],
+      [
+        "Sairang rail connection — Ministry of Railways review",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209199"
+      ]
+    ]
+  },
+  {
+    "id": "mokokchung",
+    "name": "Mokokchung",
+    "region": "Northeast",
+    "aliases": [
+      "Mokokchung"
+    ],
+    "air": "Jorhat Airport, with onward road travel",
+    "rail": "Mariani Junction in Assam, with onward road travel",
+    "stay": "3–4 nights",
+    "plan": "Arrange Moatsu participation through the host village and allow time for the approach journey. Confirm current visitor requirements and permissions before village visits.",
+    "nearby": [
+      "Longkhum village (with local permission)",
+      "Ungma village (with local permission)"
+    ],
+    "access": "Ask hosts about village paths, steps, seating and toilets. Confirm where your vehicle can stop and whether the planned walking route suits you.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "District transport guide",
+        "https://mokokchung.nic.in/how-to-reach/"
+      ],
+      [
+        "Longkhum visitor information",
+        "https://mokokchung.nic.in/tourist-place/longkhum-village/"
+      ],
+      [
+        "Ungma visitor information",
+        "https://mokokchung.nic.in/tourist-place/ungma-village/"
+      ]
+    ]
+  },
+  {
+    "id": "gangtok",
+    "name": "Gangtok",
+    "region": "Northeast",
+    "aliases": [
+      "Gangtok"
+    ],
+    "air": "Bagdogra Airport is a regional gateway; arrange the onward mountain-road journey",
+    "rail": "New Jalpaiguri railway station, with onward road travel",
+    "stay": "3–4 nights",
+    "plan": "Confirm the Losoong or Namsoong programme and its actual venue. Allow an arrival buffer and keep monastery and museum visits on a separate day.",
+    "nearby": [
+      "Enchey Monastery",
+      "Namgyal Institute of Tibetology"
+    ],
+    "access": "Ask about road access, gradients and steps at your accommodation and monastery. Confirm seated viewing and accessible toilets at the festival venue.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/sikkim/gangtok"
+      ]
+    ]
+  },
+  {
+    "id": "agartala",
+    "name": "Agartala and Old Agartala",
+    "region": "Northeast",
+    "aliases": [
+      "Agartala",
+      "Old Agartala"
+    ],
+    "air": "Maharaja Bir Bikram Airport (IXA)",
+    "rail": "Agartala railway station (AGTL); arrange onward travel to Old Agartala if needed",
+    "stay": "2–3 nights",
+    "plan": "Confirm the Kharchi or Garia programme and host location. Set aside a separate outing for Ujjayanta Palace and arrange your return from Old Agartala in advance.",
+    "nearby": [
+      "Ujjayanta Palace State Museum",
+      "Chaturdash Devata Temple, Old Agartala"
+    ],
+    "access": "Ask about accessible temple queues, shaded seating and toilets. Confirm step-free museum entry and the permitted vehicle drop-off at the festival.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official destination and transport guide",
+        "https://www.incredibleindia.gov.in/en/tripura/agartala"
+      ],
+      [
+        "District tourism itinerary and sights",
+        "https://westtripura.nic.in/tourist-packages/"
+      ]
+    ]
+  },
+  {
+    "id": "sri-vijaya-puram",
+    "name": "Sri Vijaya Puram (Port Blair)",
+    "region": "Islands",
+    "aliases": [
+      "Sri Vijaya Puram"
+    ],
+    "air": "Veer Savarkar International Airport",
+    "rail": "Rail does not reach the islands; plan arrival by air or an independently confirmed sea passage",
+    "stay": "3–4 nights",
+    "plan": "Confirm the Island Tourism Festival venue and programme, then leave another day for museums. Add separate time and confirmed transport for any inter-island extension.",
+    "nearby": [
+      "Cellular Jail",
+      "Samudrika Naval Marine Museum"
+    ],
+    "access": "Ask the festival team about firm paths, seating and accessible toilets. Confirm museum access and boarding assistance separately if adding a boat journey.",
+    "checked": "2026-10-14",
+    "sources": [
+      [
+        "Official tourism arrival FAQ",
+        "https://www.andamantourism.gov.in/faq.php"
+      ],
+      [
+        "South Andaman official sights",
+        "https://southandaman.nic.in/tourism/"
       ]
     ]
   }
