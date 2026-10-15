@@ -2699,7 +2699,26 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null,
+      "practical": {
+        "duration": "The archived 2026 edition ran 31 January–15 February. That duration does not confirm a future edition.",
+        "suggestedVisit": "One full day for crafts, food and selected performances; two days for a slower visit.",
+        "cost": "Ticketed fair: follow Haryana Tourism to the current authorised ticket seller. Future edition prices and concessions are not verified here.",
+        "booking": "Confirm the edition and date on the ticket page. Budget separately for purchases, meals and travel; the Diwali Mela is a different event.",
+        "reviewed": "2026-10-15",
+        "sourceLabel": "Haryana Tourism — Crafts Mela",
+        "source": "https://haryanatourism.gov.in/fair-and-festivals/surajkund-international-craft-mela/"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Surajkund_Fair.jpg",
+        "alt": "Visitors resting beside a colourful decorated gateway at Surajkund Crafts Fair",
+        "caption": "Surajkund Crafts Fair, 2 February 2009. Historical photograph; not a current programme.",
+        "author": "Koshy Koshy",
+        "source": "https://commons.wikimedia.org/wiki/File:Surajkund_Fair.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "width": 978,
+        "height": 656
+      },
       "destinationIds": [
         "faridabad"
       ]
@@ -2761,7 +2780,26 @@
         ]
       ],
       "reviewed": "2026-10-11",
-      "photo": null,
+      "practical": {
+        "duration": "A week-long celebration in Kullu, centred on Dhalpur grounds.",
+        "suggestedVisit": "2–3 days to see selected processions and explore Kullu, plus travel time.",
+        "cost": "Current entry or seating charges are not verified here. Set aside separate budgets for accommodation, local travel and meals.",
+        "booking": "Check the official procession programme before choosing dates. Ask your accommodation about access and pickup points during road restrictions.",
+        "reviewed": "2026-10-15",
+        "sourceLabel": "Himachal Tourism — Kullu",
+        "source": "https://himachaltourism.gov.in/destination/kullu-2/"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Kullu_Dussehra_-_Main_procession.jpg/960px-Kullu_Dussehra_-_Main_procession.jpg",
+        "alt": "Decorated palanquins surrounded by a crowd at the Kullu Dussehra procession",
+        "caption": "Kullu Dussehra procession, 6 October 2011. Historical photograph; not a current programme.",
+        "author": "Kondephy",
+        "source": "https://commons.wikimedia.org/wiki/File:Kullu_Dussehra_-_Main_procession.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "width": 960,
+        "height": 640
+      },
       "destinationIds": [
         "kullu"
       ]
@@ -3883,6 +3921,15 @@
           "https://www.utsav.gov.in/view-event/hornbill-festival"
         ]
       ],
+      "practical": {
+        "duration": "A ten-day festival; daily activities and individual performances vary.",
+        "suggestedVisit": "2–3 festival days, with additional time for journeys to and from Kisama.",
+        "cost": "Current admission, concert and activity prices are not verified here. Ask which activities are covered by each ticket before buying.",
+        "booking": "Use Nagaland Tourism for the current programme and ticket information. Arrange accommodation and transfers around the days you choose.",
+        "reviewed": "2026-10-15",
+        "sourceLabel": "Nagaland Tourism — Hornbill Festival",
+        "source": "https://tourism.nagaland.gov.in/events/hornbill-festival/"
+      },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Hornbill_festival.jpg",
         "alt": "Participant wearing traditional dress at the Hornbill Festival in Kisama",
@@ -4495,6 +4542,15 @@
           "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/coimbatore/pongal-festival.html"
         ]
       ],
+      "practical": {
+        "duration": "A four-day harvest celebration; local and family observances differ.",
+        "suggestedVisit": "1–2 days around a visitor-welcoming local programme, plus travel time.",
+        "cost": "No universal admission price applies to the cultural observance. Obtain quotes for organised experiences, transport and meals.",
+        "booking": "Ask a local organiser or host which activities welcome visitors. Family celebrations are not public events by default.",
+        "reviewed": "2026-10-15",
+        "sourceLabel": "Ministry of Tourism — Pongal",
+        "source": "https://utsav.gov.in/view-event/pongal-festival-every-year-1"
+      },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Pongal_Festival.jpg/960px-Pongal_Festival.jpg",
         "alt": "People gathered around decorated cooking pots and a colourful ground design for Pongal",
@@ -5163,6 +5219,15 @@
           "https://www.incredibleindia.gov.in/en/festivals-and-events/durga-puja"
         ]
       ],
+      "practical": {
+        "duration": "Main celebrations peak over five days, from Sasthi to Dashami.",
+        "suggestedVisit": "2–3 days to explore a few Kolkata neighbourhoods at an unhurried pace.",
+        "cost": "No single festival-wide price is verified here. Budget separately for local travel, meals and any guided tours or special-access offers.",
+        "booking": "Choose your pandal areas first, then arrange accommodation and transport. Check access with each organiser; do not assume a tour includes priority entry.",
+        "reviewed": "2026-10-15",
+        "sourceLabel": "Incredible India — Durga Puja",
+        "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/durga-puja"
+      },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Durga_Puja_in_West_Bengal.jpg",
         "alt": "Durga idol and accompanying figures inside an illuminated pandal in West Bengal",

@@ -169,5 +169,27 @@
     "width": 960,
     "height": 640,
     "checked": "2026-10-14"
+  },
+  "kullu-dussehra": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Kullu_Dussehra_-_Main_procession.jpg/960px-Kullu_Dussehra_-_Main_procession.jpg",
+    "alt": "Decorated palanquins surrounded by a crowd at the Kullu Dussehra procession",
+    "caption": "Kullu Dussehra procession, 6 October 2011. Historical photograph; not a current programme.",
+    "author": "Kondephy",
+    "source": "https://commons.wikimedia.org/wiki/File:Kullu_Dussehra_-_Main_procession.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "width": 960,
+    "height": 640
+  },
+  "surajkund-international-crafts-mela": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Surajkund_Fair.jpg",
+    "alt": "Visitors resting beside a colourful decorated gateway at Surajkund Crafts Fair",
+    "caption": "Surajkund Crafts Fair, 2 February 2009. Historical photograph; not a current programme.",
+    "author": "Koshy Koshy",
+    "source": "https://commons.wikimedia.org/wiki/File:Surajkund_Fair.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "width": 978,
+    "height": 656
   }
 }

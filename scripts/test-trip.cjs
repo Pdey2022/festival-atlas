@@ -7,3 +7,10 @@ const result=T.discover(db,{month:'10',region:'East',year:'2026'});assert(result
 const nextYear=T.discover(db,{month:'10',region:'East',year:'2027'});assert.equal(nextYear.events.length,0);assert.deepEqual(nextYear.festivals,result.festivals);
 assert.deepEqual(T.normalize(JSON.parse(JSON.stringify(trip)),db.festivals),trip);
 console.log('Passed: trip validation, leap dates, backup round-trip, date warnings, discovery intersections and unconfirmed year.');
+// A status filter must affect sourced events without hiding seasonal inspiration.
+const fixture={states:[{code:'AA',region:'East'}],festivals:[{id:'moving',months:[11],regions:['East']}],events:[{festival:'moving',year:2026,start:'2026-10-31',end:'2026-11-02',states:['AA'],status:'Published listing'},{festival:'moving',year:2026,start:'2026-11-10',end:'2026-11-10',states:['AA'],status:'Provisional'}]};
+assert.equal(T.discover(fixture,{month:'10',year:'2026',status:'Published listing'}).events.length,1);
+assert.equal(T.discover(fixture,{month:'11',year:'2026',status:'Provisional'}).events.length,1);
+assert.equal(T.discover(fixture,{month:'11',year:'2026',status:'Published listing'}).festivals.length,1);
+assert.equal(T.discover(fixture,{month:'11',year:'2027',status:'Published listing'}).events.length,0);
+console.log('Passed: date-status filtering, cross-month events and seasonal/date separation.');

@@ -32,7 +32,16 @@
         "Incredible India: Durga Puja",
         "https://www.incredibleindia.gov.in/en/festivals-and-events/durga-puja"
       ]
-    ]
+    ],
+    "practical": {
+      "duration": "Main celebrations peak over five days, from Sasthi to Dashami.",
+      "suggestedVisit": "2–3 days to explore a few Kolkata neighbourhoods at an unhurried pace.",
+      "cost": "No single festival-wide price is verified here. Budget separately for local travel, meals and any guided tours or special-access offers.",
+      "booking": "Choose your pandal areas first, then arrange accommodation and transport. Check access with each organiser; do not assume a tour includes priority entry.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Incredible India — Durga Puja",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/durga-puja"
+    }
   },
   "onam": {
     "native": "ഓണം",
@@ -109,7 +118,16 @@
         "Ministry of Tourism: Hornbill Festival",
         "https://www.utsav.gov.in/view-event/hornbill-festival"
       ]
-    ]
+    ],
+    "practical": {
+      "duration": "A ten-day festival; daily activities and individual performances vary.",
+      "suggestedVisit": "2–3 festival days, with additional time for journeys to and from Kisama.",
+      "cost": "Current admission, concert and activity prices are not verified here. Ask which activities are covered by each ticket before buying.",
+      "booking": "Use Nagaland Tourism for the current programme and ticket information. Arrange accommodation and transfers around the days you choose.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Nagaland Tourism — Hornbill Festival",
+      "source": "https://tourism.nagaland.gov.in/events/hornbill-festival/"
+    }
   },
   "navratri": {
     "native": "નવરાત્રી",
@@ -192,7 +210,16 @@
         "Incredible India: Pongal Festival",
         "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/coimbatore/pongal-festival.html"
       ]
-    ]
+    ],
+    "practical": {
+      "duration": "A four-day harvest celebration; local and family observances differ.",
+      "suggestedVisit": "1–2 days around a visitor-welcoming local programme, plus travel time.",
+      "cost": "No universal admission price applies to the cultural observance. Obtain quotes for organised experiences, transport and meals.",
+      "booking": "Ask a local organiser or host which activities welcome visitors. Family celebrations are not public events by default.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Ministry of Tourism — Pongal",
+      "source": "https://utsav.gov.in/view-event/pongal-festival-every-year-1"
+    }
   },
   "bohag-bihu": {
     "native": "বহাগ বিহু",
@@ -1046,7 +1073,16 @@
         "https://haryanatourism.gov.in/fair-and-festivals/surajkund-international-craft-mela/"
       ]
     ],
-    "reviewed": "2026-10-11"
+    "reviewed": "2026-10-11",
+    "practical": {
+      "duration": "The archived 2026 edition ran 31 January–15 February. That duration does not confirm a future edition.",
+      "suggestedVisit": "One full day for crafts, food and selected performances; two days for a slower visit.",
+      "cost": "Ticketed fair: follow Haryana Tourism to the current authorised ticket seller. Future edition prices and concessions are not verified here.",
+      "booking": "Confirm the edition and date on the ticket page. Budget separately for purchases, meals and travel; the Diwali Mela is a different event.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Haryana Tourism — Crafts Mela",
+      "source": "https://haryanatourism.gov.in/fair-and-festivals/surajkund-international-craft-mela/"
+    }
   },
   "kullu-dussehra": {
     "native": "कुल्लू दशहरा",
@@ -1082,7 +1118,16 @@
         "https://himachaltourism.gov.in/destination/temples/"
       ]
     ],
-    "reviewed": "2026-10-11"
+    "reviewed": "2026-10-11",
+    "practical": {
+      "duration": "A week-long celebration in Kullu, centred on Dhalpur grounds.",
+      "suggestedVisit": "2–3 days to see selected processions and explore Kullu, plus travel time.",
+      "cost": "Current entry or seating charges are not verified here. Set aside separate budgets for accommodation, local travel and meals.",
+      "booking": "Check the official procession programme before choosing dates. Ask your accommodation about access and pickup points during road restrictions.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Himachal Tourism — Kullu",
+      "source": "https://himachaltourism.gov.in/destination/kullu-2/"
+    }
   },
   "mandi-shivratri": {
     "native": "मंडी शिवरात्रि",

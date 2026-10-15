@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "contentVersion": "43f858b60e3f05f4",
+  "contentVersion": "c43a6e34d41d10fa",
   "shell": [
     "gallery.html",
     "contribute.html",
@@ -91,11 +91,11 @@
     },
     "surajkund-international-crafts-mela": {
       "page": "festivals/surajkund-international-crafts-mela.html",
-      "photo": null
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/3/35/Surajkund_Fair.jpg"
     },
     "kullu-dussehra": {
       "page": "festivals/kullu-dussehra.html",
-      "photo": null
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Kullu_Dussehra_-_Main_procession.jpg/960px-Kullu_Dussehra_-_Main_procession.jpg"
     },
     "mandi-shivratri": {
       "page": "festivals/mandi-shivratri.html",
