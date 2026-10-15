@@ -41,7 +41,7 @@
     "place": "Gujarat and other regions",
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/navratri",
     "note": "Autumn Navratri listing. Individual garba venues set their own schedules and tickets.",
-    "checked": "2026-10-10",
+    "checked": "2026-10-15",
     "states": [
       "GJ"
     ],
@@ -53,11 +53,11 @@
     "year": 2026,
     "start": "2026-10-11",
     "end": "2026-10-21",
-    "status": "Provisional",
+    "status": "Published listing",
     "place": "Mysuru, Karnataka",
-    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/mysuru-dasara",
-    "note": "Tourism listing extends to 21 October; it is not a confirmed procession date. Verify the local programme before booking.",
-    "checked": "2026-10-10",
+    "source": "https://mysoredasara.gov.in/",
+    "note": "Official 2026 festival window. The official programme lists Jumboo Savari on 21 October; supporting events have separate dates and ticket arrangements.",
+    "checked": "2026-10-15",
     "states": [
       "KA"
     ],
@@ -73,7 +73,7 @@
     "place": "Kolkata, West Bengal",
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/durga-puja",
     "note": "Tourism listing shows 17–21 October; local ritual calendars may differ. Verify with the pandal organiser.",
-    "checked": "2026-10-10",
+    "checked": "2026-10-15",
     "states": [
       "WB"
     ],
@@ -89,7 +89,7 @@
     "place": "Across India; regional observances vary",
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/diwali",
     "note": "Main listed observance, not every regional or multiday celebration.",
-    "checked": "2026-10-10",
+    "checked": "2026-10-15",
     "states": [],
     "nationwide": true
   },
@@ -101,9 +101,9 @@
     "end": "2026-11-16",
     "status": "Published listing",
     "place": "Bihar and participating communities",
-    "source": "https://www.incredibleindia.gov.in/en/bihar",
+    "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/chhath-puja",
     "note": "Four-day tourism listing; local ghat access and ritual timings require separate confirmation.",
-    "checked": "2026-10-10",
+    "checked": "2026-10-15",
     "states": [
       "BR"
     ],
@@ -123,7 +123,7 @@
     "nationwide": false,
     "source": "https://tourism.nagaland.gov.in/",
     "note": "State tourism lists these dates. Check daily programmes, entry arrangements and any changes with organisers.",
-    "checked": "2026-10-12"
+    "checked": "2026-10-15"
   },
   {
     "id": "pushkar-2026",
@@ -139,7 +139,7 @@
     "nationwide": false,
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/pushkar-camel-fair",
     "note": "Tourism-listed fair window; livestock trading and religious observances may have different schedules.",
-    "checked": "2026-10-12"
+    "checked": "2026-10-15"
   },
   {
     "id": "sonepur-2026",
@@ -155,7 +155,7 @@
     "nationwide": false,
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/sonepur-cattle-fair",
     "note": "The date field lists 24 November–5 December, while the page describes a month-long fair. Confirm the actual duration and programme with Bihar Tourism.",
-    "checked": "2026-10-12"
+    "checked": "2026-10-15"
   },
   {
     "id": "dev-varanasi-2026",
@@ -171,7 +171,7 @@
     "nationwide": false,
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/illuminating-the-eternal-spirit-of-kashi",
     "note": "The detail page lists 24 November; the directory spans 24–25 November. Confirm the principal illumination night and access arrangements.",
-    "checked": "2026-10-12",
+    "checked": "2026-10-15",
     "title": "Dev Deepawali — Varanasi"
   },
   {
@@ -188,7 +188,7 @@
     "nationwide": false,
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/dev-deepawali-prayagraj",
     "note": "City-specific listing. Confirm ghat access and timings with the local organiser.",
-    "checked": "2026-10-12",
+    "checked": "2026-10-15",
     "title": "Dev Deepawali — Prayagraj"
   },
   {
@@ -205,7 +205,7 @@
     "nationwide": false,
     "source": "https://www.mptourism.com/khajuraho-dance-festival.htm",
     "note": "The title and date field specify 2027, but the introductory paragraph says 2026. Treat this as provisional until the organiser resolves the mismatch.",
-    "checked": "2026-10-12"
+    "checked": "2026-10-15"
   },
   {
     "id": "sankranti-sidhi-2027",
@@ -221,7 +221,7 @@
     "nationwide": false,
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/madhya-pradesh/makar-sankranti-fair",
     "note": "Dates apply to this local fair, not every regional Sankranti observance. Confirm venue access and the daily programme.",
-    "checked": "2026-10-12",
+    "checked": "2026-10-15",
     "title": "Makar Sankranti Fair — Sidhi"
   },
   {
@@ -238,7 +238,7 @@
     "nationwide": false,
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/telangana/international-kite---sweet-festival",
     "note": "A tourism programme associated with Sankranti. These dates describe the kite and sweet festival, not the religious observance throughout India.",
-    "checked": "2026-10-12",
+    "checked": "2026-10-15",
     "title": "International Kite & Sweet Festival — Hyderabad"
   },
   {
@@ -256,7 +256,7 @@
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/gujarat/International-Kite-Festival0",
     "status": "Provisional",
     "note": "The national tourism listing gives these 2027 dates; the organiser microsite still describes the 2026 edition. Confirm the 2027 programme before booking.",
-    "checked": "2026-10-13"
+    "checked": "2026-10-15"
   },
   {
     "id": "braj-bharatpur-2027",
@@ -273,7 +273,7 @@
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/braj-holi-festival",
     "status": "Published listing",
     "note": "Dates for the local Bharatpur cultural programme, not all Holi celebrations across Braj. Check the final programme with Rajasthan Tourism.",
-    "checked": "2026-10-13"
+    "checked": "2026-10-15"
   },
   {
     "id": "dhulandi-jaipur-2027",
@@ -290,7 +290,7 @@
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/dhulandi-festival",
     "status": "Published listing",
     "note": "Local Rajasthan Tourism programme. Confirm admission arrangements and participation requirements with the organiser.",
-    "checked": "2026-10-13"
+    "checked": "2026-10-15"
   },
   {
     "id": "rangotsav-braj-2027",
@@ -307,7 +307,7 @@
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/rangotsav-2027",
     "status": "Published listing",
     "note": "Broad regional programme window published by UP Tourism. Individual temple rituals and local celebrations have separate schedules.",
-    "checked": "2026-10-13"
+    "checked": "2026-10-15"
   },
   {
     "id": "rangpanchami-indore-2027",
@@ -324,7 +324,7 @@
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/madhya-pradesh/rangpanchami-ger-mahotsav0",
     "status": "Published listing",
     "note": "Local Rangpanchami celebration associated with the Holi season. Check procession timings and routes closer to the event.",
-    "checked": "2026-10-13"
+    "checked": "2026-10-15"
   },
   {
     "id": "mewar-udaipur-2027",
@@ -341,6 +341,6 @@
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/mewar-festival-2026",
     "status": "Provisional",
     "note": "The source date field says 9–11 April 2027 but the page title and URL still say 2026. Confirm the edition and dates with the Tourist Reception Centre, Udaipur.",
-    "checked": "2026-10-13"
+    "checked": "2026-10-15"
   }
 ]

@@ -83,7 +83,16 @@
         "Incredible India: Onam",
         "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/kochi/listicles/festivals-of-kochi/onam.html"
       ]
-    ]
+    ],
+    "practical": {
+      "duration": "Traditionally a ten-day celebration beginning with Atham; individual performances and public programmes have their own dates.",
+      "suggestedVisit": "2–3 days around a chosen public celebration and an Onasadya meal.",
+      "cost": "Restaurant sadya meals, boat-race seating and cultural shows may have separate charges. Current menus and ticket prices are not verified here.",
+      "booking": "Reserve a sadya sitting with the restaurant and check dietary needs directly. Match any boat race or performance to its own published programme, rather than assuming it coincides with Thiruvonam.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Kerala Tourism — Onam",
+      "source": "https://www.keralatourism.org/onam-festival"
+    }
   },
   "hornbill-festival": {
     "native": "Hornbill Festival",
@@ -169,7 +178,16 @@
         "Incredible India: Navratri",
         "https://www.incredibleindia.gov.in/en/festivals-and-events/navratri"
       ]
-    ]
+    ],
+    "practical": {
+      "duration": "Nine nights; each garba venue may operate a different programme.",
+      "suggestedVisit": "2–3 evenings in one city, leaving daytime for rest and sightseeing.",
+      "cost": "Community and commercial events have different admission arrangements. Confirm single-night versus season passes, inclusions and refund terms with the venue.",
+      "booking": "Choose a named garba venue and confirm admission, dress expectations, start times and transport home. A general tourism listing does not establish entry conditions at every venue.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Incredible India: Navratri",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/navratri"
+    }
   },
   "pongal": {
     "native": "பொங்கல்",
@@ -303,7 +321,16 @@
         "Incredible India: Ganesh Chaturthi",
         "https://www.incredibleindia.gov.in/en/festivals-and-events/maharashtra/ganesh-chaturthi"
       ]
-    ]
+    ],
+    "practical": {
+      "duration": "Duration varies by household and mandal: observances range from about one and a half days to the final immersion period, around eleven days.",
+      "suggestedVisit": "2–3 days for selected Mumbai or Pune pandals; choose immersion day only if that is your intended experience.",
+      "cost": "Allow for local transport, meals and any guided visits. Current special-access charges are not verified; do not assume a paid tour gives priority darshan.",
+      "booking": "Check the chosen mandal’s visiting and immersion arrangements. Select a compact route and ask your accommodation about road closures and the return journey.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Incredible India: Ganesh Chaturthi",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/maharashtra/ganesh-chaturthi"
+    }
   },
   "holi": {
     "native": "होली",
@@ -345,7 +372,16 @@
         "Incredible India: Holi",
         "https://www.incredibleindia.gov.in/en/festivals-and-events/holi"
       ]
-    ]
+    ],
+    "practical": {
+      "duration": "Holika Dahan is observed on the eve of the colour celebration. Braj and other local programmes can extend beyond these two occasions.",
+      "suggestedVisit": "2–3 days in one base; allow extra days only for specifically dated regional events.",
+      "cost": "Budget separately for a hosted colour event, transport, meals and clothing you can stain. Check inclusions before paying; a tour price is not a public festival entry fee.",
+      "booking": "Choose a named venue or host and confirm its date, admission policy and facilities. Book a specific local programme rather than assuming every Braj town celebrates on the same day.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Incredible India: Holi",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/holi"
+    }
   },
   "mysuru-dasara": {
     "native": "ಮೈಸೂರು ದಸರಾ",
@@ -380,7 +416,16 @@
         "Incredible India: Mysuru Dasara",
         "https://www.incredibleindia.gov.in/en/festivals-and-events/mysuru-dasara"
       ]
-    ]
+    ],
+    "practical": {
+      "duration": "The official 2026 festival window is 11–21 October. Individual exhibitions and supporting events can run outside that window.",
+      "suggestedVisit": "2–3 days for selected programmes; add time if combining the procession with other city attractions.",
+      "cost": "The 2026 official site offers several ticket types, including Gold Cards and event-specific seats. Check the current ticket page for prices, availability and what each product covers.",
+      "booking": "For 2026, follow the official site to TicketGenie. Its instructions require exchanging the redemption voucher for a physical ticket and carrying photo ID; check collection arrangements before travelling.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Mysuru Dasara — official 2026 ticket and programme information",
+      "source": "https://mysoredasara.gov.in/tickets"
+    }
   },
   "bathukamma": {
     "native": "బతుకమ్మ",
@@ -449,7 +494,16 @@
         "Incredible India: Chhath Puja",
         "https://www.incredibleindia.gov.in/en/festivals-and-events/chhath-puja"
       ]
-    ]
+    ],
+    "practical": {
+      "duration": "Four days, with offerings to the setting and rising sun on different stages of the observance.",
+      "suggestedVisit": "1–2 days around a locally confirmed evening and following dawn observance.",
+      "cost": "Budget for lodging, local travel and meals. The tourism listing indicates no ticket for the festival; this does not make transport, private access or hosted services free.",
+      "booking": "Confirm which ghat welcomes observers and its access rules. Arrange early-morning transport and a meeting point away from the water; follow local crowd-control instructions.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Incredible India: Chhath Puja",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/chhath-puja"
+    }
   },
   "hemis-festival": {
     "native": "Hemis Tsechu",
@@ -484,7 +538,16 @@
         "Incredible India: Hemis",
         "https://www.incredibleindia.gov.in/en/rural-tourism/hemis"
       ]
-    ]
+    ],
+    "practical": {
+      "duration": "A two-day religious festival at Hemis Monastery; dates follow the Tibetan calendar and vary annually.",
+      "suggestedVisit": "1–2 festival days within a longer Ladakh visit; allow separate arrival and acclimatisation time.",
+      "cost": "Current monastery admission and photography charges are not verified here. Budget separately for the journey from your base, meals and any guide.",
+      "booking": "Confirm the dates and visitor arrangements directly before booking transfers. Ask about seating, photography rules and return transport; build your wider itinerary around local arrival guidance.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Incredible India: Hemis",
+      "source": "https://www.incredibleindia.gov.in/en/rural-tourism/hemis"
+    }
   },
   "gangaur": {
     "native": "गणगौर",
@@ -603,7 +666,16 @@
         "Incredible India: Rath Yatra",
         "https://www.incredibleindia.gov.in/en/festivals-and-events/odisha/rath-yatra"
       ]
-    ]
+    ],
+    "practical": {
+      "duration": "The Puri tourism guide describes a nine-day festival cycle, including the outward and return journeys. Individual rituals have separate timings.",
+      "suggestedVisit": "2–3 days around one chosen procession or ritual; seeing the full cycle requires a longer stay.",
+      "cost": "Accommodation, transport and any arranged viewing have separate costs. No verified universal visitor admission price or guaranteed viewing package is supplied here.",
+      "booking": "Choose the outward or return journey deliberately and confirm its date. Ask about pedestrian access, road restrictions and the actual viewing location before booking a guide or room.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Incredible India: Rath Yatra",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/odisha/rath-yatra"
+    }
   },
   "ugadi": {
     "native": "ఉగాది / ಯುಗಾದಿ",
@@ -1749,7 +1821,16 @@
         "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/ajmer/pushkar.html"
       ]
     ],
-    "reviewed": "2026-10-11"
+    "reviewed": "2026-10-11",
+    "practical": {
+      "duration": "The national tourism listing gives 17–24 November for 2026. Livestock trading, cultural events and religious observances have distinct schedules.",
+      "suggestedVisit": "2–3 days targeted to the activities you want to see, rather than the fair dates alone.",
+      "cost": "The tourism listing indicates no general festival ticket. Accommodation, organised experiences, rides and private viewing are separate; obtain itemised quotes before paying.",
+      "booking": "Confirm whether your dates match livestock activity or the pilgrimage programme. Check the exact location, transport and inclusions of any camp or package.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Incredible India: Pushkar Camel Fair",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/pushkar-camel-fair"
+    }
   },
   "losoong-namsoong": {
     "native": "",
@@ -2262,7 +2343,16 @@
         "https://www.incredibleindia.gov.in/en/festivals-and-events/diwali"
       ]
     ],
-    "reviewed": "2026-10-11"
+    "reviewed": "2026-10-11",
+    "practical": {
+      "duration": "Often observed over five days, with regional differences in the sequence and emphasis.",
+      "suggestedVisit": "2–3 days in one city, including the locally observed main evening.",
+      "cost": "Budget for accommodation, local transport and festive meals. Private dinners, tours and special events have separate prices; no universal visitor ticket is verified.",
+      "booking": "Confirm the local main evening before reserving accommodation. Ask hosts which celebrations welcome visitors and arrange a return journey in advance.",
+      "reviewed": "2026-10-15",
+      "sourceLabel": "Incredible India: Diwali",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/diwali"
+    }
   },
   "eid-al-fitr": {
     "native": "",

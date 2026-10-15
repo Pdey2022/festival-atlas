@@ -1,0 +1,180 @@
+{
+  "reviewed": "2026-10-15",
+  "scope": "Existing ongoing/upcoming listings from October 2026 through April 2027; historical listings were not refreshed.",
+  "results": [
+    {
+      "id": "navratri-2026",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/navratri",
+      "start": "2026-10-11",
+      "end": "2026-10-19",
+      "status": "Published listing",
+      "finding": "Autumn Navratri listing. Individual garba venues set their own schedules and tickets."
+    },
+    {
+      "id": "mysuru-2026",
+      "source": "https://mysoredasara.gov.in/",
+      "start": "2026-10-11",
+      "end": "2026-10-21",
+      "status": "Published listing",
+      "finding": "Official 2026 festival window. The official programme lists Jumboo Savari on 21 October; supporting events have separate dates and ticket arrangements."
+    },
+    {
+      "id": "durga-2026",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/durga-puja",
+      "start": "2026-10-17",
+      "end": "2026-10-21",
+      "status": "Provisional",
+      "finding": "Tourism listing shows 17–21 October; local ritual calendars may differ. Verify with the pandal organiser."
+    },
+    {
+      "id": "diwali-2026",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/diwali",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "status": "Published listing",
+      "finding": "Main listed observance, not every regional or multiday celebration."
+    },
+    {
+      "id": "chhath-2026",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/chhath-puja",
+      "start": "2026-11-13",
+      "end": "2026-11-16",
+      "status": "Published listing",
+      "finding": "Four-day tourism listing; local ghat access and ritual timings require separate confirmation."
+    },
+    {
+      "id": "hornbill-2026",
+      "source": "https://tourism.nagaland.gov.in/",
+      "start": "2026-12-01",
+      "end": "2026-12-10",
+      "status": "Published listing",
+      "finding": "State tourism lists these dates. Check daily programmes, entry arrangements and any changes with organisers."
+    },
+    {
+      "id": "pushkar-2026",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/pushkar-camel-fair",
+      "start": "2026-11-17",
+      "end": "2026-11-24",
+      "status": "Published listing",
+      "finding": "Tourism-listed fair window; livestock trading and religious observances may have different schedules."
+    },
+    {
+      "id": "sonepur-2026",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/sonepur-cattle-fair",
+      "start": "2026-11-24",
+      "end": "2026-12-05",
+      "status": "Provisional",
+      "finding": "The date field lists 24 November–5 December, while the page describes a month-long fair. Confirm the actual duration and programme with Bihar Tourism."
+    },
+    {
+      "id": "dev-varanasi-2026",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/illuminating-the-eternal-spirit-of-kashi",
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "status": "Provisional",
+      "finding": "The detail page lists 24 November; the directory spans 24–25 November. Confirm the principal illumination night and access arrangements."
+    },
+    {
+      "id": "dev-prayagraj-2026",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/dev-deepawali-prayagraj",
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "status": "Published listing",
+      "finding": "City-specific listing. Confirm ghat access and timings with the local organiser."
+    },
+    {
+      "id": "khajuraho-2027",
+      "source": "https://www.mptourism.com/khajuraho-dance-festival.htm",
+      "start": "2027-02-20",
+      "end": "2027-02-26",
+      "status": "Provisional",
+      "finding": "The title and date field specify 2027, but the introductory paragraph says 2026. Treat this as provisional until the organiser resolves the mismatch."
+    },
+    {
+      "id": "sankranti-sidhi-2027",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/madhya-pradesh/makar-sankranti-fair",
+      "start": "2027-01-14",
+      "end": "2027-01-15",
+      "status": "Published listing",
+      "finding": "Dates apply to this local fair, not every regional Sankranti observance. Confirm venue access and the daily programme."
+    },
+    {
+      "id": "sankranti-kites-2027",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/telangana/international-kite---sweet-festival",
+      "start": "2027-01-13",
+      "end": "2027-01-15",
+      "status": "Published listing",
+      "finding": "A tourism programme associated with Sankranti. These dates describe the kite and sweet festival, not the religious observance throughout India."
+    },
+    {
+      "id": "kite-ahmedabad-2027",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/gujarat/International-Kite-Festival0",
+      "start": "2027-01-10",
+      "end": "2027-01-14",
+      "status": "Provisional",
+      "finding": "The national tourism listing gives these 2027 dates; the organiser microsite still describes the 2026 edition. Confirm the 2027 programme before booking."
+    },
+    {
+      "id": "braj-bharatpur-2027",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/braj-holi-festival",
+      "start": "2027-03-17",
+      "end": "2027-03-18",
+      "status": "Published listing",
+      "finding": "Dates for the local Bharatpur cultural programme, not all Holi celebrations across Braj. Check the final programme with Rajasthan Tourism."
+    },
+    {
+      "id": "dhulandi-jaipur-2027",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/dhulandi-festival",
+      "start": "2027-03-22",
+      "end": "2027-03-22",
+      "status": "Published listing",
+      "finding": "Local Rajasthan Tourism programme. Confirm admission arrangements and participation requirements with the organiser."
+    },
+    {
+      "id": "rangotsav-braj-2027",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/rangotsav-2027",
+      "start": "2027-03-16",
+      "end": "2027-03-30",
+      "status": "Published listing",
+      "finding": "Broad regional programme window published by UP Tourism. Individual temple rituals and local celebrations have separate schedules."
+    },
+    {
+      "id": "rangpanchami-indore-2027",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/madhya-pradesh/rangpanchami-ger-mahotsav0",
+      "start": "2027-03-27",
+      "end": "2027-03-27",
+      "status": "Published listing",
+      "finding": "Local Rangpanchami celebration associated with the Holi season. Check procession timings and routes closer to the event."
+    },
+    {
+      "id": "mewar-udaipur-2027",
+      "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/mewar-festival-2026",
+      "start": "2027-04-09",
+      "end": "2027-04-11",
+      "status": "Provisional",
+      "finding": "The source date field says 9–11 April 2027 but the page title and URL still say 2026. Confirm the edition and dates with the Tourist Reception Centre, Udaipur."
+    }
+  ],
+  "additionalChecks": [
+    {
+      "source": "https://ikf.gujarattourism.com/",
+      "finding": "Organiser microsite still describes the 2026 edition; Ahmedabad 2027 remains provisional."
+    },
+    {
+      "source": "https://www.mptourism.com/khajuraho-dance-festival.htm",
+      "finding": "2027 title/date field still conflicts with 2026 introduction; remains provisional."
+    }
+  ],
+  "practicalGuidesAdded": [
+    "diwali",
+    "holi",
+    "onam",
+    "ganesh-chaturthi",
+    "navratri",
+    "mysuru-dasara",
+    "rath-yatra",
+    "chhath-puja",
+    "pushkar-fair",
+    "hemis-festival"
+  ]
+}
