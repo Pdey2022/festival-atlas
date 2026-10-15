@@ -100,3 +100,5 @@ The visit planner now includes a 12-month overview, published/provisional date f
 ## Practical coverage and calendar review — 15 October 2026
 
 Added practical visitor sections to Diwali, Holi, Onam, Ganesh Chaturthi, Navratri, Mysuru Dasara, Rath Yatra, Chhath Puja, Pushkar Fair and Hemis: 15 guides now include duration, suggested visit length, cost considerations and booking advice. Suggested stays remain editorial estimates; live prices are not invented. Rechecked 19 ongoing/upcoming listings against their official source pages. Mysuru 2026 now uses the official organiser site and Published listing status; unresolved discrepancies remain provisional. The review record is in content/review-2026-10-15.json.
+
+Homepage Coming up soon: 30/60/90-day windows using the current date in India, ongoing-event labels, six earliest matching listings, source/freshness labels, guide and trip actions, and an empty-state link to seasonal planning. Includes year-boundary tests and offline caching. Browser visual QA remains outstanding.
