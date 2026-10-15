@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "contentVersion": "de2b49f8f39fbcae",
+  "contentVersion": "c9aded1b7ce624f9",
   "shell": [
+    "upcoming.js",
     "gallery.html",
     "contribute.html",
     "contribute-core.js",
