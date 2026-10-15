@@ -2,6 +2,8 @@
 const date=s=>typeof s==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(s)&&Number.isFinite(Date.parse(s))&&new Date(s+'T00:00:00Z').toISOString().slice(0,10)===s;
 const clean=(v,n)=>typeof v==='string'?v.slice(0,n):'';
 const T={
+ distanceKm(a,b){const rad=x=>x*Math.PI/180,dlat=rad(b.lat-a.lat),dlon=rad(b.lon-a.lon),h=Math.sin(dlat/2)**2+Math.cos(rad(a.lat))*Math.cos(rad(b.lat))*Math.sin(dlon/2)**2;return 6371*2*Math.atan2(Math.sqrt(Math.min(1,h)),Math.sqrt(Math.max(0,1-h)));},
+ mapStops(trip,festivals){return trip.entries.map((e,i)=>{const f=festivals.find(f=>f.id===e.id),place=(f?.places||[]).find(p=>p[0].trim().toLowerCase()===(e.place||'').trim().toLowerCase());return {id:e.id,number:i+1,name:f?.name||e.id,place:e.place,mapped:!!place,...(place?{lon:place[2],lat:place[3]}:{})};});},
  validDate:date,
  empty:()=>({version:1,title:'My festival journey',start:'',end:'',entries:[]}),
  normalize(v,festivals){if(!v||v.version!==1||!Array.isArray(v.entries))throw Error('Invalid trip backup');const allowed=new Set(festivals.map(f=>f.id)),seen=new Set();return {version:1,title:clean(v.title,100)||'My festival journey',start:date(v.start)?v.start:'',end:date(v.end)?v.end:'',entries:v.entries.slice(0,100).filter(e=>e&&allowed.has(e.id)&&!seen.has(e.id)&&seen.add(e.id)).map(e=>({id:e.id,date:date(e.date)?e.date:'',place:clean(e.place,160),notes:clean(e.notes,2000)}))};},

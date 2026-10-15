@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "contentVersion": "c9aded1b7ce624f9",
+  "contentVersion": "53f8559b7de45209",
   "shell": [
+    "trip-map.js",
     "upcoming.js",
     "gallery.html",
     "contribute.html",

@@ -14,3 +14,9 @@ assert.equal(T.discover(fixture,{month:'11',year:'2026',status:'Provisional'}).e
 assert.equal(T.discover(fixture,{month:'11',year:'2026',status:'Published listing'}).festivals.length,1);
 assert.equal(T.discover(fixture,{month:'11',year:'2027',status:'Published listing'}).events.length,0);
 console.log('Passed: date-status filtering, cross-month events and seasonal/date separation.');
+const mapped=T.mapStops({entries:[{id:'durga-puja',place:'Kolkata'},{id:'durga-puja',place:'My hotel'}]},db.festivals);
+assert.equal(mapped[0].mapped,true);assert.equal(mapped[1].mapped,false);
+assert.equal(T.distanceKm({lat:0,lon:0},{lat:0,lon:0}),0);
+assert(Math.abs(T.distanceKm({lat:0,lon:0},{lat:0,lon:1})-111.195)<0.01);
+assert.equal(T.mapStops({entries:[]},db.festivals).length,0);
+console.log('Passed: mapped destinations, unknown-location exclusion and distance calculation.');

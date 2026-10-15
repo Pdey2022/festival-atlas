@@ -1,0 +1,10 @@
+(()=>{'use strict';const C=window.AtlasTrip,DB=window.ATLAS,list=document.getElementById('trip-map-list');if(!list||!C||!DB)return;
+const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const point=s=>({x:(s.lon-67)*18.4+10,y:(37.6-s.lat)*18.9+12});
+document.addEventListener('atlas:trip-updated',({detail})=>{const stops=C.mapStops(detail.trip,DB.festivals),mapped=stops.filter(s=>s.mapped),groups=new Map();let total=0,legs=0,lines='';
+for(let i=0;i<stops.length;i++){const s=stops[i];if(!s.mapped)continue;const p=point(s),key=s.lon+','+s.lat;if(!groups.has(key))groups.set(key,{...p,stops:[]});groups.get(key).stops.push(s);const prev=stops[i-1];if(prev?.mapped){const a=point(prev);total+=C.distanceKm(prev,s);legs++;lines+=`<line x1="${a.x}" y1="${a.y}" x2="${p.x}" y2="${p.y}"/>`;}}
+document.getElementById('trip-map-lines').innerHTML=lines;
+document.getElementById('trip-map-pins').innerHTML=[...groups.values()].map(g=>`<g><circle cx="${g.x}" cy="${g.y}" r="12"/><text x="${g.x}" y="${g.y+4}">${g.stops[0].number}${g.stops.length>1?'+':''}</text><title>${esc(g.stops.map(s=>`${s.number}. ${s.name}: ${s.place}`).join('; '))}</title></g>`).join('');
+document.getElementById('trip-map-summary').textContent=stops.length?`${mapped.length} of ${stops.length} stops mapped · ${Math.round(total).toLocaleString('en-GB')} km across ${legs} consecutive mapped leg${legs===1?'':'s'} (straight-line estimate).`:'Add festivals to your trip to see their locations here.';
+list.innerHTML=stops.map((s,i)=>{const prev=stops[i-1],km=s.mapped&&prev?.mapped?C.distanceKm(prev,s):null;return `<li><a href="#trip-stop-${esc(s.id)}">${esc(s.name)}</a><p>${esc(s.place||'Destination not chosen')} · ${s.mapped?'Mapped':'Not mapped'}</p>${km!==null?`<p>${Math.round(km).toLocaleString('en-GB')} km straight-line from stop ${i}${km>=500?' · Long distance: allow for travel between these stops.':''}</p>`:i?'<p>Distance unavailable for this leg.</p>':''}</li>`;}).join('');
+});})();
