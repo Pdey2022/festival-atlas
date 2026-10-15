@@ -96,3 +96,7 @@ Festival photographs now use bounded, uncropped frames with titles below the ima
 ## Visit planner and practical guide update — 15 October 2026
 
 The visit planner now includes a 12-month overview, published/provisional date filters and shareable filter URLs. Counts respect region, year and status; seasonal inspiration remains separate from annual dates. Five guides (Durga Puja, Hornbill, Pongal, Kullu Dussehra and Surajkund Crafts Mela) include sourced duration, editorial visit-length suggestions, cost considerations and booking checklists. No unverified live prices are supplied. Two credited historical Commons photographs bring the collection to 19. Image downloads and source licences were checked; browser visual QA remains outstanding.
+
+## Practical coverage and calendar review — 15 October 2026
+
+Added practical visitor sections to Diwali, Holi, Onam, Ganesh Chaturthi, Navratri, Mysuru Dasara, Rath Yatra, Chhath Puja, Pushkar Fair and Hemis: 15 guides now include duration, suggested visit length, cost considerations and booking advice. Suggested stays remain editorial estimates; live prices are not invented. Rechecked 19 ongoing/upcoming listings against their official source pages. Mysuru 2026 now uses the official organiser site and Published listing status; unresolved discrepancies remain provisional. The review record is in content/review-2026-10-15.json.
