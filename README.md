@@ -90,3 +90,5 @@ The photo gallery (`gallery.html`) contains 17 credited historical photographs, 
 The homepage has a cinematic photographic opening with the credited Wangala image, direct map/gallery links and three photographic story links. Intro motion ends after four seconds and is disabled for reduced-motion preferences; no autoplay video or audio is used. The map and planning tools retain their readable paper layout.
 
 All 62 festival detail pages use cinematic openings: 17 photo-led headers with retained credits and 45 typographic headers. Chapter links lead through origins, rituals, food and dress, places and visiting guidance. Save/compare/stay/share/calendar actions sit in a compact bar, sticky on wider screens and in normal flow on mobile. Visual browser QA remains outstanding.
+
+Festival photographs now use bounded, uncropped frames with titles below the image. Homepage image heights are reduced.
