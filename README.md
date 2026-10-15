@@ -92,3 +92,7 @@ The homepage has a cinematic photographic opening with the credited Wangala imag
 All 62 festival detail pages use cinematic openings: 17 photo-led headers with retained credits and 45 typographic headers. Chapter links lead through origins, rituals, food and dress, places and visiting guidance. Save/compare/stay/share/calendar actions sit in a compact bar, sticky on wider screens and in normal flow on mobile. Visual browser QA remains outstanding.
 
 Festival photographs now use bounded, uncropped frames with titles below the image. Homepage image heights are reduced.
+
+## Visit planner and practical guide update — 15 October 2026
+
+The visit planner now includes a 12-month overview, published/provisional date filters and shareable filter URLs. Counts respect region, year and status; seasonal inspiration remains separate from annual dates. Five guides (Durga Puja, Hornbill, Pongal, Kullu Dussehra and Surajkund Crafts Mela) include sourced duration, editorial visit-length suggestions, cost considerations and booking checklists. No unverified live prices are supplied. Two credited historical Commons photographs bring the collection to 19. Image downloads and source licences were checked; browser visual QA remains outstanding.
