@@ -28,3 +28,20 @@ let discovered=[];
 document.querySelectorAll('[data-discover]').forEach(button=>{button.onclick=async()=>{const box=button.closest('.discovery-box'),status=box.querySelector('.discovery-status'),result=box.querySelector('.discovery-result');button.disabled=true;try{let candidates=DB.festivals;if(navigator.onLine===false){try{const prefix='festival-atlas:'+encodeURIComponent(base.pathname)+':',cache=await caches.open(prefix+'control'),response=await cache.match(new URL('_offline-pack',base).href),meta=response?await response.json():null;candidates=meta&&await caches.has(meta.cache)?DB.festivals.filter(f=>meta.ids.includes(f.id)):[];}catch{candidates=[];}}const current=document.querySelector('[data-festival]')?.dataset.festival||'';const festival=C.discover(candidates,current,discovered);if(!festival){status.textContent='No other downloaded guides are available. Reconnect or download more guides to keep discovering.';result.replaceChildren();return;}discovered.push(festival.id);result.innerHTML=card(festival);refresh();status.textContent='Discover '+festival.name+(navigator.onLine===false?' · available in your offline pack.':'.');button.textContent='Discover another festival ✺';}catch{status.textContent='Discovery is unavailable right now. Please try again.';}finally{button.disabled=false;}};});
 window.AtlasUI={refresh,toast,copy,card,reviewNote};refresh();
 })();
+
+// Progressive mobile navigation: links remain visible when JavaScript is unavailable.
+(()=>{
+ const header=document.querySelector('body>header'),nav=header?.querySelector('nav');if(!nav)return;
+ const mobile=matchMedia('(max-width:680px)'),button=document.createElement('button');
+ nav.id='main-navigation';button.type='button';button.className='nav-toggle';button.setAttribute('aria-controls',nav.id);button.setAttribute('aria-expanded','false');button.textContent='Menu';
+ header.insertBefore(button,nav);header.classList.add('nav-ready');
+ const current=location.pathname.split('/').pop()||'index.html';
+ nav.querySelectorAll('a').forEach(a=>{const page=new URL(a.href).pathname.split('/').pop();if(page===current)a.setAttribute('aria-current','page');if(['index.html','visit.html','trip.html'].includes(page))a.classList.add('nav-primary');});
+ function setOpen(open){header.classList.toggle('nav-open',open);button.setAttribute('aria-expanded',String(open));button.textContent=open?'Close menu':'Menu';}
+ button.addEventListener('click',()=>setOpen(button.getAttribute('aria-expanded')!=='true'));
+ header.addEventListener('keydown',e=>{if(e.key==='Escape'&&header.classList.contains('nav-open')){setOpen(false);button.focus();}});
+ nav.addEventListener('click',e=>{if(e.target.closest('a'))setOpen(false);});
+ document.addEventListener('click',e=>{if(!header.contains(e.target))setOpen(false);});
+ header.addEventListener('focusout',()=>{setTimeout(()=>{if(!header.contains(document.activeElement))setOpen(false);},0);});
+ mobile.addEventListener('change',()=>{const focused=document.activeElement;if(mobile.matches&&nav.contains(focused))button.focus();setOpen(false);});
+})();
