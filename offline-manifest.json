@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "contentVersion": "53f8559b7de45209",
+  "contentVersion": "369d8ac649294e4b",
   "shell": [
     "trip-map.js",
     "upcoming.js",
@@ -28,7 +28,8 @@
     "app.js",
     "trip-core.js",
     "planner.js",
-    "offline.js"
+    "offline.js",
+    "festivals.html"
   ],
   "guides": {
     "ugadi": {

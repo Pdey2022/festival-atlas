@@ -1,3 +1,4 @@
+import {addSEO} from './add-seo.mjs';
 import {cinematicGuide} from './guide-cinema.mjs';
 import {contributionPage} from './add-contribute.mjs';
 import {destinationSection,destinationsPage} from './add-destinations.mjs';
@@ -44,3 +45,5 @@ finderPage({write,head,nav,foot});
 offlinePage({write,head,nav,foot,catalog});
 write('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+['','gallery.html','contribute.html','destinations.html','finder.html','calendar.html','visit.html','about.html',...catalog.map(f=>'festivals/'+f.id+'.html')].map(p=>'<url><loc>'+base+p+'</loc></url>').join('')+'</urlset>');
 console.log('Generated',catalog.length,'festival pages,',Object.keys(guides).length,'expanded guides and',events.length,'annual listings.');
+
+addSEO({catalog,base,head,nav,foot,write,esc});
