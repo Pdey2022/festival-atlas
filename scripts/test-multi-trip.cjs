@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict'),vm=require('node:vm'),fs=require('node:fs'),T=require('../trip-core.js'),DB=require('../content/catalog.json');
+const source=fs.readFileSync(require.resolve('../planner.js'),'utf8'),data=new Map(),events={},winEvents={};
+const legacy={...T.empty(),title:'Original trip',entries:[{id:'onam',date:'2026-09-01',notes:'Keep me'}]};data.set('festival-atlas:trip:v1',JSON.stringify(legacy));
+let counter=0;
+const document={currentScript:{src:'https://example.com/planner.js'},body:{},getElementById:()=>null,querySelectorAll:()=>[],addEventListener:(n,f)=>events[n]=f,dispatchEvent:()=>{}};
+const context={window:{ATLAS:DB,AtlasTrip:T,AtlasUI:{toast:()=>{}},addEventListener:(n,f)=>winEvents[n]=f},document,localStorage:{getItem:k=>data.get(k)||null,setItem:(k,v)=>data.set(k,v)},crypto:{randomUUID:()=>`trip-${++counter}`},URL,MutationObserver:class{observe(){}},CustomEvent:class{},console};
+vm.runInNewContext(source,context);
+let group=JSON.parse(data.get('festival-atlas:trips:v1'));assert.equal(group.trips.length,1);assert.equal(group.trips[0].trip.title,'Original trip');assert.equal(group.trips[0].trip.entries[0].notes,'Keep me');
+const second={...T.empty(),title:'Second trip'};group.trips.push({id:'second',archived:false,trip:second});group.active='second';data.set('festival-atlas:trips:v1',JSON.stringify(group));winEvents.storage({key:'festival-atlas:trips:v1'});
+events.click({target:{closest:()=>({dataset:{plan:'durga-puja'}})}});
+group=JSON.parse(data.get('festival-atlas:trips:v1'));assert.equal(group.trips[0].trip.entries[0].id,'onam');assert.equal(group.trips[1].trip.entries[0].id,'durga-puja');assert.equal(JSON.parse(data.get('festival-atlas:trip:v1')).title,'Second trip');
+const firstCalendar=T.calendar(legacy,DB.festivals,'https://example.com/',new Date(),'first'),secondCalendar=T.calendar(legacy,DB.festivals,'https://example.com/',new Date(),'second');assert.notEqual(firstCalendar.content.match(/UID:[^\r]+/)[0],secondCalendar.content.match(/UID:[^\r]+/)[0]);
+console.log('Passed: legacy migration, cross-tab active-trip switching, guide additions isolated to active trip, offline mirror and distinct calendar identities.');

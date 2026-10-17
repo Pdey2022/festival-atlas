@@ -80,3 +80,12 @@ const stayCal=T.calendar(stayTrip,db.festivals,'https://example.com/');assert.eq
 const onlyStay=T.calendar({...stayTrip,entries:[{...stayTrip.entries[0],date:''}]},db.festivals,'https://example.com/');assert.equal(onlyStay.count,1);assert.equal(onlyStay.eventCount,1);
 const badStay=T.calendar({...stayTrip,entries:[{...stayTrip.entries[0],departure:''}]},db.festivals,'https://example.com/');assert.equal(badStay.eventCount,1);assert.equal(badStay.omittedStays,1);
 console.log('Passed: stay nights, leap/DST boundaries, departure transfers, overlap warnings, legacy backups and separate calendar events.');
+
+const group=T.collection({version:1,active:'first',trips:[{id:'first',trip:stayTrip},{id:'second',archived:true,trip:bookedTrip}]},db.festivals);
+assert.equal(group.active,'first');assert.equal(group.trips[1].archived,true);assert.deepEqual(T.collection(JSON.parse(JSON.stringify(group)),db.festivals),group);
+const copied=T.normalize(JSON.parse(JSON.stringify(group.trips[0].trip)),db.festivals);copied.entries[0].notes='changed';assert.notEqual(group.trips[0].trip.entries[0].notes,'changed');
+assert.equal(T.collection({...group,active:'missing'},db.festivals).active,'first');
+assert.throws(()=>T.collection({...group,trips:[group.trips[0],group.trips[0]]},db.festivals));
+assert.throws(()=>T.collection({version:1,trips:[]},db.festivals));
+assert.throws(()=>T.collection({...group,trips:Array(51).fill(group.trips[0])},db.festivals));
+console.log('Passed: trip collection validation, archives, backup round-trip and independent copies.');
