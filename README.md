@@ -119,3 +119,6 @@ My trip includes a manual group budget: accommodation, transport, food, tickets,
 
 ### Booking checklist
 Each My trip stop has transport, accommodation and festival ticket checklists, with To book, Booked and Not needed states, a public booking link and notes. Changes save locally, travel with JSON backups and appear in the printed itinerary. Existing trips and older backups start with To book defaults. Only HTTP(S) links without embedded credentials are accepted; imported notes are displayed as text. Booking statuses are personal records, not provider confirmations.
+
+### Trip date checks
+My trip flags stops planned on the same date, visits outside the trip window, and visits outside the available annual listings. Published listings and provisional estimates are labelled separately. A match to provisional dates still prompts verification; years without listings are explicitly marked unknown. Checks use single-day visit dates, not multi-day stays or travel time, and listed observances may not cover every local celebration. Warnings update while editing and appear in print.
