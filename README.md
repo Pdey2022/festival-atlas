@@ -134,3 +134,6 @@ Each stop has optional arrival/departure dates separate from its festival visit.
 
 ### Multiple saved trips
 Trips are stored in `festival-atlas:trips:v1`, with up to 50 named journeys and one active trip. The previous single itinerary migrates automatically; the legacy key remains an active-trip mirror for offline guide selection. Switch, duplicate, rename via Trip name, archive/restore or delete (with confirmation). Duplication preserves dates, bookings and budget in an independent copy. All-trips backups include archives and import as separate copies; single-trip backup/restore still applies to the active trip. Use one editing tab at a time; storage events refresh other open tabs, and simultaneous edits are not collaboratively merged.
+
+### My Trip navigation
+The active-trip selector and overview stay visible above three sections: Plan (dates, stops, map, print/calendar/offline tools), Bookings & budget (costs and each stop’s checklist), and Manage trips (create/copy/archive/delete and backups). Secondary export tools are collapsed. Overview shortcuts open the appropriate section; creating a trip opens Plan for naming. Printing includes the whole itinerary, budget and booking summaries regardless of the selected section.
