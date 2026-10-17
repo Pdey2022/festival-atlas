@@ -49,3 +49,9 @@ assert.equal(warn('2026-10-10',[{id:'b',date:'2026-10-11'}]),'');
 assert.equal(warn('2027-01-01',[],{...warningDB,events:[{festival:'a',start:'2026-12-30',end:'2027-01-02',status:'Published listing'}]}),'');
 assert.match(warn('2026-10-13',[],{...warningDB,events:[...warningDB.events,{festival:'a',start:'bad',end:'bad'}]}),/Outside the published/);
 console.log('Passed: same-day overlaps, inclusive listing boundaries, provisional matches, missing years and cross-year events.');
+
+const cal=T.calendar({title:'Trip',entries:[{id:'durga-puja',date:'2026-12-31',place:'A, B; C',notes:'Line1\rLine2\n'+ 'বাংলা'.repeat(100)},{id:'onam',date:''}]},db.festivals,'https://example.com/atlas/',new Date('2026-01-01T00:00:00Z'));
+assert.equal(cal.count,1);assert.equal(cal.skipped,1);assert(cal.content.includes('DTEND;VALUE=DATE:20270101'));assert(cal.content.includes('STATUS:TENTATIVE'));assert(cal.content.includes('LOCATION:A\\, B\\; C'));assert(cal.content.includes('Line1\\nLine2\\n'));assert(cal.content.includes('https://example.com/atlas/festivals/durga-puja.html'));assert(cal.content.split('\r\n').every(l=>Buffer.byteLength(l)<=75));
+assert.equal(T.calendar({entries:[]},db.festivals,'https://example.com/').count,0);
+assert(T.calendar({title:'Leap',entries:[{id:'onam',date:'2028-02-29'}]},db.festivals,'https://example.com/').content.includes('DTEND;VALUE=DATE:20280301'));
+console.log('Passed: itinerary calendar counts, escaping, Unicode folding, year rollover and leap-day end dates.');
