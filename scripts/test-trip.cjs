@@ -28,3 +28,12 @@ assert.equal(T.budget({currency:'BAD'}).currency,'INR');
 assert.deepEqual(T.normalize({version:1,entries:[],budget},db.festivals).budget,budget);
 assert.deepEqual(T.normalize({version:1,entries:[]},db.festivals).budget,T.budget());
 console.log('Passed: budget rounding, per-person totals, invalid values, legacy backup defaults and budget-only backups.');
+
+const bookings=T.bookings({transport:{status:'booked',notes:'Train <ticket>',url:'https://example.com/train'},tickets:{status:'unneeded'},accommodation:{status:'bad',url:'javascript:alert(1)',notes:'x'.repeat(600)}});
+assert.equal(bookings.transport.status,'booked');assert.equal(bookings.tickets.status,'unneeded');assert.equal(bookings.accommodation.status,'todo');assert.equal(bookings.accommodation.url,'');assert.equal(bookings.accommodation.notes.length,500);
+for(const url of ['javascript:alert(1)','data:text/html,test','//example.com','https://user:pass@example.com','not a URL'])assert.equal(T.bookingUrl(url),'');
+assert.equal(T.bookingUrl('https://example.com/?a=1&b=2'),'https://example.com/?a=1&b=2');
+assert.deepEqual(T.bookings(null),T.bookings());assert.deepEqual(trip.entries[0].bookings,T.bookings());
+const bookedTrip=T.normalize({...trip,entries:[{...trip.entries[0],bookings}]},db.festivals);
+assert.deepEqual(T.normalize(JSON.parse(JSON.stringify(bookedTrip)),db.festivals),bookedTrip);
+console.log('Passed: booking defaults, status validation, safe URLs, notes limits and backup round-trip.');
