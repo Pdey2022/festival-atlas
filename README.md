@@ -116,3 +116,6 @@ This is a GitHub project site. A robots.txt under `/festival-atlas/` would not b
 Mobile navigation uses a progressive Menu/Close menu toggle at 680px and below. Explore, Plan a visit and My trip appear first; current-page labels, Escape/outside-click dismissal and visible links without JavaScript are supported. Desktop keeps the full navigation. Browser visual QA remains outstanding.
 
 My trip includes a manual group budget: accommodation, transport, food, tickets, other costs, contingency and per-person totals. INR/GBP/USD/EUR are denomination labels, not exchange conversion. Budgets persist with trip backups, including budget-only trips; older backups default to an empty INR budget. Printouts include category totals. Calculation, input-normalisation and compatibility tests pass.
+
+### Booking checklist
+Each My trip stop has transport, accommodation and festival ticket checklists, with To book, Booked and Not needed states, a public booking link and notes. Changes save locally, travel with JSON backups and appear in the printed itinerary. Existing trips and older backups start with To book defaults. Only HTTP(S) links without embedded credentials are accepted; imported notes are displayed as text. Booking statuses are personal records, not provider confirmations.
