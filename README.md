@@ -125,3 +125,6 @@ My trip flags stops planned on the same date, visits outside the trip window, an
 
 ### Itinerary calendar export
 My trip exports dated stops as all-day tentative events in an .ics file, with destination, personal notes and guide links. Undated stops are counted and skipped; empty plans do not download a file. Calendar files are snapshots, not live subscriptions; importing revised files can create duplicates. These personal plans do not confirm festival dates.
+
+### Trip overview
+My trip opens with a responsive overview of trip dates, dated and undated stops, estimated group budget, outstanding bookings and date checks. Counts update as the plan changes. Date checks count affected stops plus trip-level date errors; expandable details link to each stop. Cards link to the itinerary and budget.
