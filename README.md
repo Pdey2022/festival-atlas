@@ -122,3 +122,6 @@ Each My trip stop has transport, accommodation and festival ticket checklists, w
 
 ### Trip date checks
 My trip flags stops planned on the same date, visits outside the trip window, and visits outside the available annual listings. Published listings and provisional estimates are labelled separately. A match to provisional dates still prompts verification; years without listings are explicitly marked unknown. Checks use single-day visit dates, not multi-day stays or travel time, and listed observances may not cover every local celebration. Warnings update while editing and appear in print.
+
+### Itinerary calendar export
+My trip exports dated stops as all-day tentative events in an .ics file, with destination, personal notes and guide links. Undated stops are counted and skipped; empty plans do not download a file. Calendar files are snapshots, not live subscriptions; importing revised files can create duplicates. These personal plans do not confirm festival dates.
