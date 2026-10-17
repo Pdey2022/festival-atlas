@@ -128,3 +128,6 @@ My trip exports dated stops as all-day tentative events in an .ics file, with de
 
 ### Trip overview
 My trip opens with a responsive overview of trip dates, dated and undated stops, estimated group budget, outstanding bookings and date checks. Counts update as the plan changes. Date checks count affected stops plus trip-level date errors; expandable details link to each stop. Cards link to the itinerary and budget.
+
+### Multi-day stays
+Each stop has optional arrival/departure dates separate from its festival visit. Nights use UTC calendar-day differences; same-day stays count as zero. Warnings cover incomplete or reversed dates, stays outside trip dates, visits outside stays and overlapping overnight stays. Departure-day transfers do not overlap. The overview sums stop-nights (overlaps counted separately). Stay dates persist in backups and print; older backups default to blank dates. Calendar exports include separate visit and stay events, with an exclusive departure date for overnight stays; invalid or incomplete stays are omitted with a count.
