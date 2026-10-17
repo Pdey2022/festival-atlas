@@ -61,3 +61,22 @@ assert.equal(overview.stops,2);assert.equal(overview.dated,2);assert.equal(overv
 const emptyOverview=T.overview(T.empty(),warningDB);assert.equal(emptyOverview.stops,0);assert.equal(emptyOverview.toBook,0);assert.equal(emptyOverview.checks.length,0);
 const reversed=T.overview({...T.empty(),start:'2026-10-31',end:'2026-10-01'},warningDB);assert.equal(reversed.tripWarnings.length,1);
 console.log('Passed: overview booking exclusions, dated stops, affected-stop counts, budget totals and empty trips.');
+
+assert.equal(T.nights({arrival:'2028-02-28',departure:'2028-03-01'}),2);
+assert.equal(T.nights({arrival:'2026-10-25',departure:'2026-10-26'}),1);
+assert.equal(T.nights({arrival:'2026-10-25',departure:'2026-10-25'}),0);
+assert.equal(T.nights({arrival:'2026-10-26',departure:'2026-10-25'}),null);
+const stay={id:'a',arrival:'2026-10-10',departure:'2026-10-12'},st={entries:[stay,{id:'b',arrival:'2026-10-12',departure:'2026-10-14'}]};
+assert.equal(T.stayWarnings(st,stay,warningDB).length,0);
+assert.match(T.stayWarnings({...st,entries:[stay,{...st.entries[1],arrival:'2026-10-11'}]},stay,warningDB).join(' '),/Overlapping stay/);
+assert.match(T.stayWarnings({...st,start:'2026-10-11'},stay,warningDB).join(' '),/outside your trip/);
+assert.match(T.stayWarnings(st,{...stay,date:'2026-10-13'},warningDB).join(' '),/visit falls outside/);
+assert.match(T.stayWarnings(st,{...stay,departure:''},warningDB).join(' '),/both arrival/);
+assert.equal(T.overview(st,warningDB).nights,4);
+const stayTrip=T.normalize({version:1,entries:[{id:'onam',arrival:'2026-12-30',departure:'2027-01-02',date:'2026-12-31'}]},db.festivals);
+assert.deepEqual(T.normalize(JSON.parse(JSON.stringify(stayTrip)),db.festivals),stayTrip);
+assert.equal(trip.entries[0].arrival,'');
+const stayCal=T.calendar(stayTrip,db.festivals,'https://example.com/');assert.equal(stayCal.count,1);assert.equal(stayCal.eventCount,2);assert(stayCal.content.includes('DTEND;VALUE=DATE:20270102'));
+const onlyStay=T.calendar({...stayTrip,entries:[{...stayTrip.entries[0],date:''}]},db.festivals,'https://example.com/');assert.equal(onlyStay.count,1);assert.equal(onlyStay.eventCount,1);
+const badStay=T.calendar({...stayTrip,entries:[{...stayTrip.entries[0],departure:''}]},db.festivals,'https://example.com/');assert.equal(badStay.eventCount,1);assert.equal(badStay.omittedStays,1);
+console.log('Passed: stay nights, leap/DST boundaries, departure transfers, overlap warnings, legacy backups and separate calendar events.');

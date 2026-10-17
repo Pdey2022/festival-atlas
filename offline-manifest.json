@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "contentVersion": "e9a378f0ce3c84f1",
+  "contentVersion": "ccae21c5f41115b0",
   "shell": [
     "trip-map.js",
     "upcoming.js",
