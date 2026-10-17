@@ -55,3 +55,9 @@ assert.equal(cal.count,1);assert.equal(cal.skipped,1);assert(cal.content.include
 assert.equal(T.calendar({entries:[]},db.festivals,'https://example.com/').count,0);
 assert(T.calendar({title:'Leap',entries:[{id:'onam',date:'2028-02-29'}]},db.festivals,'https://example.com/').content.includes('DTEND;VALUE=DATE:20280301'));
 console.log('Passed: itinerary calendar counts, escaping, Unicode folding, year rollover and leap-day end dates.');
+
+const overview=T.overview({entries:[{id:'a',date:'2026-10-10',bookings:{transport:{status:'booked'},tickets:{status:'unneeded'}}},{id:'b',date:'2026-10-10'}],budget:{food:100,buffer:10},start:'2026-10-01',end:'2026-10-31'},warningDB);
+assert.equal(overview.stops,2);assert.equal(overview.dated,2);assert.equal(overview.toBook,4);assert.equal(overview.booked,1);assert.equal(overview.checks.length,2);assert.equal(overview.budget.total,110);
+const emptyOverview=T.overview(T.empty(),warningDB);assert.equal(emptyOverview.stops,0);assert.equal(emptyOverview.toBook,0);assert.equal(emptyOverview.checks.length,0);
+const reversed=T.overview({...T.empty(),start:'2026-10-31',end:'2026-10-01'},warningDB);assert.equal(reversed.tripWarnings.length,1);
+console.log('Passed: overview booking exclusions, dated stops, affected-stop counts, budget totals and empty trips.');
