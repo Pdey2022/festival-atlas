@@ -37,3 +37,15 @@ assert.deepEqual(T.bookings(null),T.bookings());assert.deepEqual(trip.entries[0]
 const bookedTrip=T.normalize({...trip,entries:[{...trip.entries[0],bookings}]},db.festivals);
 assert.deepEqual(T.normalize(JSON.parse(JSON.stringify(bookedTrip)),db.festivals),bookedTrip);
 console.log('Passed: booking defaults, status validation, safe URLs, notes limits and backup round-trip.');
+
+const warningDB={festivals:[{id:'a',name:'Festival A'},{id:'b',name:'Festival B'}],events:[{festival:'a',start:'2026-10-10',end:'2026-10-12',status:'Published listing'},{festival:'a',start:'2026-11-01',end:'2026-11-02',status:'Provisional'}]};
+const warn=(date,entries=[],db=warningDB)=>T.warnings({entries}, {id:'a',date}, db).join(' ');
+assert.equal(warn('2026-10-10'),'');assert.equal(warn('2026-10-12'),'');
+assert.match(warn('2026-10-13'),/Outside the published/);assert.match(warn('2026-10-13'),/Outside the provisional/);
+assert.match(warn('2026-11-01'),/matches provisional/);assert(!warn('2026-11-01').includes('Outside'));
+assert.match(warn('2027-10-10'),/No annual dates/);assert.equal(warn(''),'');
+assert.match(warn('2026-10-10',[{id:'b',date:'2026-10-10'}]),/Same-day stops: Festival B/);
+assert.equal(warn('2026-10-10',[{id:'b',date:'2026-10-11'}]),'');
+assert.equal(warn('2027-01-01',[],{...warningDB,events:[{festival:'a',start:'2026-12-30',end:'2027-01-02',status:'Published listing'}]}),'');
+assert.match(warn('2026-10-13',[],{...warningDB,events:[...warningDB.events,{festival:'a',start:'bad',end:'bad'}]}),/Outside the published/);
+console.log('Passed: same-day overlaps, inclusive listing boundaries, provisional matches, missing years and cross-year events.');
