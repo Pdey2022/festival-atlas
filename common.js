@@ -45,3 +45,6 @@ window.AtlasUI={refresh,toast,copy,card,reviewNote};refresh();
  header.addEventListener('focusout',()=>{setTimeout(()=>{if(!header.contains(document.activeElement))setOpen(false);},0);});
  mobile.addEventListener('change',()=>{const focused=document.activeElement;if(mobile.matches&&nav.contains(focused))button.focus();setOpen(false);});
 })();
+
+// Country navigation uses explicit links; it never changes an active itinerary.
+(()=>{const header=document.querySelector('body>header');if(!header||header.querySelector('.country-switcher'))return;const base=new URL('.',document.currentScript.src),current=location.pathname.split('/').pop()||'index.html';const bar=document.createElement('nav');bar.className='country-switcher';bar.setAttribute('aria-label','Country selection');bar.innerHTML='<a href="'+new URL('countries.html',base)+'">Countries</a><a href="'+new URL('index.html',base)+'" '+(current!=='china.html'&&current!=='countries.html'?'aria-current="page"':'')+'>India</a><a href="'+new URL('china.html',base)+'" '+(current==='china.html'?'aria-current="page"':'')+'>China <span>Preview</span></a>';header.after(bar);})();

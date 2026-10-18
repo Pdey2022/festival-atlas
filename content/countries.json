@@ -1,0 +1,4 @@
+[
+  {"code":"IN","name":"India","path":"index.html","status":"live","currency":"INR","regionLabel":"States and union territories"},
+  {"code":"CN","name":"China","path":"china.html","status":"preview","currency":"CNY","regionLabel":"Province-level regions"}
+]

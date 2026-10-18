@@ -1,3 +1,4 @@
+import {countryPages} from './add-countries.mjs';
 import {addSEO} from './add-seo.mjs';
 import {cinematicGuide} from './guide-cinema.mjs';
 import {contributionPage} from './add-contribute.mjs';
@@ -16,7 +17,12 @@ for(const s of states)for(const entry of s.festivals){const id=slug(entry.name);
 const shared={'durga-puja':['OR','TR','AS'],'diwali':['UP','RJ','MH','GJ','KA','TN'],'holi':['RJ','BR','MP','DL'],'chhath-puja':['JH','UP','DL'],'ganesh-chaturthi':['GA','KA','TG'],'navratri':['MH','RJ'],'vaisakhi':['HR'],'onam':['TN'],'ugadi':['TG']};
 for(const f of catalog){f.states=[...new Set([...f.states,...(shared[f.id]||[])])];f.regions=[...new Set(f.states.map(code=>states.find(s=>s.code===code).region))];}
 for(const f of catalog)f.destinationIds=destinations.filter(d=>(f.places||[]).some(p=>d.aliases.includes(p[0]))).map(d=>d.id);
-const db={destinations,states:states.map(({festivals,...s})=>s),festivals:catalog,events};
+const countries=read('content/countries.json');
+for(const f of catalog)f.country='IN';
+for(const d of destinations)d.country='IN';
+for(const e of events)e.country='IN';
+for(const s of states)s.country='IN';
+const db={countries,destinations,states:states.map(({festivals,...s})=>s),festivals:catalog,events};
 write('catalog.js','window.ATLAS = '+JSON.stringify(db)+';\n');write('content/catalog.json',JSON.stringify(db,null,2));
 const base='https://pdey2022.github.io/festival-atlas/';
 const head=(title,desc,path,prefix='')=>`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} · Festival Atlas</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${base+path}"><meta property="og:title" content="${esc(title)} · Festival Atlas"><meta property="og:description" content="${esc(desc)}"><meta property="og:type" content="website"><meta property="og:url" content="${base+path}"><meta name="theme-color" content="#243e37"><link rel="stylesheet" href="${prefix}styles.css"><link rel="stylesheet" href="${prefix}enhancements.css"></head><body><a class="skip" href="#main">Skip to content</a>`;
@@ -42,6 +48,7 @@ planningPages({write,head,nav,foot});
 destinationsPage({write,head,nav,foot,destinations,catalog});
 contributionPage({write,head,nav,foot});
 finderPage({write,head,nav,foot});
+countryPages({write,head,nav,foot,countries,catalog});
 offlinePage({write,head,nav,foot,catalog});
 write('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+['','gallery.html','contribute.html','destinations.html','finder.html','calendar.html','visit.html','about.html',...catalog.map(f=>'festivals/'+f.id+'.html')].map(p=>'<url><loc>'+base+p+'</loc></url>').join('')+'</urlset>');
 console.log('Generated',catalog.length,'festival pages,',Object.keys(guides).length,'expanded guides and',events.length,'annual listings.');

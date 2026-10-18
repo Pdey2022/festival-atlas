@@ -1,7 +1,9 @@
 {
   "version": 1,
-  "contentVersion": "3d753dad75201613",
+  "contentVersion": "60d80c3e06cfcd6d",
   "shell": [
+    "countries.html",
+    "china.html",
     "trip-map.js",
     "upcoming.js",
     "gallery.html",

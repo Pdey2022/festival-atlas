@@ -1,4 +1,22 @@
 {
+  "countries": [
+    {
+      "code": "IN",
+      "name": "India",
+      "path": "index.html",
+      "status": "live",
+      "currency": "INR",
+      "regionLabel": "States and union territories"
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "path": "china.html",
+      "status": "preview",
+      "currency": "CNY",
+      "regionLabel": "Province-level regions"
+    }
+  ],
   "destinations": [
     {
       "id": "kolkata",
@@ -22,7 +40,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/west-bengal/kolkata"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "mysuru",
@@ -46,7 +65,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/karnataka/mysuru"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "varanasi",
@@ -74,7 +94,8 @@
           "District transport guide",
           "https://varanasi.nic.in/how-to-reach/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "jaipur",
@@ -98,7 +119,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/rajasthan/jaipur"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "ahmedabad",
@@ -122,7 +144,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/gujarat/ahmedabad"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "mumbai",
@@ -146,7 +169,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/maharashtra/mumbai"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "kochi",
@@ -174,7 +198,8 @@
           "Fort Kochi and nearby heritage",
           "https://ernakulam.nic.in/en/tourist-place/fort-kochi/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "udaipur",
@@ -198,7 +223,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/rajasthan/udaipur"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "amritsar",
@@ -222,7 +248,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/punjab/amritsar"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "hyderabad",
@@ -246,7 +273,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/telangana/hyderabad"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "guwahati",
@@ -270,7 +298,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/assam/guwahati"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "khajuraho",
@@ -294,7 +323,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/madhya-pradesh/khajuraho"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "mathura",
@@ -319,7 +349,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/uttar-pradesh/mathura"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "pushkar",
@@ -343,7 +374,8 @@
           "Official destination and transport guide",
           "https://www.tourism.rajasthan.gov.in/pushkar.html"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "puri",
@@ -371,7 +403,8 @@
           "District transport guide — Puri rail terminus",
           "https://puri.odisha.gov.in/en/tourism/how-to-reach"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "kisama",
@@ -403,7 +436,8 @@
           "Kohima places of interest",
           "https://kohima.nic.in/places-of-interest/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "bengaluru",
@@ -427,7 +461,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/karnataka/bengaluru"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "amalapuram",
@@ -459,7 +494,8 @@
           "District and road access",
           "https://konaseema.ap.gov.in/about-district/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "thrissur",
@@ -487,7 +523,8 @@
           "Official arrival information",
           "https://prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/thrissur.html"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "madurai",
@@ -511,7 +548,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/tamil-nadu/madurai"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "chennai",
@@ -539,7 +577,8 @@
           "Official city arrival guide",
           "https://prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/chennai.html"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "puducherry",
@@ -563,7 +602,8 @@
           "Government tourism travel and sights FAQ",
           "https://pondytourism.py.gov.in/onlinebs/FAQ.aspx"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "patna",
@@ -587,7 +627,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/bihar/patna"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "sonepur",
@@ -615,7 +656,8 @@
           "Sonepur heritage and confluence",
           "https://sarandivision.bih.nic.in/places-centres/sonepur/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "ranchi",
@@ -639,7 +681,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/jharkhand/ranchi"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "bhubaneswar",
@@ -663,7 +706,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "jagdalpur",
@@ -695,7 +739,8 @@
           "Jagdalpur airport passenger-service inauguration",
           "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1657303"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "raipur",
@@ -719,7 +764,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/chhattisgarh/raipur"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "jhabua",
@@ -747,7 +793,8 @@
           "District places of interest",
           "https://jhabua.nic.in/en/places-of-interest/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "panaji",
@@ -779,7 +826,8 @@
           "Panaji heritage guide",
           "https://www.goa.gov.in/places/panaji-also-known-as-panjim/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "ponda",
@@ -811,7 +859,8 @@
           "Ponda temples and heritage",
           "https://goa-tourism.com/guide/ponda/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "pune",
@@ -835,7 +884,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/maharashtra/pune"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "daman",
@@ -863,7 +913,8 @@
           "Daman airport passenger-service launch, July 2026",
           "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2285563"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "rohtak",
@@ -891,7 +942,8 @@
           "Haryana Forest Department — Rohtak Zoo and Tilyar",
           "https://haryanaforest.gov.in/places-centres/rohtak-zoo/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "faridabad",
@@ -919,7 +971,8 @@
           "District tourism sights",
           "https://faridabad.nic.in/tourism/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "kullu",
@@ -947,7 +1000,8 @@
           "Official temple and nearby guide",
           "https://www.incredibleindia.gov.in/en/himachal-pradesh/kullu/raghunathji-temple"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "mandi",
@@ -975,7 +1029,8 @@
           "District heritage guide",
           "https://hpmandi.nic.in/places-of-interest/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "almora",
@@ -1003,7 +1058,8 @@
           "District places of interest",
           "https://almora.nic.in/places-of-interest/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "chandigarh",
@@ -1027,7 +1083,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "delhi",
@@ -1055,7 +1112,8 @@
           "Official city arrival guide",
           "https://prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/delhi.html"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "srinagar",
@@ -1087,7 +1145,8 @@
           "District gardens and sights",
           "https://srinagar.nic.in/tourist-places/page/2/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "hemis",
@@ -1119,7 +1178,8 @@
           "Official tourist information",
           "https://leh.nic.in/tourism/tourist-info/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "ziro",
@@ -1147,7 +1207,8 @@
           "District transport guide",
           "https://lowersubansiri.nic.in/how-to-reach/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "tawang",
@@ -1179,7 +1240,8 @@
           "Official high-altitude travel advisory",
           "https://tawang.nic.in/notice/tourist-safety-advisory-high-altitude-travel-guidelines/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "jorhat",
@@ -1207,7 +1269,8 @@
           "Dhekiakhowa Bornamghar and nearby heritage",
           "https://www.incredibleindia.gov.in/en/assam/jorhat/dhekiakhowa-bornamghar"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "imphal",
@@ -1235,7 +1298,8 @@
           "Railway project status — Ministry of Railways",
           "https://www.pib.gov.in/FactsheetDetails.aspx?Id=149283&lang=2&reg=48"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "tura",
@@ -1267,7 +1331,8 @@
           "Tura Peak visitor information",
           "https://rc-www.meghalayatourism.in/destinations/tura-peak/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "smit",
@@ -1299,7 +1364,8 @@
           "Government cultural guide to Smit",
           "https://www.megipr.gov.in/about-meghalaya.html"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "aizawl",
@@ -1327,7 +1393,8 @@
           "Sairang rail connection — Ministry of Railways review",
           "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209199"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "mokokchung",
@@ -1359,7 +1426,8 @@
           "Ungma visitor information",
           "https://mokokchung.nic.in/tourist-place/ungma-village/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "gangtok",
@@ -1383,7 +1451,8 @@
           "Official destination and transport guide",
           "https://www.incredibleindia.gov.in/en/sikkim/gangtok"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "agartala",
@@ -1412,7 +1481,8 @@
           "District tourism itinerary and sights",
           "https://westtripura.nic.in/tourist-packages/"
         ]
-      ]
+      ],
+      "country": "IN"
     },
     {
       "id": "sri-vijaya-puram",
@@ -1440,7 +1510,8 @@
           "South Andaman official sights",
           "https://southandaman.nic.in/tourism/"
         ]
-      ]
+      ],
+      "country": "IN"
     }
   ],
   "states": [
@@ -1448,217 +1519,253 @@
       "code": "AP",
       "name": "Andhra Pradesh",
       "region": "South",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "AR",
       "name": "Arunachal Pradesh",
       "region": "Northeast",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "AS",
       "name": "Assam",
       "region": "Northeast",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "BR",
       "name": "Bihar",
       "region": "East",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "CT",
       "name": "Chhattisgarh",
       "region": "Central",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "GA",
       "name": "Goa",
       "region": "West",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "GJ",
       "name": "Gujarat",
       "region": "West",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "HR",
       "name": "Haryana",
       "region": "North",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "HP",
       "name": "Himachal Pradesh",
       "region": "North",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "JH",
       "name": "Jharkhand",
       "region": "East",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "KA",
       "name": "Karnataka",
       "region": "South",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "KL",
       "name": "Kerala",
       "region": "South",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "MP",
       "name": "Madhya Pradesh",
       "region": "Central",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "MH",
       "name": "Maharashtra",
       "region": "West",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "MN",
       "name": "Manipur",
       "region": "Northeast",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "ML",
       "name": "Meghalaya",
       "region": "Northeast",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "MZ",
       "name": "Mizoram",
       "region": "Northeast",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "NL",
       "name": "Nagaland",
       "region": "Northeast",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "OR",
       "name": "Odisha",
       "region": "East",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "PB",
       "name": "Punjab",
       "region": "North",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "RJ",
       "name": "Rajasthan",
       "region": "West",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "SK",
       "name": "Sikkim",
       "region": "Northeast",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "TN",
       "name": "Tamil Nadu",
       "region": "South",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "TG",
       "name": "Telangana",
       "region": "South",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "TR",
       "name": "Tripura",
       "region": "Northeast",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "UP",
       "name": "Uttar Pradesh",
       "region": "North",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "UT",
       "name": "Uttarakhand",
       "region": "North",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "WB",
       "name": "West Bengal",
       "region": "East",
-      "type": "State"
+      "type": "State",
+      "country": "IN"
     },
     {
       "code": "AN",
       "name": "Andaman and Nicobar Islands",
       "region": "Islands",
-      "type": "Union territory"
+      "type": "Union territory",
+      "country": "IN"
     },
     {
       "code": "CH",
       "name": "Chandigarh",
       "region": "North",
-      "type": "Union territory"
+      "type": "Union territory",
+      "country": "IN"
     },
     {
       "code": "DH",
       "name": "Dadra and Nagar Haveli and Daman and Diu",
       "region": "West",
-      "type": "Union territory"
+      "type": "Union territory",
+      "country": "IN"
     },
     {
       "code": "DL",
       "name": "Delhi",
       "region": "North",
-      "type": "Union territory"
+      "type": "Union territory",
+      "country": "IN"
     },
     {
       "code": "JK",
       "name": "Jammu and Kashmir",
       "region": "North",
-      "type": "Union territory"
+      "type": "Union territory",
+      "country": "IN"
     },
     {
       "code": "LA",
       "name": "Ladakh",
       "region": "North",
-      "type": "Union territory"
+      "type": "Union territory",
+      "country": "IN"
     },
     {
       "code": "LD",
       "name": "Lakshadweep",
       "region": "Islands",
-      "type": "Union territory"
+      "type": "Union territory",
+      "country": "IN"
     },
     {
       "code": "PY",
       "name": "Puducherry",
       "region": "South",
-      "type": "Union territory"
+      "type": "Union territory",
+      "country": "IN"
     }
   ],
   "festivals": [
@@ -1727,7 +1834,8 @@
       "photo": null,
       "destinationIds": [
         "bengaluru"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Sankranti",
@@ -1787,7 +1895,8 @@
       "photo": null,
       "destinationIds": [
         "amalapuram"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Dree",
@@ -1848,7 +1957,8 @@
       "photo": null,
       "destinationIds": [
         "ziro"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Losar",
@@ -1918,7 +2028,8 @@
       "photo": null,
       "destinationIds": [
         "tawang"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Bohag Bihu",
@@ -1994,7 +2105,8 @@
       "reviewed": "2026-10-10",
       "destinationIds": [
         "guwahati"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Magh Bihu",
@@ -2054,7 +2166,8 @@
       "photo": null,
       "destinationIds": [
         "jorhat"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Chhath Puja",
@@ -2136,7 +2249,8 @@
       "reviewed": "2026-10-10",
       "destinationIds": [
         "patna"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Sonepur Mela",
@@ -2198,7 +2312,8 @@
       "photo": null,
       "destinationIds": [
         "sonepur"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Bastar Dussehra",
@@ -2261,7 +2376,8 @@
       "photo": null,
       "destinationIds": [
         "jagdalpur"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Hareli",
@@ -2326,7 +2442,8 @@
       "photo": null,
       "destinationIds": [
         "raipur"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Carnival",
@@ -2388,7 +2505,8 @@
       "photo": null,
       "destinationIds": [
         "panaji"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Shigmo",
@@ -2449,7 +2567,8 @@
       "photo": null,
       "destinationIds": [
         "ponda"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Navratri",
@@ -2537,7 +2656,8 @@
       "reviewed": "2026-10-10",
       "destinationIds": [
         "ahmedabad"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Uttarayan",
@@ -2597,7 +2717,8 @@
       "photo": null,
       "destinationIds": [
         "ahmedabad"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Teej",
@@ -2659,7 +2780,8 @@
       "photo": null,
       "destinationIds": [
         "rohtak"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Surajkund International Crafts Mela",
@@ -2739,7 +2861,8 @@
       },
       "destinationIds": [
         "faridabad"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Kullu Dussehra",
@@ -2820,7 +2943,8 @@
       },
       "destinationIds": [
         "kullu"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Mandi Shivratri",
@@ -2882,7 +3006,8 @@
       "photo": null,
       "destinationIds": [
         "mandi"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Sarhul",
@@ -2944,7 +3069,8 @@
       "photo": null,
       "destinationIds": [
         "ranchi"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Karam",
@@ -3006,7 +3132,8 @@
       "photo": null,
       "destinationIds": [
         "ranchi"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Mysuru Dasara",
@@ -3088,7 +3215,8 @@
       "reviewed": "2026-10-10",
       "destinationIds": [
         "mysuru"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Onam",
@@ -3175,7 +3303,8 @@
       "reviewed": "2026-10-10",
       "destinationIds": [
         "kochi"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Vishu",
@@ -3240,7 +3369,8 @@
       "photo": null,
       "destinationIds": [
         "thrissur"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Bhagoria",
@@ -3302,7 +3432,8 @@
       "photo": null,
       "destinationIds": [
         "jhabua"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Khajuraho Dance Festival",
@@ -3362,7 +3493,8 @@
       "photo": null,
       "destinationIds": [
         "khajuraho"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Ganesh Chaturthi",
@@ -3453,7 +3585,8 @@
       "destinationIds": [
         "mumbai",
         "pune"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Gudi Padwa",
@@ -3515,7 +3648,8 @@
       "photo": null,
       "destinationIds": [
         "pune"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Yaoshang",
@@ -3576,7 +3710,8 @@
       "photo": null,
       "destinationIds": [
         "imphal"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Sangai Festival",
@@ -3637,7 +3772,8 @@
       "photo": null,
       "destinationIds": [
         "imphal"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Wangala",
@@ -3710,7 +3846,8 @@
       },
       "destinationIds": [
         "tura"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Nongkrem Dance Festival",
@@ -3772,7 +3909,8 @@
       "photo": null,
       "destinationIds": [
         "smit"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Chapchar Kut",
@@ -3848,7 +3986,8 @@
       },
       "destinationIds": [
         "aizawl"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Mim Kut",
@@ -3909,7 +4048,8 @@
       "photo": null,
       "destinationIds": [
         "aizawl"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Hornbill Festival",
@@ -3987,7 +4127,8 @@
       "reviewed": "2026-10-10",
       "destinationIds": [
         "kisama"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Moatsu",
@@ -4048,7 +4189,8 @@
       "photo": null,
       "destinationIds": [
         "mokokchung"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Rath Yatra",
@@ -4127,7 +4269,8 @@
       "reviewed": "2026-10-10",
       "destinationIds": [
         "puri"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Raja Parba",
@@ -4187,7 +4330,8 @@
       "photo": null,
       "destinationIds": [
         "bhubaneswar"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Vaisakhi",
@@ -4256,7 +4400,8 @@
       "reviewed": "2026-10-10",
       "destinationIds": [
         "amritsar"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Lohri",
@@ -4320,7 +4465,8 @@
       "photo": null,
       "destinationIds": [
         "amritsar"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Gangaur",
@@ -4390,7 +4536,8 @@
       "destinationIds": [
         "jaipur",
         "udaipur"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Pushkar Fair",
@@ -4475,7 +4622,8 @@
       },
       "destinationIds": [
         "pushkar"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Losoong / Namsoong",
@@ -4537,7 +4685,8 @@
       "photo": null,
       "destinationIds": [
         "gangtok"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Pongal",
@@ -4627,7 +4776,8 @@
       "destinationIds": [
         "madurai",
         "puducherry"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Tamil Puthandu",
@@ -4687,7 +4837,8 @@
       "photo": null,
       "destinationIds": [
         "chennai"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Bathukamma",
@@ -4760,7 +4911,8 @@
       "reviewed": "2026-10-10",
       "destinationIds": [
         "hyderabad"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Bonalu",
@@ -4821,7 +4973,8 @@
       "photo": null,
       "destinationIds": [
         "hyderabad"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Kharchi Puja",
@@ -4882,7 +5035,8 @@
       "photo": null,
       "destinationIds": [
         "agartala"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Garia Puja",
@@ -4943,7 +5097,8 @@
       "photo": null,
       "destinationIds": [
         "agartala"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Holi",
@@ -5036,7 +5191,8 @@
       "reviewed": "2026-10-10",
       "destinationIds": [
         "mathura"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Dev Deepawali",
@@ -5101,7 +5257,8 @@
       "photo": null,
       "destinationIds": [
         "varanasi"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Harela",
@@ -5165,7 +5322,8 @@
       "photo": null,
       "destinationIds": [
         "almora"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Phool Dei",
@@ -5229,7 +5387,8 @@
       "photo": null,
       "destinationIds": [
         "almora"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Durga Puja",
@@ -5312,7 +5471,8 @@
       "reviewed": "2026-10-10",
       "destinationIds": [
         "kolkata"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Kali Puja",
@@ -5374,7 +5534,8 @@
       "photo": null,
       "destinationIds": [
         "kolkata"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Poila Boishakh",
@@ -5434,7 +5595,8 @@
       "photo": null,
       "destinationIds": [
         "kolkata"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Island Tourism Festival",
@@ -5496,7 +5658,8 @@
       "photo": null,
       "destinationIds": [
         "sri-vijaya-puram"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Rose Festival",
@@ -5557,7 +5720,8 @@
       "photo": null,
       "destinationIds": [
         "chandigarh"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Nariyal Purnima",
@@ -5621,7 +5785,8 @@
       "photo": null,
       "destinationIds": [
         "daman"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Diwali",
@@ -5707,7 +5872,8 @@
       },
       "destinationIds": [
         "delhi"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Eid al-Fitr",
@@ -5780,7 +5946,8 @@
       "photo": null,
       "destinationIds": [
         "delhi"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Herath",
@@ -5841,7 +6008,8 @@
       "photo": null,
       "destinationIds": [
         "srinagar"
-      ]
+      ],
+      "country": "IN"
     },
     {
       "name": "Hemis Festival",
@@ -5923,7 +6091,8 @@
       "reviewed": "2026-10-10",
       "destinationIds": [
         "hemis"
-      ]
+      ],
+      "country": "IN"
     }
   ],
   "events": [
@@ -5941,7 +6110,8 @@
       "states": [
         "UP"
       ],
-      "nationwide": true
+      "nationwide": true,
+      "country": "IN"
     },
     {
       "id": "ganesh-2026",
@@ -5957,7 +6127,8 @@
       "states": [
         "MH"
       ],
-      "nationwide": false
+      "nationwide": false,
+      "country": "IN"
     },
     {
       "id": "navratri-2026",
@@ -5973,7 +6144,8 @@
       "states": [
         "GJ"
       ],
-      "nationwide": false
+      "nationwide": false,
+      "country": "IN"
     },
     {
       "id": "mysuru-2026",
@@ -5989,7 +6161,8 @@
       "states": [
         "KA"
       ],
-      "nationwide": false
+      "nationwide": false,
+      "country": "IN"
     },
     {
       "id": "durga-2026",
@@ -6005,7 +6178,8 @@
       "states": [
         "WB"
       ],
-      "nationwide": false
+      "nationwide": false,
+      "country": "IN"
     },
     {
       "id": "diwali-2026",
@@ -6019,7 +6193,8 @@
       "note": "Main listed observance, not every regional or multiday celebration.",
       "checked": "2026-10-15",
       "states": [],
-      "nationwide": true
+      "nationwide": true,
+      "country": "IN"
     },
     {
       "id": "chhath-2026",
@@ -6035,7 +6210,8 @@
       "states": [
         "BR"
       ],
-      "nationwide": false
+      "nationwide": false,
+      "country": "IN"
     },
     {
       "id": "hornbill-2026",
@@ -6051,7 +6227,8 @@
       "nationwide": false,
       "source": "https://tourism.nagaland.gov.in/",
       "note": "State tourism lists these dates. Check daily programmes, entry arrangements and any changes with organisers.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "country": "IN"
     },
     {
       "id": "pushkar-2026",
@@ -6067,7 +6244,8 @@
       "nationwide": false,
       "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/pushkar-camel-fair",
       "note": "Tourism-listed fair window; livestock trading and religious observances may have different schedules.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "country": "IN"
     },
     {
       "id": "sonepur-2026",
@@ -6083,7 +6261,8 @@
       "nationwide": false,
       "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/sonepur-cattle-fair",
       "note": "The date field lists 24 November–5 December, while the page describes a month-long fair. Confirm the actual duration and programme with Bihar Tourism.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "country": "IN"
     },
     {
       "id": "dev-varanasi-2026",
@@ -6100,7 +6279,8 @@
       "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/illuminating-the-eternal-spirit-of-kashi",
       "note": "The detail page lists 24 November; the directory spans 24–25 November. Confirm the principal illumination night and access arrangements.",
       "checked": "2026-10-15",
-      "title": "Dev Deepawali — Varanasi"
+      "title": "Dev Deepawali — Varanasi",
+      "country": "IN"
     },
     {
       "id": "dev-prayagraj-2026",
@@ -6117,7 +6297,8 @@
       "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/dev-deepawali-prayagraj",
       "note": "City-specific listing. Confirm ghat access and timings with the local organiser.",
       "checked": "2026-10-15",
-      "title": "Dev Deepawali — Prayagraj"
+      "title": "Dev Deepawali — Prayagraj",
+      "country": "IN"
     },
     {
       "id": "khajuraho-2027",
@@ -6133,7 +6314,8 @@
       "nationwide": false,
       "source": "https://www.mptourism.com/khajuraho-dance-festival.htm",
       "note": "The title and date field specify 2027, but the introductory paragraph says 2026. Treat this as provisional until the organiser resolves the mismatch.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "country": "IN"
     },
     {
       "id": "sankranti-sidhi-2027",
@@ -6150,7 +6332,8 @@
       "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/madhya-pradesh/makar-sankranti-fair",
       "note": "Dates apply to this local fair, not every regional Sankranti observance. Confirm venue access and the daily programme.",
       "checked": "2026-10-15",
-      "title": "Makar Sankranti Fair — Sidhi"
+      "title": "Makar Sankranti Fair — Sidhi",
+      "country": "IN"
     },
     {
       "id": "sankranti-kites-2027",
@@ -6167,7 +6350,8 @@
       "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/telangana/international-kite---sweet-festival",
       "note": "A tourism programme associated with Sankranti. These dates describe the kite and sweet festival, not the religious observance throughout India.",
       "checked": "2026-10-15",
-      "title": "International Kite & Sweet Festival — Hyderabad"
+      "title": "International Kite & Sweet Festival — Hyderabad",
+      "country": "IN"
     },
     {
       "id": "kite-ahmedabad-2027",
@@ -6184,7 +6368,8 @@
       "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/gujarat/International-Kite-Festival0",
       "status": "Provisional",
       "note": "The national tourism listing gives these 2027 dates; the organiser microsite still describes the 2026 edition. Confirm the 2027 programme before booking.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "country": "IN"
     },
     {
       "id": "braj-bharatpur-2027",
@@ -6201,7 +6386,8 @@
       "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/braj-holi-festival",
       "status": "Published listing",
       "note": "Dates for the local Bharatpur cultural programme, not all Holi celebrations across Braj. Check the final programme with Rajasthan Tourism.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "country": "IN"
     },
     {
       "id": "dhulandi-jaipur-2027",
@@ -6218,7 +6404,8 @@
       "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/dhulandi-festival",
       "status": "Published listing",
       "note": "Local Rajasthan Tourism programme. Confirm admission arrangements and participation requirements with the organiser.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "country": "IN"
     },
     {
       "id": "rangotsav-braj-2027",
@@ -6235,7 +6422,8 @@
       "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/rangotsav-2027",
       "status": "Published listing",
       "note": "Broad regional programme window published by UP Tourism. Individual temple rituals and local celebrations have separate schedules.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "country": "IN"
     },
     {
       "id": "rangpanchami-indore-2027",
@@ -6252,7 +6440,8 @@
       "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/madhya-pradesh/rangpanchami-ger-mahotsav0",
       "status": "Published listing",
       "note": "Local Rangpanchami celebration associated with the Holi season. Check procession timings and routes closer to the event.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "country": "IN"
     },
     {
       "id": "mewar-udaipur-2027",
@@ -6269,7 +6458,8 @@
       "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/mewar-festival-2026",
       "status": "Provisional",
       "note": "The source date field says 9–11 April 2027 but the page title and URL still say 2026. Confirm the edition and dates with the Tourist Reception Centre, Udaipur.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "country": "IN"
     }
   ]
 }
