@@ -98,3 +98,9 @@ const savedRecovery=T.collection(JSON.parse(JSON.stringify(recovery)),db.festiva
 for(let i=0;i<25;i++){record.trip.entries=[{...original.entries[0],notes:String(i)}];T.removeStop(record,0);}assert.equal(record.removed.length,20);assert.equal(record.removed[0].entry.notes,'5');
 for(let i=0;i<12;i++)T.deleteTrip(recovery,recovery.active,'replacement-'+i);assert.equal(recovery.deleted.length,10);assert.equal(T.collection(JSON.parse(JSON.stringify(recovery)),db.festivals).deleted.length,10);
 console.log('Passed: stop undo, duplicate protection, last-trip deletion, recovery backup persistence and retention limits.');
+
+const compareA={...T.empty(),entries:[{id:'a',date:'2026-10-10'}],budget:{currency:'GBP',food:100,travellers:2}},compareB={...T.empty(),entries:[{id:'b'}],budget:{currency:'GBP',food:150,travellers:3}};
+const comparison=T.compareTrips(compareA,compareB,warningDB);assert.equal(comparison.groupDifference,50);assert.equal(comparison.personDifference,0);assert.deepEqual(comparison.onlyLeft,['a']);assert.deepEqual(comparison.onlyRight,['b']);assert.equal(comparison.left.toBook,3);
+const mixed=T.compareTrips(compareA,{...compareB,budget:{currency:'INR',food:150}},warningDB);assert.equal(mixed.sameCurrency,false);assert.equal(mixed.groupDifference,null);assert.equal(mixed.personDifference,null);
+assert.equal(T.compareTrips(compareB,compareA,warningDB).groupDifference,-50);assert.deepEqual(T.compareTrips(compareA,compareA,warningDB).onlyLeft,[]);
+console.log('Passed: trip comparison differences, per-person costs, distinct festivals and mixed-currency exclusion.');
