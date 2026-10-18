@@ -137,3 +137,6 @@ Trips are stored in `festival-atlas:trips:v1`, with up to 50 named journeys and 
 
 ### My Trip navigation
 The active-trip selector and overview stay visible above three sections: Plan (dates, stops, map, print/calendar/offline tools), Bookings & budget (costs and each stop’s checklist), and Manage trips (create/copy/archive/delete and backups). Secondary export tools are collapsed. Overview shortcuts open the appropriate section; creating a trip opens Plan for naming. Printing includes the whole itinerary, budget and booking summaries regardless of the selected section.
+
+### Undo and recovery
+Removed stops retain their full entry and original position (last 20 per trip). Undo in Plan or restore from Manage trips; if the festival has since been re-added, restoration refuses to overwrite it. Deleted trips retain their budgets, bookings, stops and removed-stop history in Recently deleted (last 10). Restoring makes the trip active. Limits replace oldest recovery items; there is no timed expiry. All-trips backups include recovery history and imports remap deleted-trip IDs; single-trip backups do not include recovery history. Browser data clearing removes local recovery.
