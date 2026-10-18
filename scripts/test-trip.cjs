@@ -89,3 +89,12 @@ assert.throws(()=>T.collection({...group,trips:[group.trips[0],group.trips[0]]},
 assert.throws(()=>T.collection({version:1,trips:[]},db.festivals));
 assert.throws(()=>T.collection({...group,trips:Array(51).fill(group.trips[0])},db.festivals));
 console.log('Passed: trip collection validation, archives, backup round-trip and independent copies.');
+const recovery=T.collection({version:1,active:'original',trips:[{id:'original',trip:stayTrip}]},db.festivals),record=recovery.trips[0],original=JSON.parse(JSON.stringify(record.trip));
+assert(T.removeStop(record,0));assert.equal(record.trip.entries.length,0);assert.equal(record.removed.length,1);
+assert.equal(T.restoreStop(record,0),'');assert.deepEqual(record.trip,original);
+T.removeStop(record,0);record.trip.entries.push({...record.removed[0].entry,notes:'new version'});assert.match(T.restoreStop(record,0),/already/);assert.equal(record.trip.entries[0].notes,'new version');record.trip.entries=[];T.restoreStop(record,0);
+assert(T.deleteTrip(recovery,'original','replacement'));assert.equal(recovery.trips.length,1);assert.equal(recovery.active,'replacement');assert.equal(recovery.deleted[0].trip.title,original.title);
+const savedRecovery=T.collection(JSON.parse(JSON.stringify(recovery)),db.festivals);assert.equal(T.restoreTrip(savedRecovery,0),'');assert.equal(savedRecovery.active,'original');assert.deepEqual(savedRecovery.trips.find(r=>r.id==='original').trip,original);assert.equal(savedRecovery.deleted.length,0);
+for(let i=0;i<25;i++){record.trip.entries=[{...original.entries[0],notes:String(i)}];T.removeStop(record,0);}assert.equal(record.removed.length,20);assert.equal(record.removed[0].entry.notes,'5');
+for(let i=0;i<12;i++)T.deleteTrip(recovery,recovery.active,'replacement-'+i);assert.equal(recovery.deleted.length,10);assert.equal(T.collection(JSON.parse(JSON.stringify(recovery)),db.festivals).deleted.length,10);
+console.log('Passed: stop undo, duplicate protection, last-trip deletion, recovery backup persistence and retention limits.');
