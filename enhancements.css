@@ -125,3 +125,23 @@ img{max-width:100%}
 .trip-recovery-box{padding:20px;border:1px solid var(--line);border-radius:12px;margin:24px 0}#trip-recovery ul{list-style:none;padding:0}#trip-recovery li{display:flex;flex-wrap:wrap;align-items:center;gap:12px;justify-content:space-between;padding:12px 0;border-bottom:1px solid var(--line)}#trip-recovery li span{overflow-wrap:anywhere;min-width:0;flex:1}#trip-recovery button,#trip-undo-stop{min-height:44px}#trip-undo-stop{margin:12px 0;max-width:100%;white-space:normal}
 
 .trip-compare-box{margin:24px 0;border:1px solid var(--line);border-radius:12px;padding:0 18px 18px}.trip-compare-box>summary{padding:18px 0;min-height:48px;cursor:pointer;font-weight:bold}.trip-compare-selectors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.trip-compare-selectors label{display:grid;gap:8px}.trip-compare-selectors select{width:100%;min-width:0;min-height:44px;padding:10px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:6px;font:inherit}.trip-compare-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;border-top:1px solid var(--line);padding:16px 0}.trip-compare-row h3{grid-column:1/-1;margin:0}.trip-compare-row>div{min-width:0;padding:12px;border-radius:8px;background:#eeefe3;overflow-wrap:anywhere}.trip-compare-row ul{padding-left:20px;line-height:1.6}.trip-compare-row li{margin-bottom:8px}.compare-trip-name{font-size:12px;font-weight:bold;margin:0 0 10px}.compare-budget-difference{padding:14px;border-left:3px solid var(--sage)}@media(max-width:520px){.trip-compare-selectors,.trip-compare-row{grid-template-columns:1fr}.trip-compare-box{padding:0 12px 12px}.trip-compare-row{gap:8px}}
+
+/* Mobile trip review: bounded controls, readable fields and touch targets. */
+.trip-page .stop-heading>div{min-width:0}.trip-page .stop-heading h2,.trip-page .overview-dates,.trip-page .booking-checklist h3,.trip-page #trip-recovery h3{overflow-wrap:anywhere}
+.trip-page label,.trip-page fieldset{min-width:0}.trip-page select{max-width:100%;min-width:0}.trip-page .active-trip-label{min-width:0}.trip-page button,.trip-page .button{white-space:normal;overflow-wrap:anywhere;max-width:100%}
+@media screen and (max-width:680px){
+ .trip-page input:not([type=file]),.trip-page select,.trip-page textarea{font-size:16px;min-height:44px;max-width:100%;min-width:0}
+ .trip-page button,.trip-page .button,.trip-page summary{min-height:44px}
+ .trip-page .actions button,.trip-page .actions .button{font-size:14px;display:inline-flex;align-items:center;justify-content:center;text-align:center}
+ .trip-page .stop-heading{display:grid;grid-template-columns:36px minmax(0,1fr);gap:12px}
+ .trip-page .stop-tools{grid-column:1/-1;width:auto;margin-left:0;justify-content:flex-end;flex-wrap:wrap}
+ .trip-page .stop-tools button{min-width:44px;min-height:44px;padding:10px 14px}
+ .trip-page .trip-view-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+ .trip-page .trip-view-nav button{min-width:0;font-size:14px;line-height:1.35;padding:10px 6px}
+ .trip-page .trip-compare-box,.trip-page .trip-recovery-box,.trip-page .trip-manager{padding-left:12px;padding-right:12px}
+ .trip-page .compare-budget-difference{overflow-wrap:anywhere}
+ .trip-page #trip-recovery li span{flex-basis:100%}
+ .trip-page #trip-recovery li button{margin-left:auto}
+ .trip-page .trip-export-options .actions>*{flex:1 1 180px}
+}
+@media screen and (max-width:360px){.trip-page .trip-view-nav{grid-template-columns:1fr}.trip-page .trip-view-nav button{text-align:left;padding:12px}.trip-page .actions>*{flex-basis:100%}}
