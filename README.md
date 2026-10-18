@@ -143,3 +143,6 @@ Removed stops retain their full entry and original position (last 20 per trip). 
 
 ### Compare saved journeys
 Manage trips → Compare two trips compares any two distinct saved or archived trips without changing the active trip. Categories cover dates, stops/nights, destinations, group/per-person budgets, bookings, unique festivals and date checks. Differences are Trip B minus Trip A and are calculated only for matching currencies. On narrow screens, A and B are stacked within each category. Deleted trips must be restored before comparison.
+
+### Mobile layout review
+Trip forms use 16px text and at least 44px-high controls on narrow screens. Stop actions use a bounded grid row (no full-width-plus-margin overflow), long names wrap, and selectors can shrink inside their containers. Section navigation stacks below 360px; comparison categories and recovery actions remain stacked on small screens. This pass was source-reviewed and regression-checked; rendered device/browser QA remains outstanding.
