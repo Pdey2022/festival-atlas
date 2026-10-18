@@ -146,3 +146,6 @@ Manage trips → Compare two trips compares any two distinct saved or archived t
 
 ### Mobile layout review
 Trip forms use 16px text and at least 44px-high controls on narrow screens. Stop actions use a bounded grid row (no full-width-plus-margin overflow), long names wrap, and selectors can shrink inside their containers. Section navigation stacks below 360px; comparison categories and recovery actions remain stacked on small screens. This pass was source-reviewed and regression-checked; rendered device/browser QA remains outstanding.
+
+### Country expansion — phase 1
+Country navigation and `countries.html` now link India to a clearly labelled China preview (`china.html`, noindex until substantive guides are ready). The India map and existing guide URLs remain unchanged. `content/countries.json` defines country identity, routes, status and currency. Generated festivals, regions, annual listings and destinations now carry `country: IN`; old trip entries infer their country from the catalog without changing festival IDs or storage keys. Country pages are included in offline downloads. China’s regional map and sourced guides are phase 2; cross-country discovery/trip-map support and CNY budgets are phase 3. No China festival entries or annual dates are fabricated in this foundation phase.
