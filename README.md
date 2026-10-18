@@ -140,3 +140,6 @@ The active-trip selector and overview stay visible above three sections: Plan (d
 
 ### Undo and recovery
 Removed stops retain their full entry and original position (last 20 per trip). Undo in Plan or restore from Manage trips; if the festival has since been re-added, restoration refuses to overwrite it. Deleted trips retain their budgets, bookings, stops and removed-stop history in Recently deleted (last 10). Restoring makes the trip active. Limits replace oldest recovery items; there is no timed expiry. All-trips backups include recovery history and imports remap deleted-trip IDs; single-trip backups do not include recovery history. Browser data clearing removes local recovery.
+
+### Compare saved journeys
+Manage trips → Compare two trips compares any two distinct saved or archived trips without changing the active trip. Categories cover dates, stops/nights, destinations, group/per-person budgets, bookings, unique festivals and date checks. Differences are Trip B minus Trip A and are calculated only for matching currencies. On narrow screens, A and B are stacked within each category. Deleted trips must be restored before comparison.
