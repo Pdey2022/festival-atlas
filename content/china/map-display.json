@@ -1,0 +1,13 @@
+{
+  "excludeSourceNames": [
+    "Taiwan Province"
+  ],
+  "nameCorrections": {
+    "Guangzhou Province": "Guangdong",
+    "Ningxia Ningxia Hui Autonomous Region": "Ningxia"
+  },
+  "coverage": "31 mainland province-level regions plus Hong Kong and Macao. Taiwan is outside the scope of this collection.",
+  "note": "Source geometry represents 2019 boundaries and is simplified for exploration. Boundaries, names and inclusion do not express a position on territorial claims.",
+  "projection": "Equirectangular, standard parallel 36\u00b0N",
+  "reviewed": "2026-10-25"
+}
