@@ -1,0 +1,200 @@
+[
+  {
+    "id": "anhui",
+    "displayName": "Anhui",
+    "shapeName": "Anhui Province",
+    "shapeID": "43563684B75549295130005"
+  },
+  {
+    "id": "beijing",
+    "displayName": "Beijing",
+    "shapeName": "Beijing Municipality",
+    "shapeID": "43563684B17418114845297"
+  },
+  {
+    "id": "chongqing",
+    "displayName": "Chongqing",
+    "shapeName": "Chongqing Municipality",
+    "shapeID": "43563684B97743196909507"
+  },
+  {
+    "id": "fujian",
+    "displayName": "Fujian",
+    "shapeName": "Fujian Province",
+    "shapeID": "43563684B30737817496648"
+  },
+  {
+    "id": "gansu",
+    "displayName": "Gansu",
+    "shapeName": "Gansu Province",
+    "shapeID": "43563684B11053367304830"
+  },
+  {
+    "id": "guangdong",
+    "displayName": "Guangdong",
+    "shapeName": "Guangzhou Province",
+    "shapeID": "43563684B38891657012300"
+  },
+  {
+    "id": "guangxi",
+    "displayName": "Guangxi",
+    "shapeName": "Guangxi Zhuang Autonomous Region",
+    "shapeID": "43563684B59914390554750"
+  },
+  {
+    "id": "guizhou",
+    "displayName": "Guizhou",
+    "shapeName": "Guizhou Province",
+    "shapeID": "43563684B78583622565599"
+  },
+  {
+    "id": "hainan",
+    "displayName": "Hainan",
+    "shapeName": "Hainan Province",
+    "shapeID": "43563684B67556328368055"
+  },
+  {
+    "id": "hebei",
+    "displayName": "Hebei",
+    "shapeName": "Hebei Province",
+    "shapeID": "43563684B58229551045164"
+  },
+  {
+    "id": "heilongjiang",
+    "displayName": "Heilongjiang",
+    "shapeName": "Heilongjiang Province",
+    "shapeID": "43563684B55920014778896"
+  },
+  {
+    "id": "henan",
+    "displayName": "Henan",
+    "shapeName": "Henan Province",
+    "shapeID": "43563684B96917371447908"
+  },
+  {
+    "id": "hong-kong",
+    "displayName": "Hong Kong",
+    "shapeName": "Hong Kong Special Administrative Region",
+    "shapeID": "43563684B69230098435171"
+  },
+  {
+    "id": "hubei",
+    "displayName": "Hubei",
+    "shapeName": "Hubei Province",
+    "shapeID": "43563684B41908353419915"
+  },
+  {
+    "id": "hunan",
+    "displayName": "Hunan",
+    "shapeName": "Hunan Province",
+    "shapeID": "43563684B64987462919315"
+  },
+  {
+    "id": "inner-mongolia",
+    "displayName": "Inner Mongolia",
+    "shapeName": "Inner Mongolia Autonomous Region",
+    "shapeID": "43563684B95381459098578"
+  },
+  {
+    "id": "jiangsu",
+    "displayName": "Jiangsu",
+    "shapeName": "Jiangsu Province",
+    "shapeID": "43563684B64367354813847"
+  },
+  {
+    "id": "jiangxi",
+    "displayName": "Jiangxi",
+    "shapeName": "Jiangxi Province",
+    "shapeID": "43563684B87813050901813"
+  },
+  {
+    "id": "jilin",
+    "displayName": "Jilin",
+    "shapeName": "Jilin Province",
+    "shapeID": "43563684B3982601277390"
+  },
+  {
+    "id": "liaoning",
+    "displayName": "Liaoning",
+    "shapeName": "Liaoning Province",
+    "shapeID": "43563684B26929678147954"
+  },
+  {
+    "id": "macao",
+    "displayName": "Macao",
+    "shapeName": "Macau Special Administrative Region",
+    "shapeID": "43563684B97104103456250"
+  },
+  {
+    "id": "ningxia",
+    "displayName": "Ningxia",
+    "shapeName": "Ningxia Ningxia Hui Autonomous Region",
+    "shapeID": "43563684B64666899633249"
+  },
+  {
+    "id": "qinghai",
+    "displayName": "Qinghai",
+    "shapeName": "Qinghai Province",
+    "shapeID": "43563684B46172434476792"
+  },
+  {
+    "id": "shaanxi",
+    "displayName": "Shaanxi",
+    "shapeName": "Shaanxi Province",
+    "shapeID": "43563684B62959128536432"
+  },
+  {
+    "id": "shandong",
+    "displayName": "Shandong",
+    "shapeName": "Shandong Province",
+    "shapeID": "43563684B58995436924100"
+  },
+  {
+    "id": "shanghai",
+    "displayName": "Shanghai",
+    "shapeName": "Shanghai Municipality",
+    "shapeID": "43563684B32591653033375"
+  },
+  {
+    "id": "shanxi",
+    "displayName": "Shanxi",
+    "shapeName": "Shanxi Province",
+    "shapeID": "43563684B34303967365755"
+  },
+  {
+    "id": "sichuan",
+    "displayName": "Sichuan",
+    "shapeName": "Sichuan Province",
+    "shapeID": "43563684B14397599951889"
+  },
+  {
+    "id": "tianjin",
+    "displayName": "Tianjin",
+    "shapeName": "Tianjin Municipality",
+    "shapeID": "43563684B84701301190484"
+  },
+  {
+    "id": "tibet",
+    "displayName": "Tibet",
+    "shapeName": "Tibet Autonomous Region",
+    "shapeID": "43563684B19802372559419"
+  },
+  {
+    "id": "xinjiang",
+    "displayName": "Xinjiang",
+    "shapeName": "Xinjiang Uyghur Autonomous Region",
+    "shapeID": "43563684B50492231896073"
+  },
+  {
+    "id": "yunnan",
+    "displayName": "Yunnan",
+    "shapeName": "Yunnan Province",
+    "shapeID": "43563684B84540832148656"
+  },
+  {
+    "id": "zhejiang",
+    "displayName": "Zhejiang",
+    "shapeName": "Zhejiang Province",
+    "shapeID": "43563684B73528730180553"
+  }
+]

@@ -1,7 +1,14 @@
 {
   "version": 1,
-  "contentVersion": "60d80c3e06cfcd6d",
+  "contentVersion": "02a548740d81ae9d",
   "shell": [
+    "china-spring-festival.html",
+    "china-lantern-festival.html",
+    "china-qingming.html",
+    "china-dragon-boat.html",
+    "china-mid-autumn.html",
+    "china-data.js",
+    "china.js",
     "countries.html",
     "china.html",
     "trip-map.js",
