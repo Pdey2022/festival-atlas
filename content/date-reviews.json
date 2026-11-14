@@ -1,0 +1,158 @@
+[
+  {
+    "festival": "pongal",
+    "year": 2027,
+    "status": "Provisional",
+    "eventIds": [
+      "pongal-reference-2027"
+    ],
+    "checked": "2026-11-09",
+    "note": "Holiday reference only; public cooking events and the four-day local programme need separate confirmation.",
+    "sources": [
+      {
+        "label": "IIT Bombay · 2027 holiday list",
+        "url": "https://iitb.ac.in/holidayslist"
+      }
+    ]
+  },
+  {
+    "festival": "holi",
+    "year": 2027,
+    "status": "Provisional",
+    "eventIds": [
+      "holi-reference-2027"
+    ],
+    "checked": "2026-11-09",
+    "note": "IIT Bombay lists 23 March; NFC Hyderabad lists 22 March. Local tourism events have separate dates. Verify the intended location before booking.",
+    "sources": [
+      {
+        "label": "IIT Bombay · 2027 holiday list",
+        "url": "https://iitb.ac.in/holidayslist"
+      },
+      {
+        "label": "NFC Hyderabad · different local holiday date",
+        "url": "https://www.nfc.gov.in/holidays-and-working-hours.html"
+      }
+    ]
+  },
+  {
+    "festival": "ganesh-chaturthi",
+    "year": 2027,
+    "status": "Provisional",
+    "eventIds": [
+      "ganesh-chaturthi-reference-2027"
+    ],
+    "checked": "2026-11-09",
+    "note": "Opening-day holiday reference only. This does not establish a mandal programme or immersion date.",
+    "sources": [
+      {
+        "label": "IIT Bombay · 2027 holiday list",
+        "url": "https://iitb.ac.in/holidayslist"
+      }
+    ]
+  },
+  {
+    "festival": "onam",
+    "year": 2027,
+    "status": "Provisional",
+    "eventIds": [
+      "onam-reference-2027"
+    ],
+    "checked": "2026-11-09",
+    "note": "Thiruvonam holiday reference only; confirm cultural shows, sadya bookings and local programmes separately.",
+    "sources": [
+      {
+        "label": "IIT Bombay · 2027 holiday list",
+        "url": "https://iitb.ac.in/holidayslist"
+      }
+    ]
+  },
+  {
+    "festival": "durga-puja",
+    "year": 2027,
+    "status": "Provisional",
+    "eventIds": [
+      "durga-puja-reference-2027"
+    ],
+    "checked": "2026-11-09",
+    "note": "Holiday references for Saptami, Mahashtami and Mahanavmi only. This is not the full Puja window; Sasthi, Dashami and pandal timings need local verification.",
+    "sources": [
+      {
+        "label": "IIT Bombay · 2027 holiday list",
+        "url": "https://iitb.ac.in/holidayslist"
+      }
+    ]
+  },
+  {
+    "festival": "diwali",
+    "year": 2027,
+    "status": "Provisional",
+    "eventIds": [
+      "diwali-reference-2027"
+    ],
+    "checked": "2026-11-09",
+    "note": "Holiday reference only; local worship and public events require confirmation. Deepotsav and Dev Deepawali are separate programmes.",
+    "sources": [
+      {
+        "label": "IIT Bombay · 2027 holiday list",
+        "url": "https://iitb.ac.in/holidayslist"
+      }
+    ]
+  },
+  {
+    "festival": "navratri",
+    "year": 2027,
+    "status": "Not yet verified",
+    "eventIds": [],
+    "checked": "2026-11-09",
+    "note": "A long-range Gujarat tourism calendar mentions 2027, but the current festival page still describes 2026. A venue-specific 2027 programme has not been verified in this review.",
+    "sources": [
+      {
+        "label": "Tourism source checked",
+        "url": "https://gujarattourism.com/fair-and-festival/navratri-festival.html"
+      }
+    ]
+  },
+  {
+    "festival": "mysuru-dasara",
+    "year": 2027,
+    "status": "Not yet verified",
+    "eventIds": [],
+    "checked": "2026-11-09",
+    "note": "The official site currently describes 2026. No 2027 festival window or procession programme was verified. A Dussehra holiday date is not confirmation of Jamboo Savari.",
+    "sources": [
+      {
+        "label": "Tourism source checked",
+        "url": "https://mysoredasara.gov.in/"
+      }
+    ]
+  },
+  {
+    "festival": "hornbill-festival",
+    "year": 2027,
+    "status": "Not yet verified",
+    "eventIds": [],
+    "checked": "2026-11-09",
+    "note": "The state tourism homepage lists the 2026 edition. The 2027 programme has not been verified; do not assume last year’s dates are confirmed.",
+    "sources": [
+      {
+        "label": "Tourism source checked",
+        "url": "https://tourism.nagaland.gov.in/"
+      }
+    ]
+  },
+  {
+    "festival": "pushkar-fair",
+    "year": 2027,
+    "status": "Not yet verified",
+    "eventIds": [],
+    "checked": "2026-11-09",
+    "note": "The Rajasthan tourism listing currently describes 2026. No 2027 fair window was verified; livestock trading and the pilgrimage programme may have different dates.",
+    "sources": [
+      {
+        "label": "Tourism source checked",
+        "url": "https://www.tourism.rajasthan.gov.in/fairs-and-festivals.html"
+      }
+    ]
+  }
+]

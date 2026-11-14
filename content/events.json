@@ -273,7 +273,8 @@
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/braj-holi-festival",
     "status": "Published listing",
     "note": "Dates for the local Bharatpur cultural programme, not all Holi celebrations across Braj. Check the final programme with Rajasthan Tourism.",
-    "checked": "2026-10-15"
+    "checked": "2026-11-09",
+    "kind": "Local programme"
   },
   {
     "id": "dhulandi-jaipur-2027",
@@ -290,7 +291,8 @@
     "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/rajasthan/dhulandi-festival",
     "status": "Published listing",
     "note": "Local Rajasthan Tourism programme. Confirm admission arrangements and participation requirements with the organiser.",
-    "checked": "2026-10-15"
+    "checked": "2026-11-09",
+    "kind": "Local programme"
   },
   {
     "id": "rangotsav-braj-2027",
@@ -342,5 +344,109 @@
     "status": "Provisional",
     "note": "The source date field says 9–11 April 2027 but the page title and URL still say 2026. Confirm the edition and dates with the Tourist Reception Centre, Udaipur.",
     "checked": "2026-10-15"
+  },
+  {
+    "id": "pongal-reference-2027",
+    "festival": "pongal",
+    "title": "Pongal — holiday reference",
+    "year": 2027,
+    "start": "2027-01-15",
+    "end": "2027-01-15",
+    "status": "Provisional",
+    "kind": "Holiday reference",
+    "place": "Tamil Nadu; local programmes require confirmation",
+    "source": "https://iitb.ac.in/holidayslist",
+    "note": "Holiday reference only; public cooking events and the four-day local programme need separate confirmation.",
+    "checked": "2026-11-09",
+    "states": [
+      "TN"
+    ],
+    "nationwide": false
+  },
+  {
+    "id": "holi-reference-2027",
+    "festival": "holi",
+    "title": "Holi — conflicting holiday references",
+    "year": 2027,
+    "start": "2027-03-23",
+    "end": "2027-03-23",
+    "status": "Provisional",
+    "kind": "Holiday reference",
+    "place": "Observance reference; not a nationwide programme",
+    "source": "https://iitb.ac.in/holidayslist",
+    "note": "IIT Bombay lists 23 March; NFC Hyderabad lists 22 March. Local tourism events have separate dates. Verify the intended location before booking.",
+    "checked": "2026-11-09",
+    "states": [],
+    "nationwide": true
+  },
+  {
+    "id": "ganesh-chaturthi-reference-2027",
+    "festival": "ganesh-chaturthi",
+    "title": "Ganesh Chaturthi — opening-day reference",
+    "year": 2027,
+    "start": "2027-09-04",
+    "end": "2027-09-04",
+    "status": "Provisional",
+    "kind": "Holiday reference",
+    "place": "Maharashtra; local mandal schedules vary",
+    "source": "https://iitb.ac.in/holidayslist",
+    "note": "Opening-day holiday reference only. This does not establish a mandal programme or immersion date.",
+    "checked": "2026-11-09",
+    "states": [
+      "MH"
+    ],
+    "nationwide": false
+  },
+  {
+    "id": "onam-reference-2027",
+    "festival": "onam",
+    "title": "Thiruvonam — holiday reference",
+    "year": 2027,
+    "start": "2027-09-12",
+    "end": "2027-09-12",
+    "status": "Provisional",
+    "kind": "Holiday reference",
+    "place": "Kerala; local programmes require confirmation",
+    "source": "https://iitb.ac.in/holidayslist",
+    "note": "Thiruvonam holiday reference only; confirm cultural shows, sadya bookings and local programmes separately.",
+    "checked": "2026-11-09",
+    "states": [
+      "KL"
+    ],
+    "nationwide": false
+  },
+  {
+    "id": "durga-puja-reference-2027",
+    "festival": "durga-puja",
+    "title": "Durga Puja — Saptami to Navami references",
+    "year": 2027,
+    "start": "2027-10-06",
+    "end": "2027-10-08",
+    "status": "Provisional",
+    "kind": "Holiday reference",
+    "place": "Kolkata; pandal programmes not verified",
+    "source": "https://iitb.ac.in/holidayslist",
+    "note": "Holiday references for Saptami, Mahashtami and Mahanavmi only. This is not the full Puja window; Sasthi, Dashami and pandal timings need local verification.",
+    "checked": "2026-11-09",
+    "states": [
+      "WB"
+    ],
+    "nationwide": false
+  },
+  {
+    "id": "diwali-reference-2027",
+    "festival": "diwali",
+    "title": "Diwali — holiday reference",
+    "year": 2027,
+    "start": "2027-10-29",
+    "end": "2027-10-29",
+    "status": "Provisional",
+    "kind": "Holiday reference",
+    "place": "Observance reference; local programmes vary",
+    "source": "https://iitb.ac.in/holidayslist",
+    "note": "Holiday reference only; local worship and public events require confirmation. Deepotsav and Dev Deepawali are separate programmes.",
+    "checked": "2026-11-09",
+    "states": [],
+    "nationwide": true
   }
 ]

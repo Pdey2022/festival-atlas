@@ -12,5 +12,5 @@ assert.equal(key({checked:'2027-03-01',status:'Provisional'},'2027-03-01'),'prov
 assert.equal(C.todayIndia(new Date('2026-12-31T20:00:00Z')),'2027-01-01');
 const rows=[{...event,id:'fresh',checked:'2027-03-01'},{...event,id:'stale'},{...event,id:'provisional',checked:'2027-03-01',status:'Provisional'},{...event,id:'past',end:'2026-12-31'}];
 assert.deepEqual(C.filterEvents(rows,[],{review:true,today:'2027-03-01'}).map(e=>e.id),['stale','provisional']);
-assert.equal(require('../content/events.json').filter(e=>e.year===2027).length,9);
+assert.equal(require('../content/events.json').filter(e=>e.year===2027).length,15);
 console.log('Passed: 30/90-day review boundaries, ongoing/past events, invalid checks, provisional status, India timezone and review filtering.');
