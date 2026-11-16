@@ -1,3 +1,4 @@
+import {itineraryPages} from './add-itineraries.mjs';
 import {guideDateReview} from './date-reviews.mjs';
 import {visitorSection} from './visitor-guides.mjs';
 import {countryPages} from './add-countries.mjs';
@@ -53,6 +54,7 @@ destinationsPage({write,head,nav,foot,destinations,catalog});
 contributionPage({write,head,nav,foot});
 finderPage({write,head,nav,foot});
 countryPages({write,head,nav,foot,countries,catalog});
+itineraryPages({write,head,nav,foot,catalog,dateReviews});
 offlinePage({write,head,nav,foot,catalog});
 write('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+['','gallery.html','contribute.html','destinations.html','finder.html','calendar.html','visit.html','about.html',...catalog.map(f=>'festivals/'+f.id+'.html')].map(p=>'<url><loc>'+base+p+'</loc></url>').join('')+'</urlset>');
 console.log('Generated',catalog.length,'festival pages,',Object.keys(guides).length,'expanded guides and',events.length,'annual listings.');

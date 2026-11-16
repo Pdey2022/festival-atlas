@@ -1,0 +1,202 @@
+[
+  {
+    "id": "kolkata-puja",
+    "festival": "durga-puja",
+    "title": "Three days of Durga Puja in Kolkata",
+    "short": "Kolkata · Durga Puja",
+    "place": "Kolkata",
+    "nights": 2,
+    "intro": "Take Kolkata one neighbourhood at a time: pandal art, a slower heritage morning and time to enjoy the city between celebrations.",
+    "timing": "Choose three days within the locally announced Puja programme. The 2027 holiday reference covers Saptami–Navami only; it does not confirm individual pandal opening times.",
+    "travel": "Stay in one Kolkata base and group visits by neighbourhood. Check current Metro services, road closures and the final walk to each pandal before setting out. Keep your departure day flexible.",
+    "access": "Expect queues and walking. Ask individual organisers about step-free entry, toilets and quieter visiting periods; these routes have not been accessibility-audited.",
+    "budget": {
+      "currency": "INR",
+      "travellers": 2,
+      "accommodation": 6000,
+      "transport": 2400,
+      "food": 4800,
+      "tickets": 1000,
+      "other": 0,
+      "buffer": 15
+    },
+    "assumptions": [
+      "Two adults sharing one room for two nights: illustrative allowance of ₹3,000 per room per night.",
+      "Food allowance: ₹800 per person per day for three days. Local transport: ₹2,400 for the group.",
+      "₹1,000 is an allowance for optional attractions or guided activities, not a pandal entry price."
+    ],
+    "days": [
+      {
+        "title": "Arrive and explore north Kolkata",
+        "area": "Kumartuli and nearby neighbourhoods",
+        "plan": "Settle in, then choose a small cluster of north Kolkata pandals. If an artisan workshop welcomes visitors, ask permission before entering or taking photos. Leave space for queues and a meal.",
+        "alternative": "Arriving late? Keep to a single nearby pandal and move the longer walk to another day."
+      },
+      {
+        "title": "A slower morning, then south Kolkata",
+        "area": "South Kolkata",
+        "plan": "Rest in the morning. Choose a compact south Kolkata pandal circuit from the current local programme, with a meal and seated break between visits. Arrange your return before joining evening crowds.",
+        "alternative": "For a gentler day, ask organisers about daytime access and reduce the number of stops."
+      },
+      {
+        "title": "One last neighbourhood",
+        "area": "Near your accommodation",
+        "plan": "Return to a favourite local celebration or take a short neighbourhood walk, then leave a generous transfer buffer. Do not assume an immersion procession or river viewing point is open on your departure day.",
+        "alternative": "If streets are restricted, enjoy a nearby meal and prioritise the journey to your station or airport."
+      }
+    ],
+    "sources": [
+      {
+        "label": "West Bengal Tourism · Kumartuli",
+        "url": "https://wbtourism.gov.in/Heritage%20Tourism/details?id=63d801b8e4bbd858c20633ba&template_id=1"
+      },
+      {
+        "label": "Incredible India · Durga Puja",
+        "url": "https://www.incredibleindia.gov.in/en/festivals-and-events/durga-puja"
+      }
+    ],
+    "reviewed": "2026-11-16"
+  },
+  {
+    "id": "kochi-onam",
+    "festival": "onam",
+    "title": "Four days of Onam around Kochi",
+    "short": "Kochi · Onam",
+    "place": "Kochi",
+    "nights": 3,
+    "intro": "Use one Kochi base for heritage walks, a booked sadya meal and time for a locally confirmed Onam celebration.",
+    "timing": "Move the sadya and celebration day to match the confirmed local programme. The 2027 Thiruvonam holiday reference does not confirm restaurant sittings, temple access or cultural events.",
+    "travel": "Choose a Kochi base that suits your arrival and planned visits. Group Fort Kochi and Mattancherry together, and plan Thrikkakara separately. Check current road and ferry services; leave time for rain and holiday traffic.",
+    "access": "Build in indoor breaks and ask about steps, walking surfaces and seating at each venue. Confirm dietary needs directly with the sadya provider, including allergens and cross-contact.",
+    "budget": {
+      "currency": "INR",
+      "travellers": 2,
+      "accommodation": 9000,
+      "transport": 4000,
+      "food": 7200,
+      "tickets": 1000,
+      "other": 0,
+      "buffer": 15
+    },
+    "assumptions": [
+      "Two adults sharing one room for three nights: illustrative allowance of ₹3,000 per room per night.",
+      "Food allowance: ₹900 per person per day for four days, including an allocation towards a sadya meal. Confirm the actual menu and price.",
+      "Local transport allowance: ₹4,000 for the group. Optional attractions: ₹1,000; this is not a quoted ticket price."
+    ],
+    "days": [
+      {
+        "title": "Arrive and settle into Kochi",
+        "area": "Kochi",
+        "plan": "Check in, confirm your sadya booking and choose a short walk near your accommodation. Ask your host which public Onam activities are actually announced for your dates.",
+        "alternative": "Keep this as a rest day if the journey is long or weather makes walking uncomfortable."
+      },
+      {
+        "title": "Fort Kochi and Mattancherry",
+        "area": "Fort Kochi · Mattancherry",
+        "plan": "Explore a manageable stretch of the heritage neighbourhoods, with a long lunch break. Choose one indoor attraction if it is open; check holiday hours and access before making the journey.",
+        "alternative": "Shorten the route to one neighbourhood and use the rest of the day for an indoor meal or gallery."
+      },
+      {
+        "title": "Make time for Onam",
+        "area": "Kochi or Thrikkakara",
+        "plan": "Enjoy a sadya with a confirmed provider. Consider Thrikkakara only after checking visitor access and the current programme; alternatively choose an announced public cultural event near your base.",
+        "alternative": "If public events are unavailable, keep the booked meal and a relaxed local day. Do not assume access to a private celebration."
+      },
+      {
+        "title": "An unhurried departure",
+        "area": "Kochi",
+        "plan": "Take a short local walk or browse nearby shops if time allows. Keep the last part of the day free for your station or airport transfer, checking the current service before leaving.",
+        "alternative": "Skip sightseeing when your departure is early or travel conditions are uncertain."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Kerala Tourism · Fort Kochi",
+        "url": "https://www.keralatourism.org/destination/fort-kochi/422//"
+      },
+      {
+        "label": "Kerala Tourism · Thrikkakara sadya",
+        "url": "https://www.keralatourism.org/onam/ona-sadya/thrikkakkara-sadya"
+      },
+      {
+        "label": "Kerala Tourism · Kochi arrival points",
+        "url": "https://www.keralatourism.org/campaigns/kerala365/kochi-ernakulam-kerala"
+      }
+    ],
+    "reviewed": "2026-11-16"
+  },
+  {
+    "id": "nagaland-hornbill",
+    "festival": "hornbill-festival",
+    "title": "Five days around the Hornbill Festival",
+    "short": "Nagaland · Hornbill",
+    "place": "Kisama Heritage Village",
+    "nights": 4,
+    "intro": "Balance two flexible festival days at Kisama with arrival time, a local excursion and an unhurried departure.",
+    "timing": "The 2027 programme has not yet been verified in the atlas. Choose travel dates only after checking the organiser’s announcements; these five days are a suggested sequence, not festival dates.",
+    "travel": "Agree arrival transport to your booked base and each Kisama return pickup in advance. Kohima can be a base, but confirm the exact accommodation address and current road conditions with your host. Keep arrival and departure days free of fixed festival commitments.",
+    "access": "Discuss gradients, steps, seating, toilets and drop-off distance with your host and venue. Ask about official entry requirements for your own circumstances before booking; this itinerary does not determine permit eligibility.",
+    "budget": {
+      "currency": "INR",
+      "travellers": 2,
+      "accommodation": 14000,
+      "transport": 12000,
+      "food": 8000,
+      "tickets": 2000,
+      "other": 0,
+      "buffer": 20
+    },
+    "assumptions": [
+      "Two adults sharing one room for four nights: illustrative allowance of ₹3,500 per room per night.",
+      "Food allowance: ₹800 per person per day for five days. Transport: ₹12,000 for the group, including an illustrative allocation for arrival transfers and local journeys.",
+      "Festival and optional activity allowance: ₹2,000. Actual tickets, guiding and transport need quotes; the allowance may be insufficient during busy periods."
+    ],
+    "days": [
+      {
+        "title": "Arrive and meet your host",
+        "area": "Your booked Kohima-area base",
+        "plan": "Transfer to your accommodation, rest and confirm the next day’s pickup. Review the actual festival programme with your host and choose only a few priorities.",
+        "alternative": "If the transfer is delayed, keep the evening free rather than trying to reach a scheduled performance."
+      },
+      {
+        "title": "A first day at Kisama",
+        "area": "Kisama Heritage Village",
+        "plan": "Choose cultural presentations from the current programme, with breaks for food and rest. Ask before photographing people or entering community spaces. Confirm your return pickup before leaving the vehicle.",
+        "alternative": "Shorten the visit to one session if crowds, weather or walking conditions are tiring."
+      },
+      {
+        "title": "Return for something different",
+        "area": "Kisama Heritage Village",
+        "plan": "Return for activities you missed, allowing time to explore craft and food areas. Check whether any evening music event uses another venue or requires a separate ticket.",
+        "alternative": "Take a quieter day at your base if the programme repeats or you need a break."
+      },
+      {
+        "title": "A local excursion",
+        "area": "Khonoma or Kohima",
+        "plan": "Consider a host-arranged Khonoma visit with a local guide, subject to access, road conditions and availability. Agree the route and return time first; otherwise keep a shorter Kohima outing.",
+        "alternative": "Stay near your accommodation when the excursion is impractical. Treat village visits as hosted encounters, not unrestricted access."
+      },
+      {
+        "title": "Leave a generous travel buffer",
+        "area": "Your onward route",
+        "plan": "Reserve the day for checkout and your onward transfer. Confirm the road situation and departure time with your driver; avoid adding a festival visit before a fixed flight or train.",
+        "alternative": "If the journey needs an extra overnight stop, extend your stay and update the sample budget."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Nagaland Tourism · Naga Heritage Village",
+        "url": "https://tourism.nagaland.gov.in/naga-heritage-village/"
+      },
+      {
+        "label": "Kohima district · Khonoma and places of interest",
+        "url": "https://kohima.nic.in/places-of-interest/"
+      },
+      {
+        "label": "Incredible India · Hornbill Festival",
+        "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima/hornbill-festival"
+      }
+    ],
+    "reviewed": "2026-11-16"
+  }
+]
