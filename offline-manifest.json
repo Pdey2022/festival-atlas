@@ -1,7 +1,13 @@
 {
   "version": 1,
-  "contentVersion": "9c9f784f334b8929",
+  "contentVersion": "960f4a0bc96ccff3",
   "shell": [
+    "itineraries.html",
+    "itineraries.css",
+    "itineraries.js",
+    "itinerary-kolkata-puja.html",
+    "itinerary-kochi-onam.html",
+    "itinerary-nagaland-hornbill.html",
     "countries.html",
     "china.html",
     "trip-map.js",

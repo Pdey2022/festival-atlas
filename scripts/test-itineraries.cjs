@@ -1,0 +1,32 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),T=require('../trip-core.js'),DB=require('../content/catalog.json'),items=require('../content/itineraries.json');
+assert.equal(items.length,3);assert.deepEqual(items.map(i=>i.days.length),[3,4,5]);
+const originals={version:1,active:'original',trips:[{id:'original',archived:false,trip:{...T.empty(),title:'Keep my holiday',budget:{...T.budget(),transport:199},entries:[{id:'onam',date:'2027-09-12',notes:'Keep this note'}]}}]};
+const untouched=JSON.stringify(originals.trips[0]);
+for(const [index,item] of items.entries()){
+ const result=T.addItinerary(originals,item,DB.festivals,'route-'+index);assert.equal(result.created,true);
+ const trip=originals.trips.find(r=>r.id===result.id).trip;
+ assert.equal(trip.entries.length,1);assert.equal(trip.entries[0].country,'IN');
+ assert.equal(trip.start,'');assert.equal(trip.end,'');for(const k of ['date','arrival','departure'])assert.equal(trip.entries[0][k],'');
+ for(const day of item.days)assert(trip.entries[0].notes.includes(day.plan));assert(trip.entries[0].notes.length<=2000);
+ assert.equal(T.calendar(trip,DB.festivals,'https://example.com/').count,0);
+ assert.equal(T.budgetTotals(trip.budget).total,[16330,24380,43200][index]);
+ assert.deepEqual(T.normalize(JSON.parse(JSON.stringify(trip)),DB.festivals),trip);
+ trip.entries[0].notes='Edited by visitor';trip.budget.food=42;
+ const count=originals.trips.length;
+ assert.equal(T.addItinerary(originals,item,DB.festivals,'ignored-'+index).created,false);
+ assert.equal(originals.trips.length,count);assert.equal(trip.entries[0].notes,'Edited by visitor');assert.equal(trip.budget.food,42);
+ originals.trips.find(r=>r.id===result.id).archived=true;
+ T.addItinerary(originals,item,DB.festivals,'ignored-again');assert.equal(originals.trips.find(r=>r.id===result.id).archived,false);
+ const html=fs.readFileSync('itinerary-'+item.id+'.html','utf8');assert(html.includes('trip.html?template='+item.id));assert(html.includes('2027 · '+(item.festival==='hornbill-festival'?'Not yet verified':'Provisional')));assert(html.includes('not researched market prices'));
+ assert(fs.readFileSync('festivals/'+item.festival+'.html','utf8').includes('../itinerary-'+item.id+'.html'));
+ assert(require('../offline-manifest.json').shell.includes('itinerary-'+item.id+'.html'));
+ assert(fs.readFileSync('sitemap.xml','utf8').includes('/itinerary-'+item.id+'.html'));
+}
+assert.equal(JSON.stringify(originals.trips[0]),untouched);
+assert.equal(T.collection(JSON.parse(JSON.stringify(originals)),DB.festivals).trips[1].trip.template,items[0].id);
+const full={version:1,active:'t0',trips:Array.from({length:50},(_,i)=>({id:'t'+i,archived:false,trip:T.empty()}))};const before=JSON.stringify(full);
+assert.throws(()=>T.addItinerary(full,items[0],DB.festivals,'overflow'),/50-trip/);assert.equal(JSON.stringify(full),before);
+assert.throws(()=>T.itineraryTrip({...items[0],festival:'missing'},DB.festivals),/unavailable/);
+assert.throws(()=>T.itineraryTrip({...items[0],days:[{title:'Long',plan:'x'.repeat(2100)}]},DB.festivals),/notes limit/);
+T.deleteTrip(originals,'route-0','replacement');assert(T.addItinerary(originals,items[0],DB.festivals,'fresh-copy').created);assert.doesNotThrow(()=>T.collection(originals,DB.festivals));
+console.log('Passed: three complete itineraries, blank dates/no calendar exports, budget totals, backup round-trip, preservation of existing plans, repeat/archived imports, deletion recovery, limits, guide links, SEO and offline inclusion.');
